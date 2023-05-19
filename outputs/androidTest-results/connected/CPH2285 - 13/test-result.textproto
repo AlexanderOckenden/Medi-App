@@ -1,0 +1,177 @@
+# 2023-05-19T12:24:11.252Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 3
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "LabTestActivityTest"
+    test_package: "com.example.healthcare"
+    test_method: "testItemClick"
+    start_time {
+      seconds: 1684499044
+      nanos: 670000000
+    }
+    end_time {
+      seconds: 1684499046
+      nanos: 508000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.PerformException: Error performing \'load adapter data\' on view \'Animations or transitions are enabled on the target device.\nFor more info check: https://developer.android.com/training/testing/espresso/setup#set-up-environment\n\nview.getId() is <2131231024/com.example.healthcare:id/listViewBMCart>\'.\nat androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)\nat androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)\nat androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\nat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher$1.apply(DataInteraction.java:1)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher$1.apply(DataInteraction.java:2)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher.<init>(DataInteraction.java:7)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher.<init>(DataInteraction.java:13)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher.displayDataMatcher(DataInteraction.java:1)\nat androidx.test.espresso.DataInteraction.makeTargetMatcher(DataInteraction.java:2)\nat androidx.test.espresso.DataInteraction.perform(DataInteraction.java:1)\nat com.example.healthcare.LabTestActivityTest.testItemClick(LabTestActivityTest.java:53)\n... 35 trimmed\nCaused by: java.lang.RuntimeException: No data found matching: view.getId() is <2131231024> contained values: <[Data: {line5=Total Cost:\302\243200, line4=, line3=, line2=, line1=Package 1 : Full Body Checkup} (class: java.util.HashMap) token: 0, Data: {line5=Total Cost:\302\243299, line4=, line3=, line2=, line1=Package 2 : Blood Glucose Fasting} (class: java.util.HashMap) token: 1, Data: {line5=Total Cost:\302\24370, line4=, line3=, line2=, line1=Package 3 : COVID-19 Antibody - IgG} (class: java.util.HashMap) token: 2, Data: {line5=Total Cost:\302\243130, line4=, line3=, line2=, line1=Package 4 : Thyroid Check} (class: java.util.HashMap) token: 3, Data: {line5=Total Cost:\302\243170, line4=, line3=, line2=, line1=Package 5 : Immunity Check} (class: java.util.HashMap) token: 4]>\nat androidx.test.espresso.action.AdapterDataLoaderAction.perform(AdapterDataLoaderAction.java:15)\nat androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)\nat androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)\nat androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)\nat androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)\nat androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)\nat java.util.concurrent.FutureTask.run(FutureTask.java:264)\nat android.os.Handler.handleCallback(Handler.java:942)\nat android.os.Handler.dispatchMessage(Handler.java:99)\nat android.os.Looper.loopOnce(Looper.java:240)\nat android.os.Looper.loop(Looper.java:351)\nat android.app.ActivityThread.main(ActivityThread.java:8380)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:584)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1013)"
+    error_type: "java.lang.RuntimeException"
+    stack_trace: "androidx.test.espresso.PerformException: Error performing \'load adapter data\' on view \'Animations or transitions are enabled on the target device.\nFor more info check: https://developer.android.com/training/testing/espresso/setup#set-up-environment\n\nview.getId() is <2131231024/com.example.healthcare:id/listViewBMCart>\'.\nat androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)\nat androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)\nat androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)\nat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\nat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher$1.apply(DataInteraction.java:1)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher$1.apply(DataInteraction.java:2)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher.<init>(DataInteraction.java:7)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher.<init>(DataInteraction.java:13)\nat androidx.test.espresso.DataInteraction$DisplayDataMatcher.displayDataMatcher(DataInteraction.java:1)\nat androidx.test.espresso.DataInteraction.makeTargetMatcher(DataInteraction.java:2)\nat androidx.test.espresso.DataInteraction.perform(DataInteraction.java:1)\nat com.example.healthcare.LabTestActivityTest.testItemClick(LabTestActivityTest.java:53)\n... 35 trimmed\nCaused by: java.lang.RuntimeException: No data found matching: view.getId() is <2131231024> contained values: <[Data: {line5=Total Cost:\302\243200, line4=, line3=, line2=, line1=Package 1 : Full Body Checkup} (class: java.util.HashMap) token: 0, Data: {line5=Total Cost:\302\243299, line4=, line3=, line2=, line1=Package 2 : Blood Glucose Fasting} (class: java.util.HashMap) token: 1, Data: {line5=Total Cost:\302\24370, line4=, line3=, line2=, line1=Package 3 : COVID-19 Antibody - IgG} (class: java.util.HashMap) token: 2, Data: {line5=Total Cost:\302\243130, line4=, line3=, line2=, line1=Package 4 : Thyroid Check} (class: java.util.HashMap) token: 3, Data: {line5=Total Cost:\302\243170, line4=, line3=, line2=, line1=Package 5 : Immunity Check} (class: java.util.HashMap) token: 4]>\nat androidx.test.espresso.action.AdapterDataLoaderAction.perform(AdapterDataLoaderAction.java:15)\nat androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)\nat androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)\nat androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)\nat androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)\nat androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)\nat java.util.concurrent.FutureTask.run(FutureTask.java:264)\nat android.os.Handler.handleCallback(Handler.java:942)\nat android.os.Handler.dispatchMessage(Handler.java:99)\nat android.os.Looper.loopOnce(Looper.java:240)\nat android.os.Looper.loop(Looper.java:351)\nat android.app.ActivityThread.main(ActivityThread.java:8380)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:584)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1013)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\akula\\OneDrive\\Desktop\\BrightonMedi\\app\\build\\outputs\\androidTest-results\\connected\\CPH2285 - 13\\logcat-com.example.healthcare.LabTestActivityTest-testItemClick.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\akula\\OneDrive\\Desktop\\BrightonMedi\\app\\build\\outputs\\androidTest-results\\connected\\CPH2285 - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\akula\\OneDrive\\Desktop\\BrightonMedi\\app\\build\\outputs\\androidTest-results\\connected\\CPH2285 - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\akula\\OneDrive\\Desktop\\BrightonMedi\\app\\build\\outputs\\androidTest-results\\connected\\CPH2285 - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "LabTestActivityTest"
+    test_package: "com.example.healthcare"
+    test_method: "testGoToCartButton"
+    start_time {
+      seconds: 1684499046
+      nanos: 908000000
+    }
+    end_time {
+      seconds: 1684499048
+      nanos: 517000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\akula\\OneDrive\\Desktop\\BrightonMedi\\app\\build\\outputs\\androidTest-results\\connected\\CPH2285 - 13\\logcat-com.example.healthcare.LabTestActivityTest-testGoToCartButton.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\akula\\OneDrive\\Desktop\\BrightonMedi\\app\\build\\outputs\\androidTest-results\\connected\\CPH2285 - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\akula\\OneDrive\\Desktop\\BrightonMedi\\app\\build\\outputs\\androidTest-results\\connected\\CPH2285 - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\akula\\OneDrive\\Desktop\\BrightonMedi\\app\\build\\outputs\\androidTest-results\\connected\\CPH2285 - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "LabTestActivityTest"
+    test_package: "com.example.healthcare"
+    test_method: "testBackButton"
+    start_time {
+      seconds: 1684499048
+      nanos: 976000000
+    }
+    end_time {
+      seconds: 1684499050
+      nanos: 302000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\akula\\OneDrive\\Desktop\\BrightonMedi\\app\\build\\outputs\\androidTest-results\\connected\\CPH2285 - 13\\logcat-com.example.healthcare.LabTestActivityTest-testBackButton.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\akula\\OneDrive\\Desktop\\BrightonMedi\\app\\build\\outputs\\androidTest-results\\connected\\CPH2285 - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\akula\\OneDrive\\Desktop\\BrightonMedi\\app\\build\\outputs\\androidTest-results\\connected\\CPH2285 - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\akula\\OneDrive\\Desktop\\BrightonMedi\\app\\build\\outputs\\androidTest-results\\connected\\CPH2285 - 13\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\akula\\OneDrive\\Desktop\\BrightonMedi\\app\\build\\outputs\\androidTest-results\\connected\\CPH2285 - 13\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

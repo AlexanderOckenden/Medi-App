@@ -1,0 +1,1145 @@
+05-19 13:24:07.895 15027 15057 I TestRunner: started: testGoToCartButton(com.example.healthcare.LabTestActivityTest)
+05-19 13:24:07.903  1931  1948 D OplusAlwaysAliveManager: removing: 2209, ComponentInfo{com.example.healthcare/com.example.healthcare.LabTestActivity}
+05-19 13:24:07.908 15027 15057 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-19 13:24:07.910  1176  1176 D Layer   : reparent to null sequence=251952, seq[7], name=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#251952
+05-19 13:24:07.910  1176  1176 D Layer   : reparent to null sequence=251951, seq[5], name=80ce294 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#251951
+05-19 13:24:07.910  1176  1176 D Layer   : reparent to null sequence=251950, seq[6], name=ActivityRecord{82ebf82 u0 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}#251950
+05-19 13:24:07.910  1176  1176 D Layer   : reparent to null sequence=251933, seq[5], name=Task=2209#251933
+05-19 13:24:07.910  1176  1176 D Layer   : reparent to null sequence=251967, seq[2], name=Task=2209#251967
+05-19 13:24:07.911  1176  1176 D OplusLayer: ~Layer() sequence=251967, name=Task=2209#251967
+05-19 13:24:07.911  1176  1176 I BufferQueueDebug: [com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#251952](this:0xb400006fb3df29e8,id:-1,api:0,p:-1,c:1176) onDestructor()
+05-19 13:24:07.911  1176  1176 D OplusLayer: ~Layer() sequence=251952, name=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#251952
+05-19 13:24:07.911  2431  2539 V ShellTaskOrganizer: Task vanished taskId=2209
+05-19 13:24:07.911  1176  1176 D OplusLayer: ~Layer() sequence=251950, name=ActivityRecord{82ebf82 u0 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}#251950
+05-19 13:24:07.911  1176  1176 D OplusLayer: ~Layer() sequence=251951, name=80ce294 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#251951
+05-19 13:24:07.911  1176  1176 D OplusLayer: ~Layer() sequence=251955, name=acd5693 ActivityRecordInputSink com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#251955
+05-19 13:24:07.917  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511883, tid:2479
+05-19 13:24:07.918  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511883, dur:0, num:10, tid:2479
+05-19 13:24:07.918  1078  1185 I libPowerHal: [perfLockRel] hdl:511883, idx:0
+05-19 13:24:07.918  1078  1185 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1
+05-19 13:24:07.918  1078  1185 I libPowerHal: [PD] system_server update cmd:1c3c000 param:1
+05-19 13:24:07.918  1078  1185 I libPowerHal: [PD] (more) /proc/mcdi/state set +prefix:enable 1;
+05-19 13:24:07.919  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:07.920  1931  2479 I mtkpower_client: ret_hdl:511885
+05-19 13:24:07.920  1078  1185 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1
+05-19 13:24:07.923  1931  2310 V ListServiceUtils: checkInListByUid start module:custom-icc uid:1000  time 861287446973us
+05-19 13:24:07.923  1931  2310 V ListServiceUtils: checkInListByUid end module:custom-icc uid:1000  time 861287447387us
+05-19 13:24:07.923  1931  2310 D ListServiceUtils: checkInListByUid module:custom-icc uid:1000 cost 413us return 0
+05-19 13:24:07.923  1443 10399 D MMListService: getListValueByUid module:image-processing, uid:1000
+05-19 13:24:07.923  1931  2310 V ListServiceUtils: checkInListByUid module:image-processing uid:1000 cost 202us return (null)
+05-19 13:24:07.923  1931  2310 V JpegEncoderExtImpl: Resolution: 1080 x 2400,support: 0;
+05-19 13:24:07.924  1486  1486 D AALLightSensor: oldLux=50 [SA:57 LA:56] newLux=50 (oriLux: 58)
+05-19 13:24:07.928  1078  1119 I mtkpower@impl: [setMode] type:5, enabled:1
+05-19 13:24:07.929  1931  4714 I PowerHalWrapper: <amsBoostResume> last:com.android.launcher, next:com.example.healthcare
+05-19 13:24:07.932  1176  1238 I SurfaceFlinger: [SF client] NEW(0xb400006fdf5dc8c0) for (2431:com.android.systemui)
+05-19 13:24:07.934  2431  2556 W OplusSlideAnimOptHelper: initScrollOpt: not running in mainthread
+05-19 13:24:07.934  1931  4714 D OplusAlwaysAliveManager: new task launch with process exists: ActivityRecord{d20574a u0 com.example.healthcare/.LabTestActivity} t2210}, processName: com.example.healthcare
+05-19 13:24:07.934  1931  4714 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:07.934  1931  4714 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:07.934  2431  2556 D WindowManager: Add to mViews: android.widget.FrameLayout{8d209b0 V.E...... ......I. 0,0-0,0},pkg= com.example.healthcare
+05-19 13:24:07.935  1078  1185 I libPowerHal: [perfLockRel] hdl:511884, idx:1
+05-19 13:24:07.935  1078  1185 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:2020000 param:1
+05-19 13:24:07.938  1931  1948 V SensorManager: call sensorServiceCommonInterface name: setScreenShotDisable
+05-19 13:24:07.938  1931  1948 D SensorService: SensorService sensorServiceCommonInterface = setScreenShotDisable
+05-19 13:24:07.938  1931  1948 D SensorServiceExtImpl: sensorServiceCommonInterface funcName = setScreenShotDisable, flag = 0, status = 0
+05-19 13:24:07.938  1931  1948 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:07.938  1931  1948 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:07.938  1931  1948 D OplusUIFirst_FB: handleParaSwitch com.example.healthcare null null 1
+05-19 13:24:07.938  1931  1948 I OplusHansManager : front pkg: com.example.healthcare, uid: 10495, prev pkg: com.android.launcher, prev uid: 10106
+05-19 13:24:07.938  1931  1948 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:07.938  1931  1948 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:07.938  1931  1948 D OplusUIFirst_FB: handleParaSwitch com.example.healthcare null null 1
+05-19 13:24:07.938  1931  3113 I OplusHansManager : notifyAppGoForeground, uid=10495
+05-19 13:24:07.938  1931  3113 I OplusHansManager : notifyAppGoBackground, uid=10106
+05-19 13:24:07.938  1931  3007 I OplusHansManager : uid=10495, pkg=com.example.healthcare R exit SM
+05-19 13:24:07.939  1931  3007 I OplusHansManager : uid=10495, pkg=com.example.healthcare R exit(), R stay=0
+05-19 13:24:07.940  1931  2275 I Osense-DecisionMaker: notifySceneToAthenaPolicy: SCENE_APP_SWITCH, bundle: Bundle[{prevPkgName=com.android.launcher, curUid=10495, curPkgName=com.example.healthcare, prevUid=10106}]
+05-19 13:24:07.941  1931  3016 I OplusResourcePreloadManager: resume pkg: com.example.healthcare, uid:10495, prev pkg: com.android.launcher, prev uid: 10106
+05-19 13:24:07.941  1931  2275 I Osense-DecisionMaker: scene: SCENE_APP_SWITCH, excutingPolicy: freezer
+05-19 13:24:07.941  1931  2275 D Osense-DecisionMaker: invoke freezer policy,type: fast
+05-19 13:24:07.945  1931  1948 I PowerHalWrapper: amsBoostNotify pid:15027,activity:com.example.healthcare.LabTestActivity, package:com.example.healthcare, mProcessCreatePackcom.example.healthcare
+05-19 13:24:07.945  1931  1948 I PowerHalWrapper: state: 1
+05-19 13:24:07.945  1931  1948 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.example.healthcare/com.example.healthcare.LabTestActivity pid=15027 state:1
+05-19 13:24:07.945  1931  1948 I game_scn: collectForegroundAppList packName=com.example.healthcare, actName=com.example.healthcare.LabTestActivity, pid=15027, uid=10495, state:RESUMED
+05-19 13:24:07.945  1931  1948 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:07.945  1931  1948 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{d20574a u0 com.example.healthcare/.LabTestActivity} t2210}
+05-19 13:24:07.946  1078  1185 I libPowerHal: [perfNotifyAppState] foreground:com.example.healthcare, pid:15027, uid:10495
+05-19 13:24:07.947  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511885, tid:2479
+05-19 13:24:07.947  1931  1948 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+05-19 13:24:07.947  1078  1185 E UxUtility: notifyAppState error = NULL
+05-19 13:24:07.947  1078  1185 I TouchUtility: notifyAppState error = NULL
+05-19 13:24:07.949 15027 15121 D libMEOW : meow new tls: 0xb400007177b284c0
+05-19 13:24:07.949 15027 15121 D libMEOW : applied 1 plugins for [com.example.healthcare]:
+05-19 13:24:07.949 15027 15121 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb4000071e5138080
+05-19 13:24:07.949 15027 15121 D libMEOW : rebuild call chain: 0xb400007177ac5480
+05-19 13:24:07.949 15027 15121 D libMEOW : meow delete tls: 0xb400007177b284c0
+05-19 13:24:07.949  1078  1116 I mtkpower@impl: [notifyAppState] pc:0, com.android.launcher => com.example.healthcare
+05-19 13:24:07.950  1931  3161 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppExit, resuming = com.example.healthcare, target = com.android.launcher, is ResumingFirstStart =  false, is ResumingMultiApp =  false, extensionInfo =  Bundle[{taskId=2210, uid=10495}]
+05-19 13:24:07.950  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511885, dur:0, num:10, tid:2479
+05-19 13:24:07.950  1931  8040 D DCSEX-AppLaunchEventRecorder: onAppSwitch from = com.android.launcher to = com.example.healthcare
+05-19 13:24:07.951  1931  1948 I PowerHalWrapper: amsBoostNotify pid:2821,activity:com.android.launcher.Launcher, package:com.android.launcher, mProcessCreatePackcom.example.healthcare
+05-19 13:24:07.951  1931  1948 I PowerHalWrapper: state: 0
+05-19 13:24:07.951  1931  1948 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.android.launcher/com.android.launcher.Launcher pid=2821 state:0
+05-19 13:24:07.951  1931  1948 I game_scn: collectForegroundAppList packName=com.android.launcher, actName=com.android.launcher.Launcher, pid=2821, uid=10106, state:PAUSED
+05-19 13:24:07.951  1931  1948 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:07.952  1931  3161 D OplusLatencyOptimizerManager: enter pkg: com.example.healthcare isPrevBlackAppTop: false mIsBlackAppTop: false
+05-19 13:24:07.952  1931  1958 D OplusUIFirst_FB: com.example.healthcare moveToTop:[]
+05-19 13:24:07.952  1931  3161 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppEnter, launchedFrom =  com.example.healthcare, target =  com.example.healthcare, is firstStart =  false, is multiApp =  false, extensionInfo =  Bundle[{taskId=2210, pid=15027, uid=10495, versionCode=1}]
+05-19 13:24:07.952  1931  1958 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:07.952  1931  1958 D OplusUIFirst_FB: com.example.healthcare boost hint: 15027
+05-19 13:24:07.952  1931  1958 D OplusUIFirst_FB: handleParaSwitch com.example.healthcare null null 0
+05-19 13:24:07.953  1931  2108 E Athena  : MemoryGuardAction: handleAppChange
+05-19 13:24:07.953 31542 31648 D AudioPolicyService: updateUidStates_l() current->uid=10136 current->pid=9545 allowCapture=1 UidState=3 apmStat=1
+05-19 13:24:07.953  1931  1958 D OplusUIFirst_FB: com.example.healthcare toForeOps: []
+05-19 13:24:07.953  1931  1958 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:07.954  3059 26552 I Athena  : AthenaDynamicReceiver: pre_app:com.android.launcher, next_app:com.example.healthcare(10495|15027)
+05-19 13:24:07.955  4993  5306 V DeepThinker: ProcessManager: onForegroundActivitiesChanged pid:15027, uid:10495, foregroundActivities:true
+05-19 13:24:07.955  3728 30791 D OplusAtlas.OplusAtlasEventDispatch: setEvent:atlas_event_on_foreground_activities_changed info:pid:15027,uid:10495,hasForegroundActivities:1
+05-19 13:24:07.955  3728  4872 D OplusAtlas.OplusAudioScene: callback success event:atlas_event_on_foreground_activities_changed eventInfo:pid:15027,uid:10495,hasForegroundActivities:1
+05-19 13:24:07.955  3728  5211 D OplusAtlas.OplusMessageHandler: handleMessage: Msg { when=0 what=2 obj=com.oplus.atlas.OplusAtlasEvent@55ef018 target=com.oplus.atlas.OplusMessageHandler$MyHandler }
+05-19 13:24:07.957  1078  1185 I libPowerHal: [perfLockRel] hdl:511885, idx:0
+05-19 13:24:07.957  1078  1185 I libPowerHal: [PD] system_server update cmd:1c3c000 param:1
+05-19 13:24:07.957  1078  1185 I libPowerHal: [PD] (more) /proc/mcdi/state set +prefix:enable 1;
+05-19 13:24:07.957  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:07.957  4993  5306 I DeepThinker: IntentManager: onIntentProduced 1
+05-19 13:24:07.957  4993  5306 I DeepThinker: IntentManager: dispatchIntents 1
+05-19 13:24:07.958  1931  2479 I mtkpower_client: ret_hdl:511888
+05-19 13:24:07.958  1931  1958 D OplusUIFirst_FB: com.google.android.googlequicksearchbox moveToBack 9567
+05-19 13:24:07.958  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511888, tid:2479
+05-19 13:24:07.959  2431  2556 D InputEventReceiver: Input log is disabled
+05-19 13:24:07.959  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511888, dur:0, num:10, tid:2479
+05-19 13:24:07.959  1078  1185 I libPowerHal: [perfLockRel] hdl:511888, idx:0
+05-19 13:24:07.959  1078  1185 I libPowerHal: [PD] system_server update cmd:1c3c000 param:1
+05-19 13:24:07.959  1078  1185 I libPowerHal: [PD] (more) /proc/mcdi/state set +prefix:enable 1;
+05-19 13:24:07.959  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:07.959  1931  1958 D OplusUIFirst_FB: com.coloros.assistantscreen moveToBack 20201
+05-19 13:24:07.961  1931  2479 I mtkpower_client: ret_hdl:511889
+05-19 13:24:07.964  4993 24346 I DeepThinker: EventFountainDispatcher: dispatchSpecificIntents 1
+05-19 13:24:07.964  4993 24346 I DeepThinker: EventFountainDispatcher: dispatchSpecificIntents com.pantanal.action.APPS_LIST
+05-19 13:24:07.966  4710 12244 W Battery : ThermalControlUtils: mForegroundPkg=com.example.healthcare
+05-19 13:24:07.968  1176  2599 I VRR [FRTC]: setFrameRateTarget with [0, com.android.launcher, 0, com.oplus.battery, 1, 0, 1000]
+05-19 13:24:07.968  1176  2599 W VRR [FRTC]: invalid param { fps 0, proc_name com.android.launcher, strict_mode 0, description com.oplus.battery, proc_id 0, rate_status 0, backend Surface, version 1, pid 0, uid 1000, enable at 2023-05-19 13:24:07, disable waiting } for current status.
+05-19 13:24:07.968  1176  2599 W VRR [FRTC]: CurrentTarget size 0:
+05-19 13:24:07.969  4710 12244 W Battery : ThermalControllHandler: tempLevel=5,userMode=3,gameUserMode=7,appType=-1,envTempType=0,appStates=[]
+05-19 13:24:07.969  4710 12244 W Battery : ThermalControllerCenter: mSafetyState=10000
+05-19 13:24:07.976  4710 12244 W Battery : ThermalControllHandler: tempGear=5,configItemName=common_config
+05-19 13:24:07.978  1931  2802 I FocusResolver: updateFocusedWindow,  on display 0, reason: Waiting for window because NOT_FOCUSABLE, result:   FocusedWindows: <none>
+05-19 13:24:07.978  1176  2599 I BufferQueueDebug: [Splash Screen com.example.healthcare#251971](this:0xb400006fc3bab9e8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1176:/system/bin/surfaceflinger)
+05-19 13:24:07.979  1092  1092 D vendor.oplus.hardware.charger@1.0-service: set cooldown:7,  normalCoolDown:7
+05-19 13:24:07.979  2821  2821 D VRI[Launcher]: onFocusEvent false
+05-19 13:24:07.980  4710  6057 W Battery : ThermalControllHandler: MSG_THERMAL_CONTROL_CATEGORY_CHANGED
+05-19 13:24:07.985 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.LabTestActivity@cb35 in: PRE_ON_CREATE
+05-19 13:24:07.986 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-19 13:24:07.986  1176  2599 D [OSIE]  : scltmLayer_name VRI[healthcare][Splash Screen com.example.healthcare]
+05-19 13:24:07.986  1176  2599 D [OSIE]  : IsSCLTMLayer=0
+05-19 13:24:07.986  2431  2556 D BufferQueueConsumer: [](id:97f00004e4f,api:0,p:-1,c:2431) connect: controlledByApp=false
+05-19 13:24:07.986  2431  2556 E IPCThreadState: attemptIncStrongHandle(221): Not supported
+05-19 13:24:07.991  2431  2556 D VRI[healthcare]: registerCallbacksForSync syncBuffer=false
+05-19 13:24:08.011  3112  8808 W lus.appplatform: Large reply transaction of 478520 bytes, interface descriptor com.oplus.epona.IRemoteTransfer, code 1
+05-19 13:24:08.012  2431  2594 D BLASTBufferQueue: [VRI[healthcare][Splash Screen com.example.healthcare]#19891](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=861287534173641(auto) mPendingTransactions.size=0 graphicBufferId=10441065815467 transform=0
+05-19 13:24:08.013  2431  2594 D VRI[healthcare]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+05-19 13:24:08.013  2431  2594 W Parcel  : Expecting binder but got null!
+05-19 13:24:08.013  2431  2556 D VRI[healthcare]: draw finished.
+05-19 13:24:08.018  2431  2539 V ShellTaskOrganizer: Task appeared taskId=2210
+05-19 13:24:08.025  1931  2310 W Bitmap  : Called getWidth() on a recycle()'d bitmap! This is undefined behavior!
+05-19 13:24:08.025  1931  2310 W Bitmap  : Called getHeight() on a recycle()'d bitmap! This is undefined behavior!
+05-19 13:24:08.026  1176  1176 D BufferStateLayer: Splash Screen com.example.healthcare#251971 setBuffer frameId=1, bufferId=10441065815467 fenceId=976, w= 1080, h=2400
+05-19 13:24:08.026  1176  1176 D OplusLayer: (251971,Splash Screen com.example.healthcare#251971,com.android.systemui) setBuffer
+05-19 13:24:08.036 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.LabTestActivity@cb35 in: CREATED
+05-19 13:24:08.037 15027 15027 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.healthcare.LabTestActivity@cb35
+05-19 13:24:08.039 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.LabTestActivity@cb35 in: STARTED
+05-19 13:24:08.039 15027 15027 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.healthcare.LabTestActivity@cb35
+05-19 13:24:08.041 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.LabTestActivity@cb35 in: RESUMED
+05-19 13:24:08.041 15027 15027 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.healthcare.LabTestActivity@cb35
+05-19 13:24:08.042  1176  1381 I SurfaceFlinger: [SF client] NEW(0xb400006fc3b93740) for (15027:com.example.healthcare)
+05-19 13:24:08.043  1176  1176 D Layer   : reparent to null sequence=251961, seq[2], name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251961
+05-19 13:24:08.043  1176  1176 D Layer   : reparent to null sequence=251960, seq[1], name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251960
+05-19 13:24:08.043  9545  9545 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+05-19 13:24:08.044  1176  1176 D OplusLayer: ~Layer() sequence=251960, name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251960
+05-19 13:24:08.044  1176  1176 D OplusLayer: ~Layer() sequence=251961, name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251961
+05-19 13:24:08.046 15027 15027 D WindowManager: Add to mViews: DecorView@c78bea6[LabTestActivity],pkg= com.example.healthcare
+05-19 13:24:08.047  9545  9746 I HwDetectorWithState: (REDACTED) a: %d
+05-19 13:24:08.048  9545  9746 I HwDetectorWithState: #stopHotwordDetection
+05-19 13:24:08.048  9545  9746 D AudioRecord: stop(5022): mActive:1
+05-19 13:24:08.048  9545  9746 D AudioRecord: call mAudioRecord->stop()
+05-19 13:24:08.051  1931  2310 V ListServiceUtils: checkInListByUid start module:custom-icc uid:1000  time 861287575091us
+05-19 13:24:08.051  1931  2310 V ListServiceUtils: checkInListByUid end module:custom-icc uid:1000  time 861287575312us
+05-19 13:24:08.051  1931  2310 D ListServiceUtils: checkInListByUid module:custom-icc uid:1000 cost 221us return 0
+05-19 13:24:08.051  1443 10399 D MMListService: getListValueByUid module:image-processing, uid:1000
+05-19 13:24:08.051  1931  2310 V ListServiceUtils: checkInListByUid module:image-processing uid:1000 cost 268us return (null)
+05-19 13:24:08.051  1931  2310 V JpegEncoderExtImpl: Resolution: 540 x 1200,support: 0;
+05-19 13:24:08.054 31542 15112 D AudioFlinger: updateWakeLockUids_l AudioIn_1B56 uids:
+05-19 13:24:08.054 31544 31698 D AudioALSAStreamIn: updateSinkMetadataV7(), sink_metadata = 0xe2482c20, Project config MTK_BT_HEARING_AID_SUPPORT is not support, return
+05-19 13:24:08.055 31544 31696 D AudioALSAStreamIn: standby(), halRequest 0, mDestroy 0, flag 0
+05-19 13:24:08.055 31544 31696 D AudioALSAStreamIn: close()
+05-19 13:24:08.055 31544 31696 D AudioALSAStreamIn: updateStandByFrameCount(), update the mStandbyFrameCount = 0-> 6400
+05-19 13:24:08.055 31544 31696 D AudioALSACaptureHandlerNormal: +close()
+05-19 13:24:08.057 15027 15027 D InputEventReceiver: Input log is disabled
+05-19 13:24:08.057  2431  3342 D FlashViews_FlashBackManager: onAppEnter packageName: = com.example.healthcare, uid = -1)
+05-19 13:24:08.057  2431  3342 D FlashViews_FlashBackManager: onAppExit packageName: = com.android.launcher, uid = -1)
+05-19 13:24:08.062  1176  1176 I DispPerfService: updateLayerMask 9
+05-19 13:24:08.071 31544 31696 D AudioALSACaptureDataClientAurisysNormal: pthread_join hProcessThread done
+05-19 13:24:08.072 31544 31696 D AudioALSACaptureDataProviderBase: detach(), 0xe4da5700, mCaptureDataClientVector.size()=1, Identity=0xe4fc3480
+05-19 13:24:08.072 31544 31696 D AudioALSACaptureDataProviderDspRaw: close()
+05-19 13:24:08.072 31544 31696 D AudioALSAPlaybackHandlerKTVThread: +stopinputActive(), pre_active_num = 1, current_input = 2147483652
+05-19 13:24:08.075  1176  1381 I BufferQueueDebug: [com.example.healthcare/com.example.healthcare.LabTestActivity#251978](this:0xb400006fc3ba89e8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1176:/system/bin/surfaceflinger)
+05-19 13:24:08.079 28484 28484 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.clearcut.bootcount.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService }
+05-19 13:24:08.085  1931  2436 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+05-19 13:24:08.087  1176  1238 D [OSIE]  : scltmLayer_name VRI[LabTestActivity][com.example.healthcare/com.example.healthcare.LabTestActivity]
+05-19 13:24:08.087  1176  1238 D [OSIE]  : IsSCLTMLayer=0
+05-19 13:24:08.087 15027 15027 D BufferQueueConsumer: [](id:3ab300000002,api:0,p:-1,c:15027) connect: controlledByApp=false
+05-19 13:24:08.088 15027 15027 E IPCThreadState: attemptIncStrongHandle(78): Not supported
+05-19 13:24:08.088 15027 15027 E IPCThreadState: attemptIncStrongHandle(58): Not supported
+05-19 13:24:08.091 31544 15116 D AudioALSACaptureDataProviderDspRaw: -readThread(), pid: 31544, tid: 15116
+05-19 13:24:08.091 31544 31696 D AudioALSACaptureDataProviderDspRaw: pthread_join hReadThread done
+05-19 13:24:08.092 31544 31696 D AudioALSACaptureDataProviderBase: ClosePCMDumpDsp
+05-19 13:24:08.095 31544 31696 D AudioDspStreamManager: removeCaptureDataProvider() CaptureDataProvider = 3839514368 0xe4da5700, size = 1
+05-19 13:24:08.099 31544 31696 D AudioDspStreamManager: setDspRuntimeEn(), task_scene = 10, condition = 0
+05-19 13:24:08.099 31544 31696 D AudioALSADeviceConfigManager: ApplyDeviceTurnoffSequenceByName(), DeviceName = ADDA_TO_CAPTURE1 descriptor->DeviceStatusCounter = 1, Ctlsize=4
+05-19 13:24:08.100 31544 31696 D audio_messenger_ipi: audio_ipi_dma_cbk_deregister(), task 17
+05-19 13:24:08.100 31544 31696 D AudioALSACaptureDataProviderDspRaw: -close()
+05-19 13:24:08.100 31544 31696 D AudioALSAHardwareResourceManager: +stopInputDevice_l(), mInputDevice = 0x80000004, stop_device = 0x80000004, mStartInputDeviceCount = 1, mMicInverse = 0, mNumPhoneMicSupport = 2
+05-19 13:24:08.100 31544 31696 D AudioALSADeviceConfigManager: ApplyDeviceTurnoffSequenceByName(), DeviceName = builtin_Mic_DualMic descriptor->DeviceStatusCounter = 1, Ctlsize=12
+05-19 13:24:08.102 31544 31696 D AudioALSACaptureDataClientAurisysNormal: DestroyAurisysLibManager()
+05-19 13:24:08.102 31544 31696 D goodix_lvimfs: [INFO] lvimfs_wrapper_DestroyLibraryInstance:  entry
+05-19 13:24:08.102 31544 31696 D goodix_lvimfs: LVACFS_TRACE:[1] FUNCTION: LVACFS_LVAC_Destroy at Line 137 in ../SRC/LVACFS_Destroy.c
+05-19 13:24:08.102 31544 31696 D goodix_lvimfs: LVACFS_TRACE:[1] LVACFS_LVAC_Destroy: free pOutputSave at Line 143 in ../SRC/LVACFS_Destroy.c
+05-19 13:24:08.102 31544 31696 D goodix_lvimfs: LVACFS_TRACE:[1] FUNCTION: LVACFS_LVAC_Destroy: successfully called LVAC_GetMemoryTable at Line 162 in ../SRC/LVACFS_Destroy.c
+05-19 13:24:08.102 31544 31696 D goodix_lvimfs: LVACFS_TRACE:[1] FUNCTION: LVACFS_Destroy: There are 0 instances of LVACFS active at Line 109 in ../SRC/LVACFS_Destroy.c
+05-19 13:24:08.102 31544 31696 D goodix_lvimfs: [INFO] lvimfs_wrapper_DestroyLibraryInstance:  exit
+05-19 13:24:08.102 31544 31696 D aurisys_lib_handler: [LIB] lvimfs_arsi_destroy_handler(), p_handler = 0xe4ef8b80
+05-19 13:24:08.102 31544 31696 D aurisys_lib_handler: aurisys_arsi_destroy_handler(), lib_name goodix_lvimfs, 0xdf97c680, arsi_destroy_handler, arsi_handler = 0xe4ef8b80, retval = 0
+05-19 13:24:08.103 31544 31696 D aurisys_lib_manager: delete_aurisys_lib_manager(), manager 0xe8831930
+05-19 13:24:08.103 31544 31696 D AudioALSACaptureHandlerNormal: -close()
+05-19 13:24:08.103 31544 31696 D AudioALSAStreamIn: closeWavDump()
+05-19 13:24:08.103 31544 31696 D AudioUtility: power_hal_hint - custPowerHint 37, data 0
+05-19 13:24:08.104 31542 31648 D APM_AudioPolicyManager: stopInput portId 5022
+05-19 13:24:08.104 31542 31648 D APM_AudioPolicyManager: [MTK_APM_Input]stopInput input 6998 portId 5022 old_source 1999
+05-19 13:24:08.105 31544 31698 D AudioALSAHardware: +releaseAudioPatch() handle [0xafc] current mAudioHalPatchVector size 5
+05-19 13:24:08.105 31544 31698 D AudioALSAHardware: releaseAudioPatch() releaseAudioPatch 0x80000004->Mixer, handle 2812
+05-19 13:24:08.105 31544 31698 D AudioALSAStreamManager: +setParameters(), IOport = 6998, keyValuePairs = routing=0
+05-19 13:24:08.106 31544 31698 D AudioALSAStreamManager: +routingInputDevice(), input_device: 0x80000004 => 0x0
+05-19 13:24:08.106 31544 31698 W AudioALSAStreamManager: -routingInputDevice(), input_device(0x0) is AUDIO_DEVICE_NONE(0x0) or current_input_device(0x80000004), return
+05-19 13:24:08.106 31544 31698 D AudioALSAStreamManager: updateInputSource(), Update input source form mStreamInVector [0]
+05-19 13:24:08.106 31544 31698 D AudioALSAHardware: releaseAudioPatch() remove handle [afc] OK, current mAudioHalPatchVector size 4
+05-19 13:24:08.106 31544 31698 D AudioALSAHardware: -releaseAudioPatch() handle [0xafc] status [0]
+05-19 13:24:08.107 31542 31648 W AudioPolicyClientImpl: setSoundTriggerCaptureState active 0
+05-19 13:24:08.107 31542 31648 D AudioPolicyManagerExtImpl: stopinput client uid = 10136
+05-19 13:24:08.109 31542 31627 D AudioSystem: +setParameters(): stopinput_pid=10136
+05-19 13:24:08.109  1176  1176 D Layer   : reparent to null sequence=251974, seq[1], name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251974
+05-19 13:24:08.109  1176  1176 D Layer   : reparent to null sequence=251975, seq[2], name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251975
+05-19 13:24:08.109 31542 31627 D AudioFlingerExtImpl: AudioFlingerExtImpl oplusSetParameters: keyvalue stopinput_pid=10136
+05-19 13:24:08.110 31544 31698 D AudioALSAHardware: +setParameters(): stopinput_pid=10136
+05-19 13:24:08.110  1176  1176 D OplusLayer: ~Layer() sequence=251974, name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251974
+05-19 13:24:08.110 31544 31698 D AudioALSAPlaybackHandlerKTVThread: setParameters:stopinput_pid: value = 10136
+05-19 13:24:08.110 31544 31698 D AudioALSAHardware: =====>GetInstance()->MMI_Auto_Test
+05-19 13:24:08.110  1176  1176 D OplusLayer: ~Layer() sequence=251975, name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251975
+05-19 13:24:08.110 31544 31698 D audio_engineer_test: do_audio_test_process Enter all_test[0]:NoneTest in_call:false
+05-19 13:24:08.110 31544 31698 D AudioALSAHardware: -setParameters(): stopinput_pid=10136
+05-19 13:24:08.111 31542 31648 D AtlasEventUploadUtils: setEvent event:atlas_event_audio_record_stop
+05-19 13:24:08.111 31542 30704 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.111 31542 31648 D AudioFlingerExtImpl: ActiveRecordTrackPids.removeItem session 5621513
+05-19 13:24:08.111 31542 31648 D AudioFlingerExtImpl: ActiveRecordTrackPids.removeItem session 5621513 when stop
+05-19 13:24:08.111 31542 31648 D AudioFlingerExtImpl: removeAudioSessionUidMap, remove 5621513, map size 0
+05-19 13:24:08.111 31542 30704 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.111  3728 30791 D OplusAtlas.OplusAtlasEventDispatch: setEvent:atlas_event_audio_record_stop info:recorderPid:9545,TrackSession:5621513
+05-19 13:24:08.112  3728  4872 D OplusAtlasAudioDetectionManager: callback success event:atlas_event_audio_record_stop eventInfo:recorderPid:9545,TrackSession:5621513
+05-19 13:24:08.112  3728  4872 D OplusAtlas.OplusAudioRecordInfoUploadHelper: callback success event:atlas_event_audio_record_stop eventInfo:recorderPid:9545,TrackSession:5621513
+05-19 13:24:08.112  3728  5040 D OplusAtlasAudioDetectionManager: MSG_AUDIO_RECORD_STOP
+05-19 13:24:08.112  3728  5040 D OplusAtlasAudioDetectionManager: record stop,pid=9545
+05-19 13:24:08.112  3728  4878 D OplusAtlas.OplusMessageHandler: handleMessage: Msg { when=0 what=2 obj=com.oplus.atlas.OplusAtlasEvent@123ba71 target=com.oplus.atlas.OplusMessageHandler$MyHandler }
+05-19 13:24:08.112  3728  4878 D OplusAtlas.OplusAudioRecordInfoUploadHelper: setRecordEvent pid:9545 session:5621513
+05-19 13:24:08.112 31542 31632 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.112 31542 31711 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.112 31542 31711 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.113  9545  9746 D AudioRecord: call AudioRecordThread pause()
+05-19 13:24:08.113  9545  9746 D AudioRecordExtImpl: clearAudioBoostTid
+05-19 13:24:08.113 31544 31698 D oplus_audio_config: oplus_get_config(),unkonw config
+05-19 13:24:08.113 31544 31698 D oplus_audio_config: oplus_get_config(),unkonw config
+05-19 13:24:08.113 31544 31698 D oplus_audio_config: oplus_get_config(),unkonw config
+05-19 13:24:08.113 31544 31698 D AudioALSAHardware: -getParameters(), return ""
+05-19 13:24:08.113 31542 30704 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.113 31542 31648 D AudioFlingerExtImpl: audioShcedBoost after setUx(pid:9545, tid:9747)
+05-19 13:24:08.113 31542 31648 D AudioFlinger: AudioFlinger::audioSchedBoost
+05-19 13:24:08.113  9545  9746 D AudioRecordExtImpl: clearAudioBoostTid  pid 9545  tid 9747
+05-19 13:24:08.113  9545  9746 D AudioRecord: stop(5022) done
+05-19 13:24:08.114  9545  9746 I AudioRecord: ~AudioRecord(5022): mStatus 0
+05-19 13:24:08.114  9545  9746 D AudioRecord: stop(5022): mActive:0
+05-19 13:24:08.114  4993  4993 V DeepThinker: BroadcastReceiverWrapper: onReceive, start dispatch android.media.ACTION_AUDIO_RECORD_STOP
+05-19 13:24:08.114 31542 31632 D APM_AudioPolicyManager: [MTK_APM_Input]releaseInput input 6998 portId 5022
+05-19 13:24:08.114 31542 31632 D APM_AudioPolicyManager: closeInput input 6998
+05-19 13:24:08.115  3728  5040 D OplusAtlasAudioDetectionManager: record:
+05-19 13:24:08.115  9545  9746 I A       : Audio Stopped
+05-19 13:24:08.115  9545  9746 I HotwordRecognitionRnr: Stopping hotword detection.
+05-19 13:24:08.116  9545 10162 I GsaVoiceInteractionSrv: HotwordCallback#onError
+05-19 13:24:08.116  9545 10162 I HwDetectorWithState: #stopHotwordDetection
+05-19 13:24:08.116  9545 10162 I HotwordRecognitionRnr: IOException during hotword detection; expected during hotword detection closing
+05-19 13:24:08.117  9545  9747 I GsaVoiceInteractionSrv: (REDACTED) #onClosed - audio is closed, hasRecordingStarted %b
+05-19 13:24:08.117  9545  9747 I HwDetectorWithState: (REDACTED) a: %d
+05-19 13:24:08.117  9545  9747 I HwDetectorWithState: #stopHotwordDetection
+05-19 13:24:08.118  3728  4878 D OplusAtlasService: isAppInRecording getActiveAudioPids is null
+05-19 13:24:08.119 31542 15112 D AudioFlinger: updateWakeLockUids_l AudioIn_1B56 uids:
+05-19 13:24:08.120 31542 31632 W AudioPolicyClientImpl: setSoundTriggerCaptureState active 0
+05-19 13:24:08.122 31542 31632 E audio_pcm_dump: check_pcm_path : create path /data/persist_log fail 17
+05-19 13:24:08.122 31542 31632 E audio_pcm_dump: check_pcm_path failed.
+05-19 13:24:08.122 31544 31698 D DeviceHAL: closeInputStream mOpenedStreamsCount 6
+05-19 13:24:08.122 31544 31698 D AudioALSAStreamManager: +closeInputStream(), in = 0xe08eca00, size() = 1
+05-19 13:24:08.122 31544 31698 D AudioALSAStreamIn: ~AudioALSAStreamIn()
+05-19 13:24:08.122 31544 31698 D AudioUtility: ~AudioThrottleTimeControl()
+05-19 13:24:08.122 31542 30704 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.123 31542 31632 E audio_pcm_dump: check_pcm_path : create path /data/persist_log fail 17
+05-19 13:24:08.123 31542 31632 E audio_pcm_dump: check_pcm_path failed.
+05-19 13:24:08.123 31542 30704 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.123 31542 30704 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.124 31542 31632 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.124 31542 31542 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.124 31542 31632 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.145  4848 14925 W yAF.TPLog.FrameworkUpdateListener: [com.example.healthcare] removed. Stop sending intent
+05-19 13:24:08.170 15027 15027 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+05-19 13:24:08.170 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.173 15027 15027 D VRI[LabTestActivity]: registerCallbacksForSync syncBuffer=false
+05-19 13:24:08.174 15027 15041 I mple.healthcare: Compiler allocated 4148KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+05-19 13:24:08.197 15027 15061 D BLASTBufferQueue: [VRI[LabTestActivity][com.example.healthcare/com.example.healthcare.LabTestActivity]#2](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=861287721182410(auto) mPendingTransactions.size=0 graphicBufferId=64540473557009 transform=0
+05-19 13:24:08.198 15027 15061 D VRI[LabTestActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+05-19 13:24:08.198 15027 15061 W Parcel  : Expecting binder but got null!
+05-19 13:24:08.198 15027 15027 D VRI[LabTestActivity]: draw finished.
+05-19 13:24:08.207 15027 15027 D VRI[LabTestActivity]: registerCallbacksForSync syncBuffer=false
+05-19 13:24:08.208  1931  1955 W ziparchive: Unable to open '/data/app/~~Fs3A3tUX-W9JmCtFO6KF3g==/com.example.healthcare-1VY8-UJtEQIfMyFv0Y97-A==/base.dm': No such file or directory
+05-19 13:24:08.209  1176  1176 D BufferStateLayer: com.example.healthcare/com.example.healthcare.LabTestActivity#251978 setBuffer frameId=1, bufferId=64540473557009 fenceId=103, w= 1080, h=2400
+05-19 13:24:08.209  1176  1176 D OplusLayer: (251978,com.example.healthcare/com.example.healthcare.LabTestActivity#251978,com.example.healthcare) setBuffer
+05-19 13:24:08.209  1931  1955 I ActivityTaskManager: Displayed com.example.healthcare/.LabTestActivity: +291ms
+05-19 13:24:08.211  1931  4719 I FocusResolver: updateFocusedWindow, bc2b238 com.example.healthcare/com.example.healthcare.LabTestActivity on display 0, reason: Window became focusable. Previous reason: NOT_VISIBLE, result:   FocusedWindows:
+05-19 13:24:08.211  1931  4719 I FocusResolver:     displayId=0, name='bc2b238 com.example.healthcare/com.example.healthcare.LabTestActivity'
+05-19 13:24:08.211  1176  1176 I DispPerfService: updateLayerMask 9
+05-19 13:24:08.221 15027 15061 D VRI[LabTestActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+05-19 13:24:08.221 15027 15027 D VRI[LabTestActivity]: draw finished.
+05-19 13:24:08.222 15027 15027 D VRI[LabTestActivity]: onFocusEvent true
+05-19 13:24:08.222 31542 31632 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.222 31542 31542 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.222 31542 31632 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.223 31542 31542 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.224 31542 31632 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.224 31542 31632 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:08.231 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3261
+05-19 13:24:08.232 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2110 repeatCheckTimes = 0, locked = false
+05-19 13:24:08.232 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1898 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.healthcare fieldId=2131230824 fieldName=null extras=Bundle[{com.oplus.im.SCENES=0}] hintLocales=[]}, false)
+05-19 13:24:08.233 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4088 ShouldHideHeaderOnInitialState = false
+05-19 13:24:08.233 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2110 repeatCheckTimes = 1, locked = false
+05-19 13:24:08.246  1176  1176 D Layer   : reparent to null sequence=251966, seq[3], name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#251966
+05-19 13:24:08.247  1176  1176 D OplusLayer: ~Layer() sequence=251966, name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#251966
+05-19 13:24:08.247  1931  4719 I PowerHalWrapper: amsBoostStop AMS_BOOST_PACK_SWITCH:true, AMS_BOOST_ACT_SWITCH:false, AMS_BOOST_PROCESS_CREATE:false
+05-19 13:24:08.247  1078  1119 I mtkpower@impl: [setMode] type:5, enabled:0
+05-19 13:24:08.248  1078  1185 I libPowerHal: [perfLockRel] hdl:511886, idx:2
+05-19 13:24:08.249  1078  1185 I libPowerHal: [perfLockRel] hdl:511887, idx:3
+05-19 13:24:08.249  1078  1185 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1000000, param:-1
+05-19 13:24:08.249  1078  1185 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1408300 param:0
+05-19 13:24:08.250  1078  1185 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1000000 param:-1
+05-19 13:24:08.295  2821  6946 D VRI[Launcher]: dispatchAppVisibility visible:false
+05-19 13:24:08.296  9567  9599 D VRI[Launcher]: dispatchAppVisibility visible:false
+05-19 13:24:08.299 28254 28254 D EffectsEngine_WallpaperRenderer: onPause().
+05-19 13:24:08.299 28254 28254 D EffectsEngine_: FPSThrottler::pause
+05-19 13:24:08.299 28254 28254 D EffectsEngine_DayNightRenderer: pause.
+05-19 13:24:08.299 28254 28254 D EffectsEngine_ShootingStarSprite: ShootingStarSprite.stop()
+05-19 13:24:08.301 15027 15027 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230824/com.example.healthcare:id/buttonBMCartCheckout>
+05-19 13:24:08.306  1176  1308 D VRR [OTI]: handleIdle from 1 to 0
+05-19 13:24:08.306  1176  1308 D VRR [OTI-HW]: isStateReady 0
+05-19 13:24:08.306  1176  1308 D VRR [OTI-HW]: rate range: min {id=0, hwcId=0, resolution=1080x2400, refreshRate=60.00 Hz, dpi=409.02x409.02, group=0} cur {id=0, hwcId=0, resolution=1080x2400, refreshRate=60.00 Hz, dpi=409.02x409.02, group=0} max {id=0, hwcId=0, resolution=1080x2400, refreshRate=60.00 Hz, dpi=409.02x409.02, group=0}
+05-19 13:24:08.306  1176  1308 D VRR [OTI-HW]: keep rate.
+05-19 13:24:08.306  1931  2279 D OGG_Detector: D:done mCurrStatus: 0
+05-19 13:24:08.306  1931  1956 D TheiaRestorer: reportPointerEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=247.5, y[0]=1991.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=861287828, downTime=861287828, deviceId=-1, source=0x1002, displayId=0, eventId=-884013623 }
+05-19 13:24:08.308  1931  1958 I PowerHalWrapper: amsBoostNotify pid:2821,activity:com.android.launcher.Launcher, package:com.android.launcher, mProcessCreatePackcom.example.healthcare
+05-19 13:24:08.308  1931  1958 I PowerHalWrapper: state: 0
+05-19 13:24:08.308  1931  1958 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.android.launcher/com.android.launcher.Launcher pid=2821 state:0
+05-19 13:24:08.308  1931  1958 I game_scn: collectForegroundAppList packName=com.android.launcher, actName=com.android.launcher.Launcher, pid=2821, uid=10106, state:PAUSED
+05-19 13:24:08.308  1931  1958 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:08.310 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.310  1176  1176 D Layer   : reparent to null sequence=251972, seq[49], name=Surface(name=Task=2210)/@0xcb53087 - animation-leash of app_transition#251972
+05-19 13:24:08.311  1176  1176 D Layer   : reparent to null sequence=251973, seq[19], name=Surface(name=Task=1643)/@0xa6ac5a9 - animation-leash of app_transition#251973
+05-19 13:24:08.311 15027 15027 V AutofillManager: requestHideFillUi(null): anchor = null
+05-19 13:24:08.311  1176  1176 D OplusLayer: ~Layer() sequence=251973, name=Surface(name=Task=1643)/@0xa6ac5a9 - animation-leash of app_transition#251973
+05-19 13:24:08.312  1176  1176 D OplusLayer: ~Layer() sequence=251972, name=Surface(name=Task=2210)/@0xcb53087 - animation-leash of app_transition#251972
+05-19 13:24:08.313  1931  1958 D OplusUIFirst_FB: com.android.launcher moveToBack 2821
+05-19 13:24:08.319  1176  1176 I DispPerfService: updateLayerMask 0
+05-19 13:24:08.321  2821  2821 D BLASTBufferQueue: [VRI[Launcher][com.android.launcher/com.android.launcher.Launcher]#2935](f:0,a:1) destructor()
+05-19 13:24:08.322  2821  2821 D BufferQueueConsumer: [VRI[Launcher][com.android.launcher/com.android.launcher.Launcher]#2935(BLAST Consumer)2935](id:b0500000bac,api:0,p:-1,c:2821) disconnect
+05-19 13:24:08.323  2821  2821 D VRI[Launcher]: setWindowStopped stopped:true
+05-19 13:24:08.332  9567  9567 D BLASTBufferQueue: [VRI[Launcher][com.android.launcher/com.android.launcher.Launcher]#586](f:0,a:1) destructor()
+05-19 13:24:08.332  9567  9567 D BufferQueueConsumer: [VRI[Launcher][com.android.launcher/com.android.launcher.Launcher]#586(BLAST Consumer)586](id:255f0000024a,api:0,p:-1,c:9567) disconnect
+05-19 13:24:08.344  4993  5306 V DeepThinker: ProcessManager: onForegroundActivitiesChanged pid:2821, uid:10106, foregroundActivities:false
+05-19 13:24:08.344  3728 30791 D OplusAtlas.OplusAtlasEventDispatch: setEvent:atlas_event_on_foreground_activities_changed info:pid:2821,uid:10106,hasForegroundActivities:0
+05-19 13:24:08.344  1176  1176 D Layer   : reparent to null sequence=251958, seq[6], name=com.android.launcher/com.android.launcher.Launcher#251958
+05-19 13:24:08.344  3728  4872 D OplusAtlas.OplusAudioScene: callback success event:atlas_event_on_foreground_activities_changed eventInfo:pid:2821,uid:10106,hasForegroundActivities:0
+05-19 13:24:08.344  1176  1176 D Layer   : reparent to null sequence=251959, seq[6], name=com.android.launcher/com.android.launcher.Launcher#251959
+05-19 13:24:08.344  3728  5211 D OplusAtlas.OplusMessageHandler: handleMessage: Msg { when=0 what=2 obj=com.oplus.atlas.OplusAtlasEvent@36b0056 target=com.oplus.atlas.OplusMessageHandler$MyHandler }
+05-19 13:24:08.345  1176  1176 I BufferQueueDebug: [com.android.launcher/com.android.launcher.Launcher#251959](this:0xb400006f961fe9e8,id:-1,api:0,p:-1,c:1176) onDestructor()
+05-19 13:24:08.345  1176  1176 D OplusLayer: ~Layer() sequence=251959, name=com.android.launcher/com.android.launcher.Launcher#251959
+05-19 13:24:08.346  1176  1176 I BufferQueueDebug: [com.android.launcher/com.android.launcher.Launcher#251958](this:0xb400006fb80b79e8,id:-1,api:0,p:-1,c:1176) onDestructor()
+05-19 13:24:08.346  1176  1176 D OplusLayer: ~Layer() sequence=251958, name=com.android.launcher/com.android.launcher.Launcher#251958
+05-19 13:24:08.351  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.351  1486  1573 D AAL     : onBacklightChanged: 170/1023 -> 189/1023(phy:189/4095)
+05-19 13:24:08.368  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.368  1486  1573 D AAL     : onBacklightChanged: 189/1023 -> 242/1023(phy:242/4095)
+05-19 13:24:08.384  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.384  1486  1573 D AAL     : onBacklightChanged: 242/1023 -> 269/1023(phy:269/4095)
+05-19 13:24:08.389  1078  1185 I libPowerHal: [perfLockRel] hdl:511890, idx:1
+05-19 13:24:08.390  1078  1185 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+05-19 13:24:08.401  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.401  1486  1573 D AAL     : onBacklightChanged: 269/1023 -> 295/1023(phy:295/4095)
+05-19 13:24:08.406  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511889, tid:2479
+05-19 13:24:08.406  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511889, dur:0, num:10, tid:2479
+05-19 13:24:08.406  1078  1116 I mtkpower@impl: [check_work_req] i:0, msg:1 hdl:511889, wait
+05-19 13:24:08.408  1078  1116 I mtkpower@impl: [check_work_req] i:0, msg:1 hdl:511889, wait
+05-19 13:24:08.410  1078  1185 I libPowerHal: [perfLockRel] hdl:511889, idx:0
+05-19 13:24:08.410  1078  1185 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1
+05-19 13:24:08.410  1078  1185 I libPowerHal: [PD] system_server update cmd:1c3c000 param:1
+05-19 13:24:08.410  1078  1185 I libPowerHal: [PD] (more) /proc/mcdi/state set +prefix:enable 1;
+05-19 13:24:08.410  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:08.411  1931  2479 I mtkpower_client: ret_hdl:511891
+05-19 13:24:08.412  1078  1185 I libPowerHal: system_server: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1
+05-19 13:24:08.414  1078  1119 I mtkpower@impl: [setMode] type:5, enabled:1
+05-19 13:24:08.416  1931  2436 I PowerHalWrapper: <amsBoostResume> last:com.example.healthcare, next:com.example.healthcare
+05-19 13:24:08.417  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.418  1486  1573 D AAL     : onBacklightChanged: 295/1023 -> 322/1023(phy:322/4095)
+05-19 13:24:08.418  1486  1573 D AAL     : 05-19 01:24:08.352 BL= 171,ESS= 256, 05-19 01:24:08.369 BL= 223,ESS= 256, 05-19 01:24:08.385 BL= 269,ESS= 256, 05-19 01:24:08.401 BL= 294,ESS= 256, 05-19 01:24:08.418 BL= 321,ESS= 256,
+05-19 13:24:08.421  1931  2436 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:08.421  1931  2436 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:08.434  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.434  1486  1573 D AAL     : onBacklightChanged: 322/1023 -> 348/1023(phy:348/4095)
+05-19 13:24:08.435  1092  1092 D vendor.oplus.hardware.charger@1.0-service: getChargerControl:
+05-19 13:24:08.436  3715  3767 W BatteryStatsProvider: Failed to get proerties of sub battery from HIDL interface
+05-19 13:24:08.451  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.451  1486  1573 D AAL     : onBacklightChanged: 348/1023 -> 375/1023(phy:375/4095)
+05-19 13:24:08.464 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.LabTestActivity@cb35 in: PAUSED
+05-19 13:24:08.464 15027 15027 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.healthcare.LabTestActivity@cb35
+05-19 13:24:08.465  1931  2436 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:08.465  1931  2436 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:08.465  1931  2436 D OplusUIFirst_FB: handleParaSwitch com.example.healthcare null null 1
+05-19 13:24:08.466  1931  2436 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:08.466  1931  2436 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:08.466  1931  2436 D OplusUIFirst_FB: handleParaSwitch com.example.healthcare null null 1
+05-19 13:24:08.467  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.467  1486  1573 D AAL     : onBacklightChanged: 375/1023 -> 401/1023(phy:401/4095)
+05-19 13:24:08.468  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=26:**:**:**:41:43 addr_type=1
+05-19 13:24:08.468  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 15
+05-19 13:24:08.468  7182  7321 I bt_btif : LogMsg: bta_dm_observe_results_cb
+05-19 13:24:08.468  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD 26:1b:11:4f:41:43 cod is 0x000000
+05-19 13:24:08.468  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD cod in config 0x001f00, status=0
+05-19 13:24:08.468  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD invalid cod 0x0, use cod 0x1f00 in config
+05-19 13:24:08.468  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl : type 0 channel 0
+05-19 13:24:08.468  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl: HAL bt_gatt_callbacks->scanner->scan_result_cb
+05-19 13:24:08.469  7182  7218 D BtGatt.GattService: onScanResult() - eventType=0x10, addressType=1, address=26:1B:11:4F:41:43, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-96, periodicAdvInt=0x0, originalAddress=26:1B:11:4F:41:43, type=0, channel=0
+05-19 13:24:08.469  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.469  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.469  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.469  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.469  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.469  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.472  1931  2436 I PowerHalWrapper: amsBoostNotify pid:15027,activity:com.example.healthcare.CartLabActivity, package:com.example.healthcare, mProcessCreatePackcom.example.healthcare
+05-19 13:24:08.472  1931  2436 I PowerHalWrapper: state: 1
+05-19 13:24:08.472  1931  2436 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.example.healthcare/com.example.healthcare.CartLabActivity pid=15027 state:1
+05-19 13:24:08.472  1931  2436 I game_scn: collectForegroundAppList packName=com.example.healthcare, actName=com.example.healthcare.CartLabActivity, pid=15027, uid=10495, state:RESUMED
+05-19 13:24:08.472  1931  2436 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:08.472  1931  2436 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{543ac98 u0 com.example.healthcare/.CartLabActivity} t2210}
+05-19 13:24:08.473  1078  1116 I mtkpower@impl: [notifyAppState] act androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity => com.example.healthcare.CartLabActivity
+05-19 13:24:08.477  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=46:**:**:**:97:d5 addr_type=1
+05-19 13:24:08.477  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 31
+05-19 13:24:08.477  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=46:**:**:**:97:d5 addr_type=1
+05-19 13:24:08.477  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 0
+05-19 13:24:08.477  7182  7321 I bt_btif : LogMsg: bta_dm_observe_results_cb
+05-19 13:24:08.477  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD 46:2a:19:3c:97:d5 cod is 0x000000
+05-19 13:24:08.477  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD cod in config 0x001f00, status=0
+05-19 13:24:08.477  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD invalid cod 0x0, use cod 0x1f00 in config
+05-19 13:24:08.477  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl : type 0 channel 0
+05-19 13:24:08.477  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl: HAL bt_gatt_callbacks->scanner->scan_result_cb
+05-19 13:24:08.477  7182  7218 D BtGatt.GattService: onScanResult() - eventType=0x1b, addressType=1, address=46:2A:19:3C:97:D5, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-91, periodicAdvInt=0x0, originalAddress=46:2A:19:3C:97:D5, type=0, channel=0
+05-19 13:24:08.477  1931  2436 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+05-19 13:24:08.478  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.478  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.478  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.478  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.478  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.478  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.482  1931  2436 I PowerHalWrapper: amsBoostNotify pid:15027,activity:com.example.healthcare.LabTestActivity, package:com.example.healthcare, mProcessCreatePackcom.example.healthcare
+05-19 13:24:08.482  1931  2436 I PowerHalWrapper: state: 0
+05-19 13:24:08.482  1931  2436 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.example.healthcare/com.example.healthcare.LabTestActivity pid=15027 state:0
+05-19 13:24:08.482  1931  2436 I game_scn: collectForegroundAppList packName=com.example.healthcare, actName=com.example.healthcare.LabTestActivity, pid=15027, uid=10495, state:PAUSED
+05-19 13:24:08.482  1931  2436 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:08.484  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.484  1486  1573 D AAL     : onBacklightChanged: 401/1023 -> 428/1023(phy:428/4095)
+05-19 13:24:08.490  1176  1176 D Layer   : reparent to null sequence=251979, seq[1], name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251979
+05-19 13:24:08.490  1176  1176 D Layer   : reparent to null sequence=251980, seq[2], name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251980
+05-19 13:24:08.494  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511891, tid:2479
+05-19 13:24:08.495  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511891, dur:0, num:10, tid:2479
+05-19 13:24:08.495  1078  1185 I libPowerHal: [perfLockRel] hdl:511891, idx:0
+05-19 13:24:08.495  1078  1185 I libPowerHal: [PD] system_server update cmd:1c3c000 param:1
+05-19 13:24:08.495  1078  1185 I libPowerHal: [PD] (more) /proc/mcdi/state set +prefix:enable 1;
+05-19 13:24:08.495  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:08.496  1931  2479 I mtkpower_client: ret_hdl:511894
+05-19 13:24:08.500  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.500  1486  1573 D AAL     : onBacklightChanged: 428/1023 -> 454/1023(phy:454/4095)
+05-19 13:24:08.501  1486  1573 D AAL     : 05-19 01:24:08.434 BL= 348,ESS= 256, 05-19 01:24:08.451 BL= 374,ESS= 256, 05-19 01:24:08.468 BL= 401,ESS= 256, 05-19 01:24:08.484 BL= 427,ESS= 256, 05-19 01:24:08.501 BL= 454,ESS= 256,
+05-19 13:24:08.501 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.CartLabActivity@34094aa in: PRE_ON_CREATE
+05-19 13:24:08.502 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { cmp=com.example.healthcare/.CartLabActivity mCallingUid=10495 }, activity=com.example.healthcare.CartLabActivity@34094aa
+05-19 13:24:08.508  1931  2436 I FocusResolver: updateFocusedWindow,  on display 0, reason: Waiting for window because NOT_FOCUSABLE, result:   FocusedWindows: <none>
+05-19 13:24:08.509 15027 15131 D libMEOW : meow new tls: 0xb4000071f1980fc0
+05-19 13:24:08.509 15027 15131 D libMEOW : applied 1 plugins for [com.example.healthcare]:
+05-19 13:24:08.509 15027 15131 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb4000071e5138080
+05-19 13:24:08.509 15027 15131 D libMEOW : rebuild call chain: 0xb4000071f19721c0
+05-19 13:24:08.510 15027 15131 D libMEOW : meow delete tls: 0xb4000071f1980fc0
+05-19 13:24:08.517  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.517  1486  1573 D AAL     : onBacklightChanged: 454/1023 -> 481/1023(phy:481/4095)
+05-19 13:24:08.522 15027 15027 D skia    : SkJpegCodec::onGetPixels +
+05-19 13:24:08.529  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=46:**:**:**:97:d5 addr_type=1
+05-19 13:24:08.529  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 31
+05-19 13:24:08.529  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=46:**:**:**:97:d5 addr_type=1
+05-19 13:24:08.529  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 0
+05-19 13:24:08.529  7182  7321 I bt_btif : LogMsg: bta_dm_observe_results_cb
+05-19 13:24:08.529  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD 46:2a:19:3c:97:d5 cod is 0x000000
+05-19 13:24:08.529  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD cod in config 0x001f00, status=0
+05-19 13:24:08.529  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD invalid cod 0x0, use cod 0x1f00 in config
+05-19 13:24:08.530  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl : type 0 channel 0
+05-19 13:24:08.530  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl: HAL bt_gatt_callbacks->scanner->scan_result_cb
+05-19 13:24:08.530  7182  7218 D BtGatt.GattService: onScanResult() - eventType=0x1b, addressType=1, address=46:2A:19:3C:97:D5, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-91, periodicAdvInt=0x0, originalAddress=46:2A:19:3C:97:D5, type=0, channel=0
+05-19 13:24:08.530  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.530  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.530  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.530  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.530  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.530  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:08.531 15027 15027 D skia    : SkJpegCodec::onGetPixels -
+05-19 13:24:08.533  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.533  1486  1573 D AAL     : onBacklightChanged: 481/1023 -> 507/1023(phy:507/4095)
+05-19 13:24:08.547  2431  2556 D BLASTBufferQueue: [VRI[healthcare][Splash Screen com.example.healthcare]#19891](f:0,a:1) destructor()
+05-19 13:24:08.547  2431  2556 D BufferQueueConsumer: [VRI[healthcare][Splash Screen com.example.healthcare]#19891(BLAST Consumer)19891](id:97f00004e4f,api:0,p:-1,c:2431) disconnect
+05-19 13:24:08.548  2431  2556 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+05-19 13:24:08.548  2431  2556 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@9a714e3
+05-19 13:24:08.548  2431  2556 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver
+05-19 13:24:08.548  2431  2556 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@f133ee0
+05-19 13:24:08.550  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.550  1486  1573 D AAL     : onBacklightChanged: 507/1023 -> 534/1023(phy:534/4095)
+05-19 13:24:08.550  1931  2436 W InputManager-JNI: Input channel object 'f959ee Splash Screen com.example.healthcare (client)' was disposed without first being removed with the input manager!
+05-19 13:24:08.556  1176  1176 D Layer   : reparent to null sequence=251981, seq[32], name=Surface(name=bc2b238 com.example.healthcare/com.example.healthcare.LabTestActivity)/@0x165f06f - animation-leash of starting_reveal#251981
+05-19 13:24:08.560  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511894, tid:2479
+05-19 13:24:08.561  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511894, dur:0, num:10, tid:2479
+05-19 13:24:08.561  1078  1185 I libPowerHal: [perfLockRel] hdl:511894, idx:0
+05-19 13:24:08.561  1078  1185 I libPowerHal: [PD] system_server update cmd:1c3c000 param:1
+05-19 13:24:08.561  1078  1185 I libPowerHal: [PD] (more) /proc/mcdi/state set +prefix:enable 1;
+05-19 13:24:08.561  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:08.562  1931  2479 I mtkpower_client: ret_hdl:511895
+05-19 13:24:08.566  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.566  1486  1573 D AAL     : onBacklightChanged: 534/1023 -> 560/1023(phy:560/4095)
+05-19 13:24:08.583  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.583  1486  1573 D AAL     : onBacklightChanged: 560/1023 -> 587/1023(phy:587/4095)
+05-19 13:24:08.584  1486  1573 D AAL     : 05-19 01:24:08.517 BL= 480,ESS= 256, 05-19 01:24:08.534 BL= 507,ESS= 256, 05-19 01:24:08.550 BL= 533,ESS= 256, 05-19 01:24:08.567 BL= 560,ESS= 256, 05-19 01:24:08.584 BL= 586,ESS= 256,
+05-19 13:24:08.600  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.600  1486  1573 D AAL     : onBacklightChanged: 587/1023 -> 613/1023(phy:613/4095)
+05-19 13:24:08.604 15027 15027 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+05-19 13:24:08.604 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.604 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.605 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.605 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.606 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.606 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.611 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.611 15027 15027 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+05-19 13:24:08.611 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.611 15027 15027 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+05-19 13:24:08.613 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.613 15027 15027 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+05-19 13:24:08.616  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.616  1486  1573 D AAL     : onBacklightChanged: 613/1023 -> 640/1023(phy:640/4095)
+05-19 13:24:08.617 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.617 15027 15027 V AutofillManager: notifyValueChanged(1073741826): ignoring on state UNKNOWN
+05-19 13:24:08.618 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.618 15027 15027 V AutofillManager: notifyValueChanged(1073741826): ignoring on state UNKNOWN
+05-19 13:24:08.619 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.619 15027 15027 V AutofillManager: notifyValueChanged(1073741826): ignoring on state UNKNOWN
+05-19 13:24:08.633  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.633  1486  1573 D AAL     : onBacklightChanged: 640/1023 -> 666/1023(phy:666/4095)
+05-19 13:24:08.649  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.649  1486  1573 D AAL     : onBacklightChanged: 666/1023 -> 692/1023(phy:692/4095)
+05-19 13:24:08.655 15027 15027 D ScrollOptimizationHelper: can't find the config file for optimizaiton
+05-19 13:24:08.655 15027 15027 D ScrollOptimizationHelper: will not debug for debug is false
+05-19 13:24:08.655 15027 15027 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-19 13:24:08.655 15027 15027 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-19 13:24:08.655 15027 15027 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-19 13:24:08.666  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.666  1486  1573 D AAL     : onBacklightChanged: 692/1023 -> 719/1023(phy:719/4095)
+05-19 13:24:08.666  1486  1573 D AAL     : 05-19 01:24:08.600 BL= 613,ESS= 256, 05-19 01:24:08.616 BL= 640,ESS= 256, 05-19 01:24:08.633 BL= 665,ESS= 256, 05-19 01:24:08.650 BL= 692,ESS= 256, 05-19 01:24:08.666 BL= 718,ESS= 256,
+05-19 13:24:08.682 15027 15041 I mple.healthcare: Compiler allocated 4148KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+05-19 13:24:08.682 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.682 15027 15027 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+05-19 13:24:08.682  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.682  1486  1573 D AAL     : onBacklightChanged: 719/1023 -> 745/1023(phy:745/4095)
+05-19 13:24:08.684 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.685 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.687 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.687 15027 15027 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+05-19 13:24:08.689 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.689 15027 15027 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+05-19 13:24:08.690 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.690 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.692 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.692 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.693 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.693 15027 15027 V AutofillManager: notifyValueChanged(1073741826): ignoring on state UNKNOWN
+05-19 13:24:08.695 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.695 15027 15027 V AutofillManager: notifyValueChanged(1073741826): ignoring on state UNKNOWN
+05-19 13:24:08.696 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.696 15027 15027 V AutofillManager: notifyValueChanged(1073741826): ignoring on state UNKNOWN
+05-19 13:24:08.697 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.697 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.698 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.698 15027 15027 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+05-19 13:24:08.699  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.699  1486  1573 D AAL     : onBacklightChanged: 745/1023 -> 772/1023(phy:772/4095)
+05-19 13:24:08.700 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.700 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.702 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.702 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.704 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.704 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.705 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.705 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.705  4740  5387 I AudioTrack: getMarkerPosition(): 0xb4000070dfbf0000, marker = 169028
+05-19 13:24:08.705  4740  5387 I AudioTrack: getMarkerPosition(): 0xb4000070dfbf0000, marker = 169028
+05-19 13:24:08.706 15027 15027 D CompatibilityChangeReporter: Compat change id reported: 170233598; UID 10495; state: DISABLED
+05-19 13:24:08.708 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.708 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.710 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.710 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.711 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.711 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.712 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.713 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.714 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.714 15027 15027 V AutofillManager: notifyValueChanged(1073741825): ignoring on state UNKNOWN
+05-19 13:24:08.715  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.715  1486  1573 D AAL     : onBacklightChanged: 772/1023 -> 798/1023(phy:798/4095)
+05-19 13:24:08.716 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.716 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.717 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.717 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.717 15027 15027 V AutofillManager: notifyValueChanged(1073741827): ignoring on state UNKNOWN
+05-19 13:24:08.718 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.718 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.720 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.720 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.721 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.721 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.722 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.723 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.723 15027 15027 V AutofillManager: notifyValueChanged(1073741827): ignoring on state UNKNOWN
+05-19 13:24:08.725 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.725 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.726 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.727 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:08.732  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.732  1486  1573 D AAL     : onBacklightChanged: 798/1023 -> 825/1023(phy:825/4095)
+05-19 13:24:08.735 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.735 15027 15027 V AutofillManager: notifyValueChanged(1073741828): ignoring on state UNKNOWN
+05-19 13:24:08.736 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.736 15027 15027 V AutofillManager: notifyValueChanged(1073741828): ignoring on state UNKNOWN
+05-19 13:24:08.737 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.737 15027 15027 V AutofillManager: notifyValueChanged(1073741828): ignoring on state UNKNOWN
+05-19 13:24:08.738  1176  1176 D Layer   : reparent to null sequence=251971, seq[5], name=Splash Screen com.example.healthcare#251971
+05-19 13:24:08.738  1176  1176 D Layer   : reparent to null sequence=251970, seq[3], name=f959ee Splash Screen com.example.healthcare#251970
+05-19 13:24:08.738  1176  1176 D Layer   : reparent to null sequence=251986, seq[23], name=Surface(name=f959ee Splash Screen com.example.healthcare)/@0xc575dba - animation-leash of window_animation#251986
+05-19 13:24:08.738  1176  1176 D Layer   : reparent to null sequence=251984, seq[1], name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251984
+05-19 13:24:08.738  1176  1176 D Layer   : reparent to null sequence=251985, seq[2], name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251985
+05-19 13:24:08.739  1176  1176 D OplusLayer: ~Layer() sequence=251986, name=Surface(name=f959ee Splash Screen com.example.healthcare)/@0xc575dba - animation-leash of window_animation#251986
+05-19 13:24:08.739  1176  1176 D OplusLayer: ~Layer() sequence=251970, name=f959ee Splash Screen com.example.healthcare#251970
+05-19 13:24:08.739  1176  1176 D OplusLayer: ~Layer() sequence=251984, name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251984
+05-19 13:24:08.739  1176  1176 D OplusLayer: ~Layer() sequence=251985, name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251985
+05-19 13:24:08.742  1176  1176 I BufferQueueDebug: [Splash Screen com.example.healthcare#251971](this:0xb400006fc3bab9e8,id:-1,api:0,p:-1,c:1176) onDestructor()
+05-19 13:24:08.743  1176  1176 D OplusLayer: ~Layer() sequence=251971, name=Splash Screen com.example.healthcare#251971
+05-19 13:24:08.743  1176  1176 I DispPerfService: updateLayerMask 0
+05-19 13:24:08.743 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.744 15027 15027 V AutofillManager: notifyValueChanged(1073741829): ignoring on state UNKNOWN
+05-19 13:24:08.744 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.744 15027 15027 V AutofillManager: notifyValueChanged(1073741829): ignoring on state UNKNOWN
+05-19 13:24:08.746 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.746 15027 15027 V AutofillManager: notifyValueChanged(1073741829): ignoring on state UNKNOWN
+05-19 13:24:08.749  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.749  1486  1573 D AAL     : onBacklightChanged: 825/1023 -> 851/1023(phy:851/4095)
+05-19 13:24:08.749  1486  1573 D AAL     : 05-19 01:24:08.683 BL= 745,ESS= 256, 05-19 01:24:08.699 BL= 771,ESS= 256, 05-19 01:24:08.716 BL= 798,ESS= 256, 05-19 01:24:08.732 BL= 824,ESS= 256, 05-19 01:24:08.749 BL= 851,ESS= 256,
+05-19 13:24:08.751 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.751 15027 15027 V AutofillManager: notifyValueChanged(1073741830): ignoring on state UNKNOWN
+05-19 13:24:08.751 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.752 15027 15027 V AutofillManager: notifyValueChanged(1073741830): ignoring on state UNKNOWN
+05-19 13:24:08.753 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.753 15027 15027 V AutofillManager: notifyValueChanged(1073741830): ignoring on state UNKNOWN
+05-19 13:24:08.756 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.756 15027 15027 V AutofillManager: notifyValueChanged(1073741829): ignoring on state UNKNOWN
+05-19 13:24:08.758 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.758 15027 15027 V AutofillManager: notifyValueChanged(1073741830): ignoring on state UNKNOWN
+05-19 13:24:08.760 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.760 15027 15027 V AutofillManager: notifyValueChanged(1073741828): ignoring on state UNKNOWN
+05-19 13:24:08.761 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.761 15027 15027 V AutofillManager: notifyValueChanged(1073741828): ignoring on state UNKNOWN
+05-19 13:24:08.763 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.763 15027 15027 V AutofillManager: notifyValueChanged(1073741830): ignoring on state UNKNOWN
+05-19 13:24:08.764 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.764 15027 15027 V AutofillManager: notifyValueChanged(1073741829): ignoring on state UNKNOWN
+05-19 13:24:08.765  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.765  1486  1573 D AAL     : onBacklightChanged: 851/1023 -> 878/1023(phy:878/4095)
+05-19 13:24:08.767 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.767 15027 15027 V AutofillManager: notifyValueChanged(1073741828): ignoring on state UNKNOWN
+05-19 13:24:08.768 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.768 15027 15027 V AutofillManager: notifyValueChanged(1073741828): ignoring on state UNKNOWN
+05-19 13:24:08.770 15027 15027 V TextView: notifyAutoFillManagerAfterTextChanged
+05-19 13:24:08.770 15027 15027 V AutofillManager: notifyValueChanged(1073741828): ignoring on state UNKNOWN
+05-19 13:24:08.770 15027 15027 V AutofillManager: notifyValueChanged(1073741831): ignoring on state UNKNOWN
+05-19 13:24:08.771 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.CartLabActivity@34094aa in: CREATED
+05-19 13:24:08.771 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { cmp=com.example.healthcare/.CartLabActivity mCallingUid=10495 }, activity=com.example.healthcare.CartLabActivity@34094aa
+05-19 13:24:08.774 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.CartLabActivity@34094aa in: STARTED
+05-19 13:24:08.774 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { cmp=com.example.healthcare/.CartLabActivity mCallingUid=10495 }, activity=com.example.healthcare.CartLabActivity@34094aa
+05-19 13:24:08.775 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.CartLabActivity@34094aa in: RESUMED
+05-19 13:24:08.775 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { cmp=com.example.healthcare/.CartLabActivity mCallingUid=10495 }, activity=com.example.healthcare.CartLabActivity@34094aa
+05-19 13:24:08.776  1176  1381 I SurfaceFlinger: [SF client] NEW(0xb400006fc38ffb80) for (15027:com.example.healthcare)
+05-19 13:24:08.779 15027 15027 D WindowManager: Add to mViews: DecorView@a989d64[CartLabActivity],pkg= com.example.healthcare
+05-19 13:24:08.782  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.782  1486  1573 D AAL     : onBacklightChanged: 878/1023 -> 904/1023(phy:904/4095)
+05-19 13:24:08.798 15027 15027 D InputEventReceiver: Input log is disabled
+05-19 13:24:08.798  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.798  1486  1573 D AAL     : onBacklightChanged: 904/1023 -> 931/1023(phy:931/4095)
+05-19 13:24:08.802 15027 15027 D VRI[LabTestActivity]: onFocusEvent false
+05-19 13:24:08.804  1176  1176 D OplusLayer: ~Layer() sequence=251979, name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251979
+05-19 13:24:08.804  1176  1176 D OplusLayer: ~Layer() sequence=251980, name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251980
+05-19 13:24:08.812  1176  1308 D VRR [OTI-HW]: isStateReady 0
+05-19 13:24:08.812  1176  1308 D VRR [OTI-HW]: rate range: min {id=0, hwcId=0, resolution=1080x2400, refreshRate=60.00 Hz, dpi=409.02x409.02, group=0} cur {id=0, hwcId=0, resolution=1080x2400, refreshRate=60.00 Hz, dpi=409.02x409.02, group=0} max {id=0, hwcId=0, resolution=1080x2400, refreshRate=60.00 Hz, dpi=409.02x409.02, group=0}
+05-19 13:24:08.812  1176  1308 D VRR [OTI-HW]: keep rate.
+05-19 13:24:08.815  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.815  1486  1573 D AAL     : onBacklightChanged: 931/1023 -> 957/1023(phy:957/4095)
+05-19 13:24:08.819  1176  1389 I BufferQueueDebug: [com.example.healthcare/com.example.healthcare.CartLabActivity#251990](this:0xb400006fb80bd9e8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1176:/system/bin/surfaceflinger)
+05-19 13:24:08.828  1931  2436 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+05-19 13:24:08.830  1176  1381 D [OSIE]  : scltmLayer_name VRI[CartLabActivity][com.example.healthcare/com.example.healthcare.CartLabActivity]
+05-19 13:24:08.830  1176  1381 D [OSIE]  : IsSCLTMLayer=0
+05-19 13:24:08.830 15027 15027 D BufferQueueConsumer: [](id:3ab300000003,api:0,p:-1,c:15027) connect: controlledByApp=false
+05-19 13:24:08.831  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.831  1486  1573 D AAL     : onBacklightChanged: 957/1023 -> 984/1023(phy:984/4095)
+05-19 13:24:08.832  1486  1573 D AAL     : 05-19 01:24:08.765 BL= 878,ESS= 256, 05-19 01:24:08.782 BL= 903,ESS= 256, 05-19 01:24:08.799 BL= 931,ESS= 256, 05-19 01:24:08.815 BL= 956,ESS= 256, 05-19 01:24:08.832 BL= 984,ESS= 256,
+05-19 13:24:08.838 15027 15027 D VRI[CartLabActivity]: registerCallbacksForSync syncBuffer=false
+05-19 13:24:08.848  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.848  1486  1573 D AAL     : onBacklightChanged: 984/1023 -> 1010/1023(phy:1010/4095)
+05-19 13:24:08.854  1176  1176 D Layer   : reparent to null sequence=251987, seq[1], name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251987
+05-19 13:24:08.854  1176  1176 D Layer   : reparent to null sequence=251988, seq[2], name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251988
+05-19 13:24:08.864  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.864  1486  1573 D AAL     : onBacklightChanged: 1010/1023 -> 1037/1023(phy:1037/4095)
+05-19 13:24:08.871 15027 15061 D BLASTBufferQueue: [VRI[CartLabActivity][com.example.healthcare/com.example.healthcare.CartLabActivity]#3](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=861288394881487(auto) mPendingTransactions.size=0 graphicBufferId=64540473557017 transform=0
+05-19 13:24:08.871 15027 15061 D VRI[CartLabActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+05-19 13:24:08.872 15027 15061 W Parcel  : Expecting binder but got null!
+05-19 13:24:08.872 15027 15027 D VRI[CartLabActivity]: draw finished.
+05-19 13:24:08.881  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.881  1486  1573 D AAL     : onBacklightChanged: 1037/1023 -> 1063/1023(phy:1063/4095)
+05-19 13:24:08.887  1176  1176 D BufferStateLayer: com.example.healthcare/com.example.healthcare.CartLabActivity#251990 setBuffer frameId=1, bufferId=64540473557017 fenceId=795, w= 1080, h=2400
+05-19 13:24:08.887  1176  1176 D OplusLayer: (251990,com.example.healthcare/com.example.healthcare.CartLabActivity#251990,com.example.healthcare) setBuffer
+05-19 13:24:08.892  1931  1955 I ActivityTaskManager: Displayed com.example.healthcare/.CartLabActivity: +486ms
+05-19 13:24:08.897 15027 15027 D VRI[CartLabActivity]: registerCallbacksForSync syncBuffer=false
+05-19 13:24:08.897  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.897  1486  1573 D AAL     : onBacklightChanged: 1063/1023 -> 1090/1023(phy:1090/4095)
+05-19 13:24:08.904  1176  1176 D OplusLayer: ~Layer() sequence=251987, name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251987
+05-19 13:24:08.904  1176  1176 D OplusLayer: ~Layer() sequence=251988, name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251988
+05-19 13:24:08.912 15027 15061 D VRI[CartLabActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+05-19 13:24:08.913  1176  1176 D OplusLayer: ~Layer() sequence=251998, name=Screenshot Parent#251998
+05-19 13:24:08.913 15027 15027 D VRI[CartLabActivity]: draw finished.
+05-19 13:24:08.915  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.915  1486  1573 D AAL     : onBacklightChanged: 1090/1023 -> 1116/1023(phy:1116/4095)
+05-19 13:24:08.915  1486  1573 D AAL     : 05-19 01:24:08.848 BL=1009,ESS= 256, 05-19 01:24:08.865 BL=1037,ESS= 256, 05-19 01:24:08.881 BL=1062,ESS= 256, 05-19 01:24:08.898 BL=1089,ESS= 256, 05-19 01:24:08.915 BL=1115,ESS= 256,
+05-19 13:24:08.916  1176  1381 I BufferQueueDebug: [Left Edge Extension#251999](this:0xb400006fc39809e8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1176:/system/bin/surfaceflinger)
+05-19 13:24:08.917  1176  1176 D OplusLayer: ~Layer() sequence=252000, name=Screenshot Parent#252000
+05-19 13:24:08.919  1176  1381 I BufferQueueDebug: [bbq-wrapper#252001](this:0xb400006fb3d399e8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1176:/system/bin/surfaceflinger)
+05-19 13:24:08.921  1176  1239 I BufferQueueDebug: [Right Edge Extension#252002](this:0xb400006fb3d679e8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1176:/system/bin/surfaceflinger)
+05-19 13:24:08.924  1176  1238 D [OSIE]  : scltmLayer_name bbq-adapter
+05-19 13:24:08.924  1176  1238 D [OSIE]  : IsSCLTMLayer=0
+05-19 13:24:08.925  1176  1238 I BufferQueueDebug: [bbq-wrapper#252003](this:0xb400006fb80ed9e8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1176:/system/bin/surfaceflinger)
+05-19 13:24:08.925  1931 15677 D BufferQueueConsumer: [](id:78b00002ec5,api:0,p:-1,c:1931) connect: controlledByApp=false
+05-19 13:24:08.927  1931 15677 E IPCThreadState: attemptIncStrongHandle(5008): Not supported
+05-19 13:24:08.927  1931 15677 D BLASTBufferQueue: [bbq-adapter#8422](f:0,a:0) constructor() width=1 height=2400 format=-1
+05-19 13:24:08.928  1176  2599 D [OSIE]  : scltmLayer_name bbq-adapter
+05-19 13:24:08.928  1176  2599 D [OSIE]  : IsSCLTMLayer=0
+05-19 13:24:08.928  1931 15678 D BufferQueueConsumer: [](id:78b00002ec6,api:0,p:-1,c:1931) connect: controlledByApp=false
+05-19 13:24:08.928  1931 15677 D BLASTBufferQueue: [bbq-adapter#8422](f:0,a:1) acquireNextBufferLocked size=1x2400 mFrameNumber=1 applyTransaction=true mTimestamp=861288451674718(auto) mPendingTransactions.size=0 graphicBufferId=5050882626188 transform=0
+05-19 13:24:08.928  1931 15678 D BLASTBufferQueue: [bbq-adapter#8423](f:0,a:0) constructor() width=1 height=2400 format=-1
+05-19 13:24:08.929  1931 15678 D BLASTBufferQueue: [bbq-adapter#8423](f:0,a:1) acquireNextBufferLocked size=1x2400 mFrameNumber=1 applyTransaction=true mTimestamp=861288452786872(auto) mPendingTransactions.size=0 graphicBufferId=5050882626187 transform=0
+05-19 13:24:08.930  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.931  1486  1573 D AAL     : onBacklightChanged: 1116/1023 -> 1143/1023(phy:1143/4095)
+05-19 13:24:08.936  1176  1176 D BufferStateLayer: bbq-wrapper#252001 Left Edge Extension#251999 setBuffer frameId=1, bufferId=5050882626188 fenceId=-1, w= 1, h=2400
+05-19 13:24:08.937  1176  1176 D OplusLayer: (252001,bbq-wrapper#252001 Left Edge Extension#251999,system_server) setBuffer
+05-19 13:24:08.937  1176  1176 D BufferStateLayer: bbq-wrapper#252003 Right Edge Extension#252002 setBuffer frameId=1, bufferId=5050882626187 fenceId=-1, w= 1, h=2400
+05-19 13:24:08.937  1176  1176 D OplusLayer: (252003,bbq-wrapper#252003 Right Edge Extension#252002,system_server) setBuffer
+05-19 13:24:08.947  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.947  1486  1573 D AAL     : onBacklightChanged: 1143/1023 -> 1169/1023(phy:1169/4095)
+05-19 13:24:08.952 15027 15041 I mple.healthcare: Compiler allocated 4937KB to compile void android.view.ViewRootImpl.performTraversals()
+05-19 13:24:08.955  1176  1176 I DispPerfService: updateLayerMask 0
+05-19 13:24:08.957  1078  1119 I mtkpower@impl: [setMode] type:6, enabled:1
+05-19 13:24:08.958  1078  1119 E mtkpower@impl: [setMode] unknown type
+05-19 13:24:08.964  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.964  1486  1573 D AAL     : onBacklightChanged: 1169/1023 -> 1196/1023(phy:1196/4095)
+05-19 13:24:08.965  1078  1119 I mtkpower@impl: [setMode] type:5, enabled:0
+05-19 13:24:08.965  1078  1185 I libPowerHal: [perfLockRel] hdl:511892, idx:1
+05-19 13:24:08.966  1931  1948 I PowerHalWrapper: amsBoostStop AMS_BOOST_PACK_SWITCH:false, AMS_BOOST_ACT_SWITCH:true, AMS_BOOST_PROCESS_CREATE:false
+05-19 13:24:08.967  1078  1116 I mtkpower@impl: [mtkPowerHint] hint:23, hold:0, ext:30, ext_hold:5000
+05-19 13:24:08.967  1078  1185 I libPowerHal: [perfLockRel] hdl:511893, idx:2
+05-19 13:24:08.967  1078  1185 I libPowerHal: MTKPOWER_HINT_ACT_SWITCH: cpu_ctrl set cpu freq: 1275000 -1 2200000 -1
+05-19 13:24:08.967  1078  1185 I libPowerHal: [PD] MTKPOWER_HINT_ACT_SWITCH update cmd:1000000, param:-1
+05-19 13:24:08.968  1078  1185 I libPowerHal: [PD] MTKPOWER_HINT_ACT_SWITCH update cmd:1408300 param:0
+05-19 13:24:08.968  1078  1185 I libPowerHal: [PD] MTKPOWER_HINT_ACT_SWITCH update cmd:1000000 param:-1
+05-19 13:24:08.980  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.980  1486  1573 D AAL     : onBacklightChanged: 1196/1023 -> 1222/1023(phy:1222/4095)
+05-19 13:24:08.997  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:08.997  1486  1573 D AAL     : onBacklightChanged: 1222/1023 -> 1249/1023(phy:1249/4095)
+05-19 13:24:08.997  1486  1573 D AAL     : 05-19 01:24:08.931 BL=1143,ESS= 256, 05-19 01:24:08.947 BL=1169,ESS= 256, 05-19 01:24:08.964 BL=1195,ESS= 256, 05-19 01:24:08.981 BL=1222,ESS= 256, 05-19 01:24:08.997 BL=1248,ESS= 256,
+05-19 13:24:09.005  1931  2436 I FocusResolver: updateFocusedWindow, 75c9e5b com.example.healthcare/com.example.healthcare.CartLabActivity on display 0, reason: Window became focusable. Previous reason: NOT_VISIBLE, result:   FocusedWindows:
+05-19 13:24:09.005  1931  2436 I FocusResolver:     displayId=0, name='75c9e5b com.example.healthcare/com.example.healthcare.CartLabActivity'
+05-19 13:24:09.006 15027 15027 D VRI[CartLabActivity]: onFocusEvent true
+05-19 13:24:09.006  1176  1176 I DispPerfService: updateLayerMask 0
+05-19 13:24:09.013 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3261
+05-19 13:24:09.013  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.013  1486  1573 D AAL     : onBacklightChanged: 1249/1023 -> 1275/1023(phy:1275/4095)
+05-19 13:24:09.013 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2110 repeatCheckTimes = 0, locked = false
+05-19 13:24:09.014 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1898 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.healthcare fieldId=2131230830 fieldName=null extras=Bundle[{com.oplus.im.SCENES=0}] hintLocales=[]}, false)
+05-19 13:24:09.014 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4088 ShouldHideHeaderOnInitialState = false
+05-19 13:24:09.014 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2110 repeatCheckTimes = 1, locked = false
+05-19 13:24:09.020  1176  1176 D Layer   : reparent to null sequence=251982, seq[3], name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#251982
+05-19 13:24:09.030  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.030  1486  1573 D AAL     : onBacklightChanged: 1275/1023 -> 1301/1023(phy:1301/4095)
+05-19 13:24:09.040  4762  4945 D PickerSyncController: syncAllMedia
+05-19 13:24:09.040  4762  4945 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+05-19 13:24:09.040  4762  4945 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+05-19 13:24:09.052  4762  4945 D PickerSyncController:    Latest ID/Gen=1402:4c11cbfa-6cac-42d7-bc28-8f10f530c45e:bcdf-c29f:external_primary/358010
+05-19 13:24:09.052  4762  4945 D PickerSyncController:    Cached ID/Gen=1402:4c11cbfa-6cac-42d7-bc28-8f10f530c45e:bcdf-c29f:external_primary/358002
+05-19 13:24:09.053  1176  1176 D OplusLayer: ~Layer() sequence=251982, name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#251982
+05-19 13:24:09.054  4762  4945 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=358002, latest=Bundle[{last_media_sync_generation=358010, media_collection_id=1402:4c11cbfa-6cac-42d7-bc28-8f10f530c45e:bcdf-c29f:external_primary}]}
+05-19 13:24:09.054  4762  4945 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+05-19 13:24:09.065  4762  4945 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=358002}]. Result count: 0. Cursor count: 0
+05-19 13:24:09.065  4762  4945 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+05-19 13:24:09.065  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.065  1486  1573 D AAL     : onBacklightChanged: 1301/1023 -> 1328/1023(phy:1328/4095)
+05-19 13:24:09.072  4762  4945 W PickerDbFacade: Unable to promote cloud media with localId: 1000024655
+05-19 13:24:09.072  4762  4945 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=358002}]. Result count: 0. Cursor count: 1
+05-19 13:24:09.072  4762  4945 D PickerSyncController: syncAllMediaFromProvider() CLOUD, auth=null, retry=true
+05-19 13:24:09.073  4762  4945 D PickerSyncController: getSyncRequestParams() CLOUD, auth=null
+05-19 13:24:09.073  4762  4945 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_RESET, gen=0, latest=null}
+05-19 13:24:09.073  4762  4945 I PickerSyncController: Executing SyncReset. isLocal: false. authority: null
+05-19 13:24:09.074  4762  4945 I PickerSyncController: SyncReset. isLocal:false. authority: null. result count: 0
+05-19 13:24:09.074  4762  4945 D PickerSyncController: Ignoring cache media info for null authority with bundle: null
+05-19 13:24:09.074  4762  4945 I PickerSyncController: Executing SyncAlbumReset. isLocal: true. authority: com.android.providers.media.photopicker. albumId: null
+05-19 13:24:09.075  4762  4945 I PickerSyncController: Successfully executed SyncResetAlbum. authority: com.android.providers.media.photopicker. albumId: null. Result count: 0
+05-19 13:24:09.075  4762  4945 I PickerSyncController: Executing SyncAlbumReset. isLocal: false. authority: null. albumId: null
+05-19 13:24:09.076  4762  4945 I PickerSyncController: Successfully executed SyncResetAlbum. authority: null. albumId: null. Result count: 0
+05-19 13:24:09.079  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.080  1486  1573 D AAL     : onBacklightChanged: 1328/1023 -> 1354/1023(phy:1354/4095)
+05-19 13:24:09.080  1486  1573 D AAL     : 05-19 01:24:09.013 BL=1275,ESS= 256, 05-19 01:24:09.030 BL=1300,ESS= 256, 05-19 01:24:09.046 BL=1301,ESS= 256, 05-19 01:24:09.066 BL=1314,ESS= 256, 05-19 01:24:09.080 BL=1343,ESS= 256,
+05-19 13:24:09.090  1176  1176 I DispPerfService: updateLayerMask 0
+05-19 13:24:09.096  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.096  1486  1573 D AAL     : onBacklightChanged: 1354/1023 -> 1381/1023(phy:1381/4095)
+05-19 13:24:09.097  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511895, tid:2479
+05-19 13:24:09.097  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511895, dur:0, num:4, tid:2479
+05-19 13:24:09.097  1078  1185 I libPowerHal: [perfLockRel] hdl:511895, idx:0
+05-19 13:24:09.097  1078  1185 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1
+05-19 13:24:09.098  1078  1185 I libPowerHal: [PD] system_server update cmd:1c3c000 param:1
+05-19 13:24:09.098  1078  1185 I libPowerHal: [PD] (more) /proc/mcdi/state set +prefix:enable 1;
+05-19 13:24:09.098  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:09.099  1931  2479 I mtkpower_client: ret_hdl:511897
+05-19 13:24:09.113  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.113  1486  1573 D AAL     : onBacklightChanged: 1381/1023 -> 1407/1023(phy:1407/4095)
+05-19 13:24:09.129  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.129  1486  1573 D AAL     : onBacklightChanged: 1407/1023 -> 1434/1023(phy:1434/4095)
+05-19 13:24:09.145 12053 12053 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.cryptauth.cryptauthservice.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+05-19 13:24:09.146  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.146  1486  1573 D AAL     : onBacklightChanged: 1434/1023 -> 1460/1023(phy:1460/4095)
+05-19 13:24:09.149 13028 13028 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.cast.firstparty.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+05-19 13:24:09.150 13028 13028 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.trustagent.BridgeApi.START pkg=com.google.android.gms }
+05-19 13:24:09.151 13028 13028 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.gmscompliance.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService }
+05-19 13:24:09.157  3057  3057 D OplusTelephonyController: onSignalStrengthChanged: SignalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-105 rsrq=-11 rssnr=11 cqiTableIndex=2147483647 cqi=0 ta=0 level=3 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 0 },primary=CellSignalStrengthLte}, phoneId=0, mMtkLevel=0, mMtkRsrpOnly=false, mMtkLteRsrpThreshold=null, mMtkLteRssnrThreshold=null
+05-19 13:24:09.162  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.162  1486  1573 D AAL     : onBacklightChanged: 1460/1023 -> 1487/1023(phy:1487/4095)
+05-19 13:24:09.162  1486  1573 D AAL     : 05-19 01:24:09.096 BL=1372,ESS= 256, 05-19 01:24:09.113 BL=1400,ESS= 256, 05-19 01:24:09.129 BL=1429,ESS= 256, 05-19 01:24:09.146 BL=1458,ESS= 256, 05-19 01:24:09.162 BL=1487,ESS= 256,
+05-19 13:24:09.179  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.179  1486  1573 D AAL     : onBacklightChanged: 1487/1023 -> 1513/1023(phy:1513/4095)
+05-19 13:24:09.195  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.195  1486  1573 D AAL     : onBacklightChanged: 1513/1023 -> 1540/1023(phy:1540/4095)
+05-19 13:24:09.213 15027 15027 I ViewInteraction: Checking 'androidx.test.espresso.intent.Intents$2@7bb3b43' assertion on view view.getRootView() to equal view
+05-19 13:24:09.214  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.214  1486  1573 D AAL     : onBacklightChanged: 1540/1023 -> 1566/1023(phy:1566/4095)
+05-19 13:24:09.226  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511897, tid:2479
+05-19 13:24:09.226  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511897, dur:0, num:10, tid:2479
+05-19 13:24:09.226  1078  1185 I libPowerHal: [perfLockRel] hdl:511897, idx:0
+05-19 13:24:09.227  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:09.227  1931  2479 I mtkpower_client: ret_hdl:511898
+05-19 13:24:09.228  1078  1185 I libPowerHal: system_server: cpu_ctrl set cpu freq: 1275000 -1 2200000 -1
+05-19 13:24:09.228  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.228  1486  1573 D AAL     : onBacklightChanged: 1566/1023 -> 1593/1023(phy:1593/4095)
+05-19 13:24:09.233  1078  1119 I mtkpower@impl: [setMode] type:5, enabled:1
+05-19 13:24:09.234  1078  1185 I libPowerHal: LAUNCH: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1
+05-19 13:24:09.235  1931  1948 I PowerHalWrapper: <amsBoostResume> last:com.example.healthcare, next:com.example.healthcare
+05-19 13:24:09.236  1078  1185 I libPowerHal: [perfLockRel] hdl:511896, idx:1
+05-19 13:24:09.236  1078  1185 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:2020000 param:1
+05-19 13:24:09.239  1931  1948 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:09.239  1931  1948 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:09.241 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.CartLabActivity@34094aa in: PAUSED
+05-19 13:24:09.241 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { cmp=com.example.healthcare/.CartLabActivity mCallingUid=10495 }, activity=com.example.healthcare.CartLabActivity@34094aa
+05-19 13:24:09.242  1931  1948 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:09.242  1931  1948 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:09.242  1931  1948 D OplusUIFirst_FB: handleParaSwitch com.example.healthcare null null 1
+05-19 13:24:09.242  1931  1948 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:09.242  1931  1948 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:09.242  1931  1948 D OplusUIFirst_FB: handleParaSwitch com.example.healthcare null null 1
+05-19 13:24:09.245  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.245  1486  1573 D AAL     : onBacklightChanged: 1593/1023 -> 1619/1023(phy:1619/4095)
+05-19 13:24:09.245  1486  1573 D AAL     : 05-19 01:24:09.179 BL=1512,ESS= 256, 05-19 01:24:09.196 BL=1540,ESS= 256, 05-19 01:24:09.215 BL=1563,ESS= 256, 05-19 01:24:09.229 BL=1593,ESS= 256, 05-19 01:24:09.245 BL=1618,ESS= 256,
+05-19 13:24:09.250  1931  1948 I PowerHalWrapper: amsBoostNotify pid:15027,activity:androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, package:com.example.healthcare, mProcessCreatePackcom.example.healthcare
+05-19 13:24:09.250  1931  1948 I PowerHalWrapper: state: 1
+05-19 13:24:09.250  1931  1948 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity pid=15027 state:1
+05-19 13:24:09.250  1931  1948 I game_scn: collectForegroundAppList packName=com.example.healthcare, actName=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, pid=15027, uid=10495, state:RESUMED
+05-19 13:24:09.250  1931  1948 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:09.250  1931  1948 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{65600f7 u0 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} t2210}
+05-19 13:24:09.251  1078  1116 I mtkpower@impl: [notifyAppState] act com.example.healthcare.CartLabActivity => androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+05-19 13:24:09.252  1931  1948 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+05-19 13:24:09.256  1931  1948 I PowerHalWrapper: amsBoostNotify pid:15027,activity:com.example.healthcare.CartLabActivity, package:com.example.healthcare, mProcessCreatePackcom.example.healthcare
+05-19 13:24:09.256  1931  1948 I PowerHalWrapper: state: 0
+05-19 13:24:09.256  1931  1948 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.example.healthcare/com.example.healthcare.CartLabActivity pid=15027 state:0
+05-19 13:24:09.257  1931  1948 I game_scn: collectForegroundAppList packName=com.example.healthcare, actName=com.example.healthcare.CartLabActivity, pid=15027, uid=10495, state:PAUSED
+05-19 13:24:09.257  1931  1948 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:09.259  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511898, tid:2479
+05-19 13:24:09.259  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511898, dur:0, num:10, tid:2479
+05-19 13:24:09.259  1078  1185 I libPowerHal: [perfLockRel] hdl:511898, idx:0
+05-19 13:24:09.259  1078  1185 I libPowerHal: [PD] system_server update cmd:1c3c000 param:1
+05-19 13:24:09.259  1078  1185 I libPowerHal: [PD] (more) /proc/mcdi/state set +prefix:enable 1;
+05-19 13:24:09.259  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:09.260  1931  2479 I mtkpower_client: ret_hdl:511901
+05-19 13:24:09.261 15027 15138 D libMEOW : meow new tls: 0xb4000071894bdb40
+05-19 13:24:09.262  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.262  1486  1573 D AAL     : onBacklightChanged: 1619/1023 -> 1672/1023(phy:1672/4095)
+05-19 13:24:09.262 15027 15138 D libMEOW : applied 1 plugins for [com.example.healthcare]:
+05-19 13:24:09.262 15027 15138 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb4000071e5138080
+05-19 13:24:09.262 15027 15138 D libMEOW : rebuild call chain: 0xb400007177a65840
+05-19 13:24:09.262 15027 15138 D libMEOW : meow delete tls: 0xb4000071894bdb40
+05-19 13:24:09.262 15027 15027 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@ef385b5 in: PRE_ON_CREATE
+05-19 13:24:09.262 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10495 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@ef385b5
+05-19 13:24:09.275 15027 15027 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@ef385b5 in: CREATED
+05-19 13:24:09.275 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10495 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@ef385b5
+05-19 13:24:09.277 15027 15027 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@ef385b5 in: STARTED
+05-19 13:24:09.277 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10495 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@ef385b5
+05-19 13:24:09.278  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.278  1486  1573 D AAL     : onBacklightChanged: 1672/1023 -> 1699/1023(phy:1699/4095)
+05-19 13:24:09.279 15027 15027 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@ef385b5 in: RESUMED
+05-19 13:24:09.279 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10495 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@ef385b5
+05-19 13:24:09.280  1176  1239 I SurfaceFlinger: [SF client] NEW(0xb400006fc38394c0) for (15027:com.example.healthcare)
+05-19 13:24:09.283 15027 15027 D WindowManager: Add to mViews: DecorView@43bb66d[InstrumentationActivityInvoker$EmptyActivity],pkg= com.example.healthcare
+05-19 13:24:09.285  1931  2826 I FocusResolver: updateFocusedWindow,  on display 0, reason: Waiting for window because NOT_FOCUSABLE, result:   FocusedWindows: <none>
+05-19 13:24:09.293 15027 15027 D InputEventReceiver: Input log is disabled
+05-19 13:24:09.295  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.295  1486  1573 D AAL     : onBacklightChanged: 1699/1023 -> 1725/1023(phy:1725/4095)
+05-19 13:24:09.297 15027 15027 D VRI[CartLabActivity]: onFocusEvent false
+05-19 13:24:09.303  1176  1381 I BufferQueueDebug: [com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#252007](this:0xb400006fb3d489e8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1176:/system/bin/surfaceflinger)
+05-19 13:24:09.311  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.311  1486  1573 D AAL     : onBacklightChanged: 1725/1023 -> 1752/1023(phy:1752/4095)
+05-19 13:24:09.314  1931  2802 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+05-19 13:24:09.318  1176  1239 D [OSIE]  : scltmLayer_name VRI[InstrumentationActivityInvoker$EmptyActivity][com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity]
+05-19 13:24:09.318  1176  1239 D [OSIE]  : IsSCLTMLayer=0
+05-19 13:24:09.318 15027 15027 D BufferQueueConsumer: [](id:3ab300000004,api:0,p:-1,c:15027) connect: controlledByApp=false
+05-19 13:24:09.319  1176  1176 I DispPerfService: updateLayerMask 0
+05-19 13:24:09.321  1078  1119 I mtkpower@impl: [setMode] type:6, enabled:0
+05-19 13:24:09.321  1078  1119 E mtkpower@impl: [setMode] unknown type
+05-19 13:24:09.323 15027 15027 D VRI[InstrumentationActivityInvoker$EmptyActivity]: registerCallbacksForSync syncBuffer=false
+05-19 13:24:09.333  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:09.333  1486  1573 D AAL     : onBacklightChanged: 1752/1023 -> 1800/1023(phy:1800/4095)
+05-19 13:24:09.334  1176  1176 D Layer   : reparent to null sequence=251991, seq[1], name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251991
+05-19 13:24:09.334  1176  1176 D Layer   : reparent to null sequence=251992, seq[2], name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251992
+05-19 13:24:09.334 15027 15061 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity][com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity]#4](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=861288857858026(auto) mPendingTransactions.size=0 graphicBufferId=64540473557022 transform=0
+05-19 13:24:09.334 15027 15061 D VRI[InstrumentationActivityInvoker$EmptyActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+05-19 13:24:09.335 15027 15061 W Parcel  : Expecting binder but got null!
+05-19 13:24:09.335  1486  1573 D AAL     : 05-19 01:24:09.262 BL=1670,ESS= 256, 05-19 01:24:09.278 BL=1699,ESS= 256, 05-19 01:24:09.295 BL=1724,ESS= 256, 05-19 01:24:09.311 BL=1752,ESS= 256, 05-19 01:24:09.335 BL=1788,ESS= 256,
+05-19 13:24:09.335 15027 15027 D VRI[InstrumentationActivityInvoker$EmptyActivity]: draw finished.
+05-19 13:24:09.341  1931  1955 I ActivityTaskManager: Displayed com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +115ms
+05-19 13:24:09.349 15027 15027 D VRI[InstrumentationActivityInvoker$EmptyActivity]: registerCallbacksForSync syncBuffer=false
+05-19 13:24:09.349 15027 15061 D VRI[InstrumentationActivityInvoker$EmptyActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false syncBuffer=false
+05-19 13:24:09.350 15027 15027 D VRI[InstrumentationActivityInvoker$EmptyActivity]: draw finished.
+05-19 13:24:09.350  1176  1176 D BufferStateLayer: com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#252007 setBuffer frameId=1, bufferId=64540473557022 fenceId=1079, w= 1080, h=2400
+05-19 13:24:09.350  1176  1176 D OplusLayer: (252007,com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#252007,com.example.healthcare) setBuffer
+05-19 13:24:09.353  1931  2826 I FocusResolver: updateFocusedWindow, 26882e8 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity on display 0, reason: Window became focusable. Previous reason: NOT_VISIBLE, result:   FocusedWindows:
+05-19 13:24:09.353  1931  2826 I FocusResolver:     displayId=0, name='26882e8 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity'
+05-19 13:24:09.354 15027 15027 D VRI[InstrumentationActivityInvoker$EmptyActivity]: onFocusEvent true
+05-19 13:24:09.354  1176  1176 I DispPerfService: updateLayerMask 0
+05-19 13:24:09.361  1486  1573 D AAL     : 05-19 01:24:09.344 BL=1800,ESS= 256,
+05-19 13:24:09.367  1176  1176 D OplusLayer: ~Layer() sequence=251991, name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251991
+05-19 13:24:09.367  1176  1176 D OplusLayer: ~Layer() sequence=251992, name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251992
+05-19 13:24:09.370  1931  2802 I PowerHalWrapper: <amsBoostResume> last:com.example.healthcare, next:com.example.healthcare
+05-19 13:24:09.372  1078  1185 I libPowerHal: [perfLockRel] hdl:511900, idx:3
+05-19 13:24:09.377 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3261
+05-19 13:24:09.378 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2110 repeatCheckTimes = 0, locked = false
+05-19 13:24:09.378 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1898 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.healthcare fieldId=-1 fieldName=null extras=Bundle[{com.oplus.im.SCENES=0}] hintLocales=[]}, false)
+05-19 13:24:09.378 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4088 ShouldHideHeaderOnInitialState = false
+05-19 13:24:09.379 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2110 repeatCheckTimes = 1, locked = false
+05-19 13:24:09.382 15027 15027 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@ef385b5 in: PAUSED
+05-19 13:24:09.383 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10495 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@ef385b5
+05-19 13:24:09.384  1176  1176 D Layer   : reparent to null sequence=252004, seq[3], name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#252004
+05-19 13:24:09.385  1931  1948 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:09.385  1931  1948 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:09.385  1931  1948 D OplusUIFirst_FB: handleParaSwitch com.example.healthcare null null 1
+05-19 13:24:09.385  1931  1948 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:09.385  1931  1948 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:09.385  1931  1948 D OplusUIFirst_FB: handleParaSwitch com.example.healthcare null null 1
+05-19 13:24:09.386  1931  2802 I FocusResolver: updateFocusedWindow,  on display 0, reason: NO_WINDOW, result:   FocusedWindows: <none>
+05-19 13:24:09.387  1931  1948 I PowerHalWrapper: amsBoostNotify pid:15027,activity:com.example.healthcare.CartLabActivity, package:com.example.healthcare, mProcessCreatePackcom.example.healthcare
+05-19 13:24:09.387  1931  1948 I PowerHalWrapper: state: 1
+05-19 13:24:09.387  1931  1948 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.example.healthcare/com.example.healthcare.CartLabActivity pid=15027 state:1
+05-19 13:24:09.387  1931  1948 I game_scn: collectForegroundAppList packName=com.example.healthcare, actName=com.example.healthcare.CartLabActivity, pid=15027, uid=10495, state:RESUMED
+05-19 13:24:09.387  1931  1948 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:09.387  1931  1948 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{543ac98 u0 com.example.healthcare/.CartLabActivity} t2210}
+05-19 13:24:09.388  1078  1116 I mtkpower@impl: [notifyAppState] act androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity => com.example.healthcare.CartLabActivity
+05-19 13:24:09.394  1931  1948 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+05-19 13:24:09.403 15027 15127 D VRI[InstrumentationActivityInvoker$EmptyActivity]: dispatchAppVisibility visible:false
+05-19 13:24:09.408  1931  1948 I PowerHalWrapper: amsBoostNotify pid:15027,activity:androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, package:com.example.healthcare, mProcessCreatePackcom.example.healthcare
+05-19 13:24:09.408  1931  1948 I PowerHalWrapper: state: 0
+05-19 13:24:09.408  1931  1948 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity pid=15027 state:0
+05-19 13:24:09.408  1931  1948 I game_scn: collectForegroundAppList packName=com.example.healthcare, actName=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, pid=15027, uid=10495, state:PAUSED
+05-19 13:24:09.408  1931  1948 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:09.409 15027 15127 D VRI[LabTestActivity]: dispatchAppVisibility visible:false
+05-19 13:24:09.409 15027 15027 D VRI[InstrumentationActivityInvoker$EmptyActivity]: onFocusEvent false
+05-19 13:24:09.415 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.CartLabActivity@34094aa in: RESUMED
+05-19 13:24:09.415 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { cmp=com.example.healthcare/.CartLabActivity mCallingUid=10495 }, activity=com.example.healthcare.CartLabActivity@34094aa
+05-19 13:24:09.415  1931  1959 D BLASTBufferQueue: [bbq-adapter#8423](f:0,a:1) destructor()
+05-19 13:24:09.415  1931  1959 D BufferQueueConsumer: [bbq-adapter#8423(BLAST Consumer)8423](id:78b00002ec6,api:0,p:-1,c:1931) disconnect
+05-19 13:24:09.416  1931  1959 D BLASTBufferQueue: [bbq-adapter#8422](f:0,a:1) destructor()
+05-19 13:24:09.416  1931  1959 D BufferQueueConsumer: [bbq-adapter#8422(BLAST Consumer)8422](id:78b00002ec5,api:0,p:-1,c:1931) disconnect
+05-19 13:24:09.416  1176  1176 D Layer   : reparent to null sequence=252008, seq[1], name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#252008
+05-19 13:24:09.417  1176  1176 D Layer   : reparent to null sequence=252009, seq[2], name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#252009
+05-19 13:24:09.417  1176  1176 D Layer   : reparent to null sequence=251995, seq[85], name=Surface(name=ActivityRecord{d20574a u0 com.example.healthcare/.LabTestActivity})/@0xe84f8a5 - animation-leash of app_transition#251995
+05-19 13:24:09.417  1176  1176 D Layer   : reparent to null sequence=252002, seq[4], name=Right Edge Extension#252002
+05-19 13:24:09.417  1176  1176 D Layer   : reparent to null sequence=251996, seq[1], name=Surface(name=ActivityRecord{d20574a u0 com.example.healthcare/.LabTestActivity})/@0xe84f8a5 - animation-bounds#251996
+05-19 13:24:09.417  1176  1176 D Layer   : reparent to null sequence=251993, seq[85], name=Surface(name=ActivityRecord{543ac98 u0 com.example.healthcare/.CartLabActivity})/@0xe4b5370 - animation-leash of app_transition#251993
+05-19 13:24:09.417  1176  1176 D Layer   : reparent to null sequence=251999, seq[4], name=Left Edge Extension#251999
+05-19 13:24:09.417  1176  1176 D Layer   : reparent to null sequence=251994, seq[2], name=Surface(name=ActivityRecord{543ac98 u0 com.example.healthcare/.CartLabActivity})/@0xe4b5370 - animation-bounds#251994
+05-19 13:24:09.418  1176  1176 D OplusLayer: ~Layer() sequence=252004, name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#252004
+05-19 13:24:09.418  1176  1176 D OplusLayer: ~Layer() sequence=251996, name=Surface(name=ActivityRecord{d20574a u0 com.example.healthcare/.LabTestActivity})/@0xe84f8a5 - animation-bounds#251996
+05-19 13:24:09.418  1176  1176 D OplusLayer: ~Layer() sequence=251995, name=Surface(name=ActivityRecord{d20574a u0 com.example.healthcare/.LabTestActivity})/@0xe84f8a5 - animation-leash of app_transition#251995
+05-19 13:24:09.418  1176  1176 I BufferQueueDebug: [Right Edge Extension#252002](this:0xb400006fb3d679e8,id:-1,api:0,p:-1,c:1176) onDestructor()
+05-19 13:24:09.418  1176  1176 D OplusLayer: ~Layer() sequence=252002, name=Right Edge Extension#252002
+05-19 13:24:09.418  1176  1176 I BufferQueueDebug: [bbq-wrapper#252003](this:0xb400006fb80ed9e8,id:-1,api:0,p:-1,c:1176) onDestructor()
+05-19 13:24:09.418  1176  1176 D OplusLayer: ~Layer() sequence=252003, name=bbq-wrapper#252003 Right Edge Extension#252002
+05-19 13:24:09.419  1176  1176 D OplusLayer: ~Layer() sequence=251994, name=Surface(name=ActivityRecord{543ac98 u0 com.example.healthcare/.CartLabActivity})/@0xe4b5370 - animation-bounds#251994
+05-19 13:24:09.419  1176  1176 D OplusLayer: ~Layer() sequence=251993, name=Surface(name=ActivityRecord{543ac98 u0 com.example.healthcare/.CartLabActivity})/@0xe4b5370 - animation-leash of app_transition#251993
+05-19 13:24:09.419  1176  1176 I BufferQueueDebug: [Left Edge Extension#251999](this:0xb400006fc39809e8,id:-1,api:0,p:-1,c:1176) onDestructor()
+05-19 13:24:09.419  1176  1176 D OplusLayer: ~Layer() sequence=251999, name=Left Edge Extension#251999
+05-19 13:24:09.419  1176  1176 I BufferQueueDebug: [bbq-wrapper#252001](this:0xb400006fb3d399e8,id:-1,api:0,p:-1,c:1176) onDestructor()
+05-19 13:24:09.419  1176  1176 D OplusLayer: ~Layer() sequence=252001, name=bbq-wrapper#252001 Left Edge Extension#251999
+05-19 13:24:09.421  1931  1948 I FocusResolver: updateFocusedWindow, 75c9e5b com.example.healthcare/com.example.healthcare.CartLabActivity on display 0, reason: Window became focusable. Previous reason: NO_WINDOW, result:   FocusedWindows:
+05-19 13:24:09.421  1931  1948 I FocusResolver:     displayId=0, name='75c9e5b com.example.healthcare/com.example.healthcare.CartLabActivity'
+05-19 13:24:09.422  1176  1176 I DispPerfService: updateLayerMask 0
+05-19 13:24:09.430 15027 15027 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity][com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity]#4](f:0,a:1) destructor()
+05-19 13:24:09.430 15027 15027 D BufferQueueConsumer: [VRI[InstrumentationActivityInvoker$EmptyActivity][com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity]#4(BLAST Consumer)4](id:3ab300000004,api:0,p:-1,c:15027) disconnect
+05-19 13:24:09.433  1176  1176 D OplusLayer: ~Layer() sequence=252008, name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#252008
+05-19 13:24:09.433  1176  1176 D OplusLayer: ~Layer() sequence=252009, name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#252009
+05-19 13:24:09.439 15027 15027 D BLASTBufferQueue: [VRI[LabTestActivity][com.example.healthcare/com.example.healthcare.LabTestActivity]#2](f:0,a:1) destructor()
+05-19 13:24:09.439 15027 15027 D BufferQueueConsumer: [VRI[LabTestActivity][com.example.healthcare/com.example.healthcare.LabTestActivity]#2(BLAST Consumer)2](id:3ab300000002,api:0,p:-1,c:15027) disconnect
+05-19 13:24:09.442 15027 15027 D VRI[CartLabActivity]: onFocusEvent true
+05-19 13:24:09.443 15027 15027 D VRI[InstrumentationActivityInvoker$EmptyActivity]: setWindowStopped stopped:true
+05-19 13:24:09.444 15027 15027 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@ef385b5 in: STOPPED
+05-19 13:24:09.445 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10495 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@ef385b5
+05-19 13:24:09.446 15027 15027 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@ef385b5 in: DESTROYED
+05-19 13:24:09.447 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10495 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@ef385b5
+05-19 13:24:09.447 15027 15027 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+05-19 13:24:09.447 15027 15027 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@b7221d9
+05-19 13:24:09.447 15027 15027 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver
+05-19 13:24:09.447 15027 15027 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@cbeb79e
+05-19 13:24:09.451  1931  4626 W InputManager-JNI: Input channel object '26882e8 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+05-19 13:24:09.460 15027 15027 D VRI[LabTestActivity]: setWindowStopped stopped:true
+05-19 13:24:09.460 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.LabTestActivity@cb35 in: STOPPED
+05-19 13:24:09.461 15027 15027 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.healthcare.LabTestActivity@cb35
+05-19 13:24:09.462 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.LabTestActivity@cb35 in: DESTROYED
+05-19 13:24:09.462 15027 15027 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-19 13:24:09.462 15027 15027 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+05-19 13:24:09.462 15027 15027 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@f1ec79b
+05-19 13:24:09.462 15027 15027 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver
+05-19 13:24:09.462 15027 15027 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@dce6738
+05-19 13:24:09.466  1176  1176 D Layer   : reparent to null sequence=252007, seq[7], name=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#252007
+05-19 13:24:09.466  1176  1176 D Layer   : reparent to null sequence=252006, seq[5], name=26882e8 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#252006
+05-19 13:24:09.466  1176  1176 D Layer   : reparent to null sequence=252011, seq[3], name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#252011
+05-19 13:24:09.467  1176  1176 D OplusLayer: ~Layer() sequence=251956, name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#251956
+05-19 13:24:09.467  1176  1176 D OplusLayer: ~Layer() sequence=252006, name=26882e8 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#252006
+05-19 13:24:09.467  1176  1176 I BufferQueueDebug: [com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#252007](this:0xb400006fb3d489e8,id:-1,api:0,p:-1,c:1176) onDestructor()
+05-19 13:24:09.467  1176  1176 D OplusLayer: ~Layer() sequence=252007, name=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#252007
+05-19 13:24:09.467  1176  1176 D OplusLayer: ~Layer() sequence=252011, name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#252011
+05-19 13:24:09.468  1931  4626 W InputManager-JNI: Input channel object 'bc2b238 com.example.healthcare/com.example.healthcare.LabTestActivity (client)' was disposed without first being removed with the input manager!
+05-19 13:24:09.481 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3261
+05-19 13:24:09.482 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2110 repeatCheckTimes = 0, locked = false
+05-19 13:24:09.482 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1898 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.healthcare fieldId=2131230830 fieldName=null extras=Bundle[{com.oplus.im.SCENES=0}] hintLocales=[]}, false)
+05-19 13:24:09.482 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4088 ShouldHideHeaderOnInitialState = false
+05-19 13:24:09.483  1176  1176 D Layer   : reparent to null sequence=252005, seq[5], name=ActivityRecord{65600f7 u0 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}#252005
+05-19 13:24:09.483 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2110 repeatCheckTimes = 1, locked = false
+05-19 13:24:09.483  1176  1176 D Layer   : reparent to null sequence=251978, seq[7], name=com.example.healthcare/com.example.healthcare.LabTestActivity#251978
+05-19 13:24:09.483  1176  1176 D Layer   : reparent to null sequence=251977, seq[5], name=bc2b238 com.example.healthcare/com.example.healthcare.LabTestActivity#251977
+05-19 13:24:09.483  1176  1176 D OplusLayer: ~Layer() sequence=251977, name=bc2b238 com.example.healthcare/com.example.healthcare.LabTestActivity#251977
+05-19 13:24:09.483  1176  1176 I BufferQueueDebug: [com.example.healthcare/com.example.healthcare.LabTestActivity#251978](this:0xb400006fc3ba89e8,id:-1,api:0,p:-1,c:1176) onDestructor()
+05-19 13:24:09.483  1176  1176 D OplusLayer: ~Layer() sequence=251978, name=com.example.healthcare/com.example.healthcare.LabTestActivity#251978
+05-19 13:24:09.484  1176  1176 D OplusLayer: ~Layer() sequence=252005, name=ActivityRecord{65600f7 u0 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}#252005
+05-19 13:24:09.484  1176  1176 D OplusLayer: ~Layer() sequence=252010, name=cf3db64 ActivityRecordInputSink com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#252010
+05-19 13:24:09.487  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=ca:**:**:**:3f:21 addr_type=1
+05-19 13:24:09.487  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 21
+05-19 13:24:09.487  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=ca:**:**:**:3f:21 addr_type=1
+05-19 13:24:09.487  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 18
+05-19 13:24:09.487  7182  7321 I bt_btif : LogMsg: bta_dm_observe_results_cb
+05-19 13:24:09.487  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD ca:0f:76:9e:3f:21 cod is 0x000000
+05-19 13:24:09.487  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD cod in config 0x001f00, status=0
+05-19 13:24:09.487  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD invalid cod 0x0, use cod 0x1f00 in config
+05-19 13:24:09.487  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl : type 0 channel 0
+05-19 13:24:09.488  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl: HAL bt_gatt_callbacks->scanner->scan_result_cb
+05-19 13:24:09.488  7182  7218 D BtGatt.GattService: onScanResult() - eventType=0x1b, addressType=1, address=CA:0F:76:9E:3F:21, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-81, periodicAdvInt=0x0, originalAddress=CA:0F:76:9E:3F:21, type=0, channel=0
+05-19 13:24:09.488  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.488  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.488  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.488  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.488  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.488  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.490  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=5c:**:**:**:a3:5d addr_type=1
+05-19 13:24:09.490  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 25
+05-19 13:24:09.490  7182  7321 I bt_btif : LogMsg: bta_dm_observe_results_cb
+05-19 13:24:09.490  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD 5c:5d:bd:a5:a3:5d cod is 0x000000
+05-19 13:24:09.491  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD cod in config 0x000000, status=1
+05-19 13:24:09.491  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD invalid cod 0x0, use cod 0x0 in config
+05-19 13:24:09.491  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD cod is again 0, set as unclassified
+05-19 13:24:09.491  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD cod change 0x0=>0x1f00, update config
+05-19 13:24:09.491  7182  7321 V bt_stack: [VERBOSE1:btif_config.cc(499)] btif_config_get_bin: cannot find string for section 5c:5d:bd:a5:a3:5d, key LinkKey
+05-19 13:24:09.491  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl dev_type change 0x0=>0x2, update config
+05-19 13:24:09.491  7182  7218 V bt_stack: [VERBOSE1:btif_config.cc(499)] btif_config_get_bin: cannot find string for section 5c:5d:bd:a5:a3:5d, key LinkKey
+05-19 13:24:09.491  7182  7218 I bt_btif : LogMsg: btif_in_fetch_bonded_ble_device Found a LE device: 5c:5d:bd:a5:a3:5d
+05-19 13:24:09.491  7182  7218 V bt_stack: [VERBOSE1:btif_config.cc(499)] btif_config_get_bin: cannot find string for section 5c:5d:bd:a5:a3:5d, key LE_KEY_PENC
+05-19 13:24:09.491  7182  7218 V bt_stack: [VERBOSE1:btif_config.cc(499)] btif_config_get_bin: cannot find string for section 5c:5d:bd:a5:a3:5d, key LE_KEY_PID
+05-19 13:24:09.491  7182  7218 V bt_stack: [VERBOSE1:btif_config.cc(499)] btif_config_get_bin: cannot find string for section 5c:5d:bd:a5:a3:5d, key LE_KEY_LID
+05-19 13:24:09.491  7182  7218 V bt_stack: [VERBOSE1:btif_config.cc(499)] btif_config_get_bin: cannot find string for section 5c:5d:bd:a5:a3:5d, key LE_KEY_PCSRK
+05-19 13:24:09.491  7182  7218 V bt_stack: [VERBOSE1:btif_config.cc(499)] btif_config_get_bin: cannot find string for section 5c:5d:bd:a5:a3:5d, key LE_KEY_LENC
+05-19 13:24:09.491  7182  7218 V bt_stack: [VERBOSE1:btif_config.cc(499)] btif_config_get_bin: cannot find string for section 5c:5d:bd:a5:a3:5d, key LE_KEY_LCSRK
+05-19 13:24:09.491  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl : type 0 channel 0
+05-19 13:24:09.491  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl: HAL bt_gatt_callbacks->scanner->scan_result_cb
+05-19 13:24:09.491  7182  7218 D BtGatt.GattService: onScanResult() - eventType=0x10, addressType=1, address=5C:5D:BD:A5:A3:5D, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-92, periodicAdvInt=0x0, originalAddress=5C:5D:BD:A5:A3:5D, type=0, channel=0
+05-19 13:24:09.492  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.492  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.492  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.492  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.492  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.492  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.496  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=46:**:**:**:97:d5 addr_type=1
+05-19 13:24:09.496  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 31
+05-19 13:24:09.496  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=46:**:**:**:97:d5 addr_type=1
+05-19 13:24:09.496  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 0
+05-19 13:24:09.496  7182  7321 I bt_btif : LogMsg: bta_dm_observe_results_cb
+05-19 13:24:09.496  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD 46:2a:19:3c:97:d5 cod is 0x000000
+05-19 13:24:09.496  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD cod in config 0x001f00, status=0
+05-19 13:24:09.496  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD invalid cod 0x0, use cod 0x1f00 in config
+05-19 13:24:09.497  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl : type 0 channel 0
+05-19 13:24:09.497  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl: HAL bt_gatt_callbacks->scanner->scan_result_cb
+05-19 13:24:09.497  7182  7218 D BtGatt.GattService: onScanResult() - eventType=0x1b, addressType=1, address=46:2A:19:3C:97:D5, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-88, periodicAdvInt=0x0, originalAddress=46:2A:19:3C:97:D5, type=0, channel=0
+05-19 13:24:09.497  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.497  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.497  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.497  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.497  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.497  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:09.499  1176  1176 D Layer   : reparent to null sequence=251969, seq[4], name=ActivityRecord{d20574a u0 com.example.healthcare/.LabTestActivity}#251969
+05-19 13:24:09.499  1176  1176 D Layer   : reparent to null sequence=252014, seq[2], name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#252014
+05-19 13:24:09.500  1176  1176 D OplusLayer: ~Layer() sequence=251969, name=ActivityRecord{d20574a u0 com.example.healthcare/.LabTestActivity}#251969
+05-19 13:24:09.500  1176  1176 D OplusLayer: ~Layer() sequence=251976, name=e99e6bb ActivityRecordInputSink com.example.healthcare/.LabTestActivity#251976
+05-19 13:24:09.501 15027 15057 I TestRunner: finished: testGoToCartButton(com.example.healthcare.LabTestActivityTest)

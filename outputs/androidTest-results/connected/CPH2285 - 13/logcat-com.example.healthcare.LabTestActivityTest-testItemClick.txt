@@ -1,0 +1,1045 @@
+05-19 13:24:05.658 15027 15057 I TestRunner: started: testItemClick(com.example.healthcare.LabTestActivityTest)
+05-19 13:24:05.670  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.670  1486  1573 D AAL     : onBacklightChanged: 1730/1023 -> 1703/1023(phy:1703/4095)
+05-19 13:24:05.674 15027 15057 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-19 13:24:05.687  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.688  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511871, tid:2479
+05-19 13:24:05.688  1486  1573 D AAL     : onBacklightChanged: 1703/1023 -> 1676/1023(phy:1676/4095)
+05-19 13:24:05.688  1486  1573 D AAL     : 05-19 01:24:05.621 BL=1799,ESS= 256, 05-19 01:24:05.638 BL=1771,ESS= 256, 05-19 01:24:05.655 BL=1743,ESS= 256, 05-19 01:24:05.670 BL=1715,ESS= 256, 05-19 01:24:05.688 BL=1687,ESS= 256,
+05-19 13:24:05.689  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511871, dur:0, num:10, tid:2479
+05-19 13:24:05.689  1078  1116 I mtkpower@impl: [check_work_req] i:0, msg:1 hdl:511871, wait
+05-19 13:24:05.691  1078  1185 I libPowerHal: [perfLockRel] hdl:511871, idx:0
+05-19 13:24:05.691  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:05.693  1931  2479 I mtkpower_client: ret_hdl:511872
+05-19 13:24:05.696  1078  1185 I libPowerHal: system_server: cpu_ctrl set cpu freq: 1275000 -1 2200000 -1
+05-19 13:24:05.702  1078  1119 I mtkpower@impl: [setMode] type:5, enabled:1
+05-19 13:24:05.703  1078  1185 I libPowerHal: LAUNCH: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1
+05-19 13:24:05.703  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.703  1486  1573 D AAL     : onBacklightChanged: 1676/1023 -> 1649/1023(phy:1649/4095)
+05-19 13:24:05.705  1931  4367 I PowerHalWrapper: <amsBoostResume> last:com.android.launcher, next:com.example.healthcare
+05-19 13:24:05.706  4740  5387 I AudioTrack: getMarkerPosition(): 0xb4000070dfbf0000, marker = 169028
+05-19 13:24:05.706  4740  5387 I AudioTrack: getMarkerPosition(): 0xb4000070dfbf0000, marker = 169028
+05-19 13:24:05.710  1931  4367 D OplusAlwaysAliveManager: new task launch with process exists: ActivityRecord{3df1d50 u0 com.example.healthcare/.LabTestActivity} t2209}, processName: com.example.healthcare
+05-19 13:24:05.710  1931  4367 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:05.710  1931  4367 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:05.712  1176  1239 I SurfaceFlinger: [SF client] NEW(0xb400006fb8031b40) for (2431:com.android.systemui)
+05-19 13:24:05.714  2431  2556 W OplusSlideAnimOptHelper: initScrollOpt: not running in mainthread
+05-19 13:24:05.714  2431  2556 D WindowManager: Add to mViews: android.widget.FrameLayout{71d8080 V.E...... ......I. 0,0-0,0},pkg= com.example.healthcare
+05-19 13:24:05.720  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.720  1486  1573 D AAL     : onBacklightChanged: 1649/1023 -> 1623/1023(phy:1623/4095)
+05-19 13:24:05.725  2431  2556 D InputEventReceiver: Input log is disabled
+05-19 13:24:05.727  2821  2821 W View    : requestLayout() improperly called by android.widget.LinearLayout{6a1d63c VFE...C.. ......ID 0,3-936,105 #7f0a00a2 app:id/animated_hint_layout} during layout: running second layout pass
+05-19 13:24:05.728  1176  1239 I BufferQueueDebug: [Splash Screen com.example.healthcare#251936](this:0xb400006fb43159e8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1176:/system/bin/surfaceflinger)
+05-19 13:24:05.735  1176  1239 D [OSIE]  : scltmLayer_name VRI[healthcare][Splash Screen com.example.healthcare]
+05-19 13:24:05.735  1176  1239 D [OSIE]  : IsSCLTMLayer=0
+05-19 13:24:05.735  2431  2556 D BufferQueueConsumer: [](id:97f00004e4e,api:0,p:-1,c:2431) connect: controlledByApp=false
+05-19 13:24:05.735  1931  1948 V SensorManager: call sensorServiceCommonInterface name: setScreenShotDisable
+05-19 13:24:05.735  1931  1948 D SensorService: SensorService sensorServiceCommonInterface = setScreenShotDisable
+05-19 13:24:05.735  1931  1948 D SensorServiceExtImpl: sensorServiceCommonInterface funcName = setScreenShotDisable, flag = 0, status = 0
+05-19 13:24:05.736  1931  1948 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:05.736  1931  1948 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:05.736  1931  1948 D OplusUIFirst_FB: handleParaSwitch com.example.healthcare null null 1
+05-19 13:24:05.736  1931  1948 I OplusHansManager : front pkg: com.example.healthcare, uid: 10495, prev pkg: com.android.launcher, prev uid: 10106
+05-19 13:24:05.736  2431  2556 E IPCThreadState: attemptIncStrongHandle(416): Not supported
+05-19 13:24:05.736  2431  2556 E IPCThreadState: attemptIncStrongHandle(412): Not supported
+05-19 13:24:05.736  2431  2556 E IPCThreadState: attemptIncStrongHandle(369): Not supported
+05-19 13:24:05.736  1931  3113 I OplusHansManager : notifyAppGoForeground, uid=10495
+05-19 13:24:05.736  2431  2556 E IPCThreadState: attemptIncStrongHandle(366): Not supported
+05-19 13:24:05.736  1931  1948 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:05.736  2431  2556 E IPCThreadState: attemptIncStrongHandle(347): Not supported
+05-19 13:24:05.736  1931  3113 I OplusHansManager : notifyAppGoBackground, uid=10106
+05-19 13:24:05.736  1931  1948 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:05.736  1931  1948 D OplusUIFirst_FB: handleParaSwitch com.example.healthcare null null 1
+05-19 13:24:05.736  2431  2556 E IPCThreadState: attemptIncStrongHandle(402): Not supported
+05-19 13:24:05.736  1931  3007 I OplusHansManager : uid=10495, pkg=com.example.healthcare R exit SM
+05-19 13:24:05.736  1931  3007 I OplusHansManager : uid=10495, pkg=com.example.healthcare R exit(), R stay=0
+05-19 13:24:05.736  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.736  1486  1573 D AAL     : onBacklightChanged: 1623/1023 -> 1596/1023(phy:1596/4095)
+05-19 13:24:05.739  1931  2275 I Osense-DecisionMaker: notifySceneToAthenaPolicy: SCENE_APP_SWITCH, bundle: Bundle[{prevPkgName=com.android.launcher, curUid=10495, curPkgName=com.example.healthcare, prevUid=10106}]
+05-19 13:24:05.739  1931  3016 I OplusResourcePreloadManager: resume pkg: com.example.healthcare, uid:10495, prev pkg: com.android.launcher, prev uid: 10106
+05-19 13:24:05.739  1931  2275 I Osense-DecisionMaker: scene: SCENE_APP_SWITCH, excutingPolicy: freezer
+05-19 13:24:05.740  1931  2275 D Osense-DecisionMaker: invoke freezer policy,type: fast
+05-19 13:24:05.741  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=10:**:**:**:e7:f0 addr_type=1
+05-19 13:24:05.741  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 31
+05-19 13:24:05.741  7182  7321 I bt_btif : LogMsg: bta_dm_observe_results_cb
+05-19 13:24:05.741  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD 10:e8:9c:c5:e7:f0 cod is 0x000000
+05-19 13:24:05.741  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD cod in config 0x001f00, status=0
+05-19 13:24:05.741  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD invalid cod 0x0, use cod 0x1f00 in config
+05-19 13:24:05.741  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl : type 0 channel 0
+05-19 13:24:05.741  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl: HAL bt_gatt_callbacks->scanner->scan_result_cb
+05-19 13:24:05.741  7182  7218 D BtGatt.GattService: onScanResult() - eventType=0x10, addressType=1, address=10:E8:9C:C5:E7:F0, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-91, periodicAdvInt=0x0, originalAddress=10:E8:9C:C5:E7:F0, type=0, channel=0
+05-19 13:24:05.742  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:05.742  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:05.742  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:05.742  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:05.742  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:05.742  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:05.746  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511872, tid:2479
+05-19 13:24:05.746  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511872, dur:0, num:10, tid:2479
+05-19 13:24:05.746  1078  1116 I mtkpower@impl: [check_work_req] i:0, msg:1 hdl:511872, wait
+05-19 13:24:05.747  1931  1948 I PowerHalWrapper: amsBoostNotify pid:15027,activity:com.example.healthcare.LabTestActivity, package:com.example.healthcare, mProcessCreatePackcom.example.healthcare
+05-19 13:24:05.747  1931  1948 I PowerHalWrapper: state: 1
+05-19 13:24:05.747  1931  3161 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppExit, resuming = com.example.healthcare, target = com.android.launcher, is ResumingFirstStart =  false, is ResumingMultiApp =  false, extensionInfo =  Bundle[{taskId=2209, uid=10495}]
+05-19 13:24:05.747  1931  1948 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.example.healthcare/com.example.healthcare.LabTestActivity pid=15027 state:1
+05-19 13:24:05.747  1931  1948 I game_scn: collectForegroundAppList packName=com.example.healthcare, actName=com.example.healthcare.LabTestActivity, pid=15027, uid=10495, state:RESUMED
+05-19 13:24:05.747  1931  1948 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:05.747  1931  1948 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{3df1d50 u0 com.example.healthcare/.LabTestActivity} t2209}
+05-19 13:24:05.747  1931  8040 D DCSEX-AppLaunchEventRecorder: onAppSwitch from = com.android.launcher to = com.example.healthcare
+05-19 13:24:05.749  1078  1185 I libPowerHal: [perfLockRel] hdl:511872, idx:0
+05-19 13:24:05.749  1078  1185 I libPowerHal: [PD] system_server update cmd:1c3c000 param:1
+05-19 13:24:05.749  1931  1948 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+05-19 13:24:05.749  1078  1185 I libPowerHal: [PD] (more) /proc/mcdi/state set +prefix:enable 1;
+05-19 13:24:05.749  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:05.749  1931  2108 E Athena  : MemoryGuardAction: handleAppChange
+05-19 13:24:05.749  4710 12244 W Battery : ThermalControlUtils: mForegroundPkg=com.example.healthcare
+05-19 13:24:05.750  1931  3161 D OplusLatencyOptimizerManager: enter pkg: com.example.healthcare isPrevBlackAppTop: false mIsBlackAppTop: false
+05-19 13:24:05.750  1931  2479 I mtkpower_client: ret_hdl:511875
+05-19 13:24:05.750  1931  3161 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppEnter, launchedFrom =  com.example.healthcare, target =  com.example.healthcare, is firstStart =  false, is multiApp =  false, extensionInfo =  Bundle[{taskId=2209, pid=15027, uid=10495, versionCode=1}]
+05-19 13:24:05.751  1078  1185 I libPowerHal: [perfNotifyAppState] foreground:com.example.healthcare, pid:15027, uid:10495
+05-19 13:24:05.751  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511875, tid:2479
+05-19 13:24:05.752  1078  1185 E UxUtility: notifyAppState error = NULL
+05-19 13:24:05.752  1078  1185 I TouchUtility: notifyAppState error = NULL
+05-19 13:24:05.752  1176  1239 I VRR [FRTC]: setFrameRateTarget with [0, com.android.launcher, 0, com.oplus.battery, 1, 0, 1000]
+05-19 13:24:05.752  1078  1116 I mtkpower@impl: [notifyAppState] pc:0, com.android.launcher => com.example.healthcare
+05-19 13:24:05.752  1176  1239 W VRR [FRTC]: invalid param { fps 0, proc_name com.android.launcher, strict_mode 0, description com.oplus.battery, proc_id 0, rate_status 0, backend Surface, version 1, pid 0, uid 1000, enable at 2023-05-19 13:24:05, disable waiting } for current status.
+05-19 13:24:05.752  1176  1239 W VRR [FRTC]: CurrentTarget size 0:
+05-19 13:24:05.752  3059 26552 I Athena  : AthenaDynamicReceiver: pre_app:com.android.launcher, next_app:com.example.healthcare(10495|15027)
+05-19 13:24:05.753  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.753  1486  1573 D AAL     : onBacklightChanged: 1596/1023 -> 1569/1023(phy:1569/4095)
+05-19 13:24:05.753  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511875, dur:0, num:10, tid:2479
+05-19 13:24:05.753  1078  1116 I mtkpower@impl: [check_work_req] i:0, msg:1 hdl:511875, wait
+05-19 13:24:05.753  1078  1185 I libPowerHal: [perfLockRel] hdl:511875, idx:0
+05-19 13:24:05.753  4710 12244 W Battery : ThermalControllHandler: tempLevel=5,userMode=3,gameUserMode=7,appType=-1,envTempType=0,appStates=[]
+05-19 13:24:05.754  1078  1185 I libPowerHal: [PD] system_server update cmd:1c3c000 param:1
+05-19 13:24:05.754  1078  1185 I libPowerHal: [PD] (more) /proc/mcdi/state set +prefix:enable 1;
+05-19 13:24:05.754  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:05.754  4710 12244 W Battery : ThermalControllerCenter: mSafetyState=10000
+05-19 13:24:05.755  4993  5306 I DeepThinker: IntentManager: onIntentProduced 1
+05-19 13:24:05.755  4993  5306 I DeepThinker: IntentManager: dispatchIntents 1
+05-19 13:24:05.755  4993 24348 I DeepThinker: EventFountainDispatcher: dispatchSpecificIntents 1
+05-19 13:24:05.755  1931  1948 I PowerHalWrapper: amsBoostNotify pid:2821,activity:com.android.launcher.Launcher, package:com.android.launcher, mProcessCreatePackcom.example.healthcare
+05-19 13:24:05.755  1931  1948 I PowerHalWrapper: state: 0
+05-19 13:24:05.755  4993 24348 I DeepThinker: EventFountainDispatcher: dispatchSpecificIntents com.pantanal.action.APPS_LIST
+05-19 13:24:05.755  1931  1948 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.android.launcher/com.android.launcher.Launcher pid=2821 state:0
+05-19 13:24:05.755  1931  1948 I game_scn: collectForegroundAppList packName=com.android.launcher, actName=com.android.launcher.Launcher, pid=2821, uid=10106, state:PAUSED
+05-19 13:24:05.755  1931  1948 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:05.756  1931  1958 D OplusUIFirst_FB: com.example.healthcare moveToTop:[]
+05-19 13:24:05.756  1931  1958 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:05.756  1931  1958 D OplusUIFirst_FB: com.example.healthcare boost hint: 15027
+05-19 13:24:05.756  1931  1958 D OplusUIFirst_FB: handleParaSwitch com.example.healthcare null null 0
+05-19 13:24:05.756  4710 12244 W Battery : ThermalControllHandler: tempGear=5,configItemName=common_config
+05-19 13:24:05.757  1931  1958 D OplusUIFirst_FB: com.example.healthcare toForeOps: []
+05-19 13:24:05.757  1931  1958 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:05.757 31542 31632 D AudioPolicyService: updateUidStates_l() current->uid=10136 current->pid=9545 allowCapture=1 UidState=3 apmStat=1
+05-19 13:24:05.757  2431  2556 D VRI[healthcare]: registerCallbacksForSync syncBuffer=false
+05-19 13:24:05.758  1931  2479 I mtkpower_client: ret_hdl:511876
+05-19 13:24:05.759  3728 17110 D OplusAtlas.OplusAtlasEventDispatch: setEvent:atlas_event_on_foreground_activities_changed info:pid:15027,uid:10495,hasForegroundActivities:1
+05-19 13:24:05.759  4993  3930 V DeepThinker: ProcessManager: onForegroundActivitiesChanged pid:15027, uid:10495, foregroundActivities:true
+05-19 13:24:05.759  3728  4872 D OplusAtlas.OplusAudioScene: callback success event:atlas_event_on_foreground_activities_changed eventInfo:pid:15027,uid:10495,hasForegroundActivities:1
+05-19 13:24:05.760  3728  5211 D OplusAtlas.OplusMessageHandler: handleMessage: Msg { when=-1ms what=2 obj=com.oplus.atlas.OplusAtlasEvent@687f7e target=com.oplus.atlas.OplusMessageHandler$MyHandler }
+05-19 13:24:05.763  1931  1958 D OplusUIFirst_FB: com.google.android.googlequicksearchbox moveToBack 9567
+05-19 13:24:05.765  1931  1958 D OplusUIFirst_FB: com.coloros.assistantscreen moveToBack 20201
+05-19 13:24:05.767  1092  1092 D vendor.oplus.hardware.charger@1.0-service: set cooldown:7,  normalCoolDown:7
+05-19 13:24:05.768  4710  6057 W Battery : ThermalControllHandler: MSG_THERMAL_CONTROL_CATEGORY_CHANGED
+05-19 13:24:05.770  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.770  1486  1573 D AAL     : onBacklightChanged: 1569/1023 -> 1544/1023(phy:1544/4095)
+05-19 13:24:05.770  1486  1573 D AAL     : 05-19 01:24:05.703 BL=1657,ESS= 256, 05-19 01:24:05.720 BL=1627,ESS= 256, 05-19 01:24:05.737 BL=1597,ESS= 256, 05-19 01:24:05.753 BL=1569,ESS= 256, 05-19 01:24:05.770 BL=1545,ESS= 256,
+05-19 13:24:05.770 15027 15061 D OplusGraphicsEvent: OplusGraphicsEventListener create now!
+05-19 13:24:05.771 15027 15061 D OplusGraphicsEvent: addEventListener success!
+05-19 13:24:05.779 15027 15064 D libMEOW : meow new tls: 0xb400007189598b80
+05-19 13:24:05.779 15027 15064 D libMEOW : meow reload base cfg path: na
+05-19 13:24:05.779 15027 15064 D libMEOW : meow reload overlay cfg path: na
+05-19 13:24:05.781  2431  2594 D BLASTBufferQueue: [VRI[healthcare][Splash Screen com.example.healthcare]#19890](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=861285304756410(auto) mPendingTransactions.size=0 graphicBufferId=10441065815458 transform=0
+05-19 13:24:05.781  2431  2594 D VRI[healthcare]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+05-19 13:24:05.782  2431  2594 W Parcel  : Expecting binder but got null!
+05-19 13:24:05.782 15027 15064 E QT      : [QT]file does not exist
+05-19 13:24:05.782  2431  2556 D VRI[healthcare]: draw finished.
+05-19 13:24:05.783 15027 15064 D libMEOW : applied 1 plugins for [com.example.healthcare]:
+05-19 13:24:05.783 15027 15064 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb4000071e5138080
+05-19 13:24:05.783 15027 15064 D libMEOW : rebuild call chain: 0xb4000071895a7cc0
+05-19 13:24:05.784 15027 15064 D libMEOW : meow delete tls: 0xb400007189598b80
+05-19 13:24:05.786  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.786  1486  1573 D AAL     : onBacklightChanged: 1544/1023 -> 1518/1023(phy:1518/4095)
+05-19 13:24:05.792  1176  1176 D BufferStateLayer: Splash Screen com.example.healthcare#251936 setBuffer frameId=1, bufferId=10441065815458 fenceId=846, w= 1080, h=2400
+05-19 13:24:05.792  1176  1176 D OplusLayer: (251936,Splash Screen com.example.healthcare#251936,com.android.systemui) setBuffer
+05-19 13:24:05.794  1931  4370 I FocusResolver: updateFocusedWindow,  on display 0, reason: Waiting for window because NOT_FOCUSABLE, result:   FocusedWindows: <none>
+05-19 13:24:05.795  2821  2821 D VRI[Launcher]: onFocusEvent false
+05-19 13:24:05.802  2431  2539 V ShellTaskOrganizer: Task appeared taskId=2209
+05-19 13:24:05.803  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.803  1486  1573 D AAL     : onBacklightChanged: 1518/1023 -> 1491/1023(phy:1491/4095)
+05-19 13:24:05.803  3112  7091 W lus.appplatform: Large reply transaction of 478520 bytes, interface descriptor com.oplus.epona.IRemoteTransfer, code 1
+05-19 13:24:05.811  3057  3511 D PhoneInterfaceManager: [PhoneIntfMgr] QueryTelephonyChecker-getDataNetworkTypeForSubscriber: packageName = com.android.phone, isGrant = true
+05-19 13:24:05.812  3057  3511 D PhoneInterfaceManager: [PhoneIntfMgr] QueryTelephonyChecker-getDataNetworkTypeForSubscriber: packageName = com.android.phone, isGrant = true
+05-19 13:24:05.819  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.819  1486  1573 D AAL     : onBacklightChanged: 1491/1023 -> 1465/1023(phy:1465/4095)
+05-19 13:24:05.820 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.LabTestActivity@8d4d755 in: PRE_ON_CREATE
+05-19 13:24:05.820  1931 15065 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge start
+05-19 13:24:05.820  1931 15065 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge end
+05-19 13:24:05.820 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-19 13:24:05.825  1176  1176 D Layer   : reparent to null sequence=251931, seq[1], name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251931
+05-19 13:24:05.825  1176  1176 D Layer   : reparent to null sequence=251932, seq[2], name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251932
+05-19 13:24:05.826  1176  1176 D OplusLayer: ~Layer() sequence=251931, name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251931
+05-19 13:24:05.826  1176  1176 D OplusLayer: ~Layer() sequence=251932, name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251932
+05-19 13:24:05.833 15027 15027 I oplus.android.OplusFrameworkFactoryImpl: Unknow feature:IOplusTextViewRTLUtilForUG
+05-19 13:24:05.836  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.836  1486  1573 D AAL     : onBacklightChanged: 1465/1023 -> 1438/1023(phy:1438/4095)
+05-19 13:24:05.840  9545  9545 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+05-19 13:24:05.841  9545  9747 I HwDetectorWithState: (REDACTED) a: %d
+05-19 13:24:05.841  9545  9747 I HwDetectorWithState: #stopHotwordDetection
+05-19 13:24:05.841  9545  9747 D AudioRecord: stop(5019): mActive:1
+05-19 13:24:05.841  9545  9747 D AudioRecord: call mAudioRecord->stop()
+05-19 13:24:05.844  1176  1176 I DispPerfService: updateLayerMask 9
+05-19 13:24:05.852  2431  3342 D FlashViews_FlashBackManager: onAppEnter packageName: = com.example.healthcare, uid = -1)
+05-19 13:24:05.852  2431  3342 D FlashViews_FlashBackManager: onAppExit packageName: = com.android.launcher, uid = -1)
+05-19 13:24:05.852  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.852  1486  1573 D AAL     : onBacklightChanged: 1438/1023 -> 1412/1023(phy:1412/4095)
+05-19 13:24:05.853  1486  1573 D AAL     : 05-19 01:24:05.787 BL=1518,ESS= 256, 05-19 01:24:05.803 BL=1492,ESS= 256, 05-19 01:24:05.820 BL=1465,ESS= 256, 05-19 01:24:05.836 BL=1439,ESS= 256, 05-19 01:24:05.853 BL=1412,ESS= 256,
+05-19 13:24:05.857 31542 14700 D AudioFlinger: updateWakeLockUids_l AudioIn_1B4E uids:
+05-19 13:24:05.857 31544 31696 D AudioALSAStreamIn: updateSinkMetadataV7(), sink_metadata = 0xe2684c20, Project config MTK_BT_HEARING_AID_SUPPORT is not support, return
+05-19 13:24:05.857 31544 31698 D AudioALSAStreamIn: standby(), halRequest 0, mDestroy 0, flag 0
+05-19 13:24:05.858 31544 31698 D AudioALSAStreamIn: close()
+05-19 13:24:05.858 31544 31698 D AudioALSAStreamIn: updateStandByFrameCount(), update the mStandbyFrameCount = 0-> 191040
+05-19 13:24:05.858 31544 31698 D AudioALSACaptureHandlerNormal: +close()
+05-19 13:24:05.865 15027 15027 W mple.healthcare: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+05-19 13:24:05.865 15027 15027 W mple.healthcare: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+05-19 13:24:05.869  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.869  1486  1573 D AAL     : onBacklightChanged: 1412/1023 -> 1385/1023(phy:1385/4095)
+05-19 13:24:05.873 15027 15027 D skia    : SkJpegCodec::onGetPixels +
+05-19 13:24:05.874 31544 31698 D AudioALSACaptureDataClientAurisysNormal: pthread_join hProcessThread done
+05-19 13:24:05.874 31544 31698 D AudioALSACaptureDataProviderBase: detach(), 0xe4da5700, mCaptureDataClientVector.size()=1, Identity=0xe4fc32c0
+05-19 13:24:05.874 31544 31698 D AudioALSACaptureDataProviderDspRaw: close()
+05-19 13:24:05.874 31544 31698 D AudioALSAPlaybackHandlerKTVThread: +stopinputActive(), pre_active_num = 1, current_input = 2147483652
+05-19 13:24:05.883 15027 15027 D skia    : SkJpegCodec::onGetPixels -
+05-19 13:24:05.885  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.885  1486  1573 D AAL     : onBacklightChanged: 1385/1023 -> 1359/1023(phy:1359/4095)
+05-19 13:24:05.893 31544 14707 D AudioALSACaptureDataProviderDspRaw: -readThread(), pid: 31544, tid: 14707
+05-19 13:24:05.894 31544 31698 D AudioALSACaptureDataProviderDspRaw: pthread_join hReadThread done
+05-19 13:24:05.894 31544 31698 D AudioALSACaptureDataProviderBase: ClosePCMDumpDsp
+05-19 13:24:05.896 31544 31698 D AudioDspStreamManager: removeCaptureDataProvider() CaptureDataProvider = 3839514368 0xe4da5700, size = 1
+05-19 13:24:05.899 31544 31698 D AudioDspStreamManager: setDspRuntimeEn(), task_scene = 10, condition = 0
+05-19 13:24:05.899 31544 31698 D AudioALSADeviceConfigManager: ApplyDeviceTurnoffSequenceByName(), DeviceName = ADDA_TO_CAPTURE1 descriptor->DeviceStatusCounter = 1, Ctlsize=4
+05-19 13:24:05.900 31544 31698 D audio_messenger_ipi: audio_ipi_dma_cbk_deregister(), task 17
+05-19 13:24:05.900 31544 31698 D AudioALSACaptureDataProviderDspRaw: -close()
+05-19 13:24:05.900 31544 31698 D AudioALSAHardwareResourceManager: +stopInputDevice_l(), mInputDevice = 0x80000004, stop_device = 0x80000004, mStartInputDeviceCount = 1, mMicInverse = 0, mNumPhoneMicSupport = 2
+05-19 13:24:05.900 31544 31698 D AudioALSADeviceConfigManager: ApplyDeviceTurnoffSequenceByName(), DeviceName = builtin_Mic_DualMic descriptor->DeviceStatusCounter = 1, Ctlsize=12
+05-19 13:24:05.901 31544 31698 D AudioALSACaptureDataClientAurisysNormal: DestroyAurisysLibManager()
+05-19 13:24:05.901 31544 31698 D goodix_lvimfs: [INFO] lvimfs_wrapper_DestroyLibraryInstance:  entry
+05-19 13:24:05.901 31544 31698 D goodix_lvimfs: LVACFS_TRACE:[1] FUNCTION: LVACFS_LVAC_Destroy at Line 137 in ../SRC/LVACFS_Destroy.c
+05-19 13:24:05.901 31544 31698 D goodix_lvimfs: LVACFS_TRACE:[1] LVACFS_LVAC_Destroy: free pOutputSave at Line 143 in ../SRC/LVACFS_Destroy.c
+05-19 13:24:05.901 31544 31698 D goodix_lvimfs: LVACFS_TRACE:[1] FUNCTION: LVACFS_LVAC_Destroy: successfully called LVAC_GetMemoryTable at Line 162 in ../SRC/LVACFS_Destroy.c
+05-19 13:24:05.902 31544 31698 D goodix_lvimfs: LVACFS_TRACE:[1] FUNCTION: LVACFS_Destroy: There are 0 instances of LVACFS active at Line 109 in ../SRC/LVACFS_Destroy.c
+05-19 13:24:05.902 31544 31698 D goodix_lvimfs: [INFO] lvimfs_wrapper_DestroyLibraryInstance:  exit
+05-19 13:24:05.902 31544 31698 D aurisys_lib_handler: [LIB] lvimfs_arsi_destroy_handler(), p_handler = 0xe4ef6f80
+05-19 13:24:05.902 31544 31698 D aurisys_lib_handler: aurisys_arsi_destroy_handler(), lib_name goodix_lvimfs, 0xe29cf980, arsi_destroy_handler, arsi_handler = 0xe4ef6f80, retval = 0
+05-19 13:24:05.902 31544 31698 D aurisys_lib_manager: delete_aurisys_lib_manager(), manager 0xe8831e00
+05-19 13:24:05.902 31544 31698 D AudioALSACaptureHandlerNormal: -close()
+05-19 13:24:05.902 31544 31698 D AudioALSAStreamIn: closeWavDump()
+05-19 13:24:05.902 31544 31698 D AudioUtility: power_hal_hint - custPowerHint 37, data 0
+05-19 13:24:05.903  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.903  1486  1573 D AAL     : onBacklightChanged: 1359/1023 -> 1332/1023(phy:1332/4095)
+05-19 13:24:05.904 31542 31632 D APM_AudioPolicyManager: stopInput portId 5019
+05-19 13:24:05.904 31542 31632 D APM_AudioPolicyManager: [MTK_APM_Input]stopInput input 6990 portId 5019 old_source 1999
+05-19 13:24:05.905 31544 31696 D AudioALSAHardware: +releaseAudioPatch() handle [0xafb] current mAudioHalPatchVector size 5
+05-19 13:24:05.905 31544 31696 D AudioALSAHardware: releaseAudioPatch() releaseAudioPatch 0x80000004->Mixer, handle 2811
+05-19 13:24:05.905 31544 31696 D AudioALSAStreamManager: +setParameters(), IOport = 6990, keyValuePairs = routing=0
+05-19 13:24:05.905 31544 31696 D AudioALSAStreamManager: +routingInputDevice(), input_device: 0x80000004 => 0x0
+05-19 13:24:05.905 31544 31696 W AudioALSAStreamManager: -routingInputDevice(), input_device(0x0) is AUDIO_DEVICE_NONE(0x0) or current_input_device(0x80000004), return
+05-19 13:24:05.905 31544 31696 D AudioALSAStreamManager: updateInputSource(), Update input source form mStreamInVector [0]
+05-19 13:24:05.905 31544 31696 D AudioALSAHardware: releaseAudioPatch() remove handle [afb] OK, current mAudioHalPatchVector size 4
+05-19 13:24:05.905 31544 31696 D AudioALSAHardware: -releaseAudioPatch() handle [0xafb] status [0]
+05-19 13:24:05.906 31542 31632 W AudioPolicyClientImpl: setSoundTriggerCaptureState active 0
+05-19 13:24:05.907 31542 31632 D AudioPolicyManagerExtImpl: stopinput client uid = 10136
+05-19 13:24:05.907 31542 31627 D AudioSystem: +setParameters(): stopinput_pid=10136
+05-19 13:24:05.907 31542 31627 D AudioFlingerExtImpl: AudioFlingerExtImpl oplusSetParameters: keyvalue stopinput_pid=10136
+05-19 13:24:05.908 31544 31696 D AudioALSAHardware: +setParameters(): stopinput_pid=10136
+05-19 13:24:05.908 31544 31696 D AudioALSAPlaybackHandlerKTVThread: setParameters:stopinput_pid: value = 10136
+05-19 13:24:05.908 31544 31696 D AudioALSAHardware: =====>GetInstance()->MMI_Auto_Test
+05-19 13:24:05.908 31544 31696 D audio_engineer_test: do_audio_test_process Enter all_test[0]:NoneTest in_call:false
+05-19 13:24:05.908 31544 31696 D AudioALSAHardware: -setParameters(): stopinput_pid=10136
+05-19 13:24:05.909 31542 31632 D AtlasEventUploadUtils: setEvent event:atlas_event_audio_record_stop
+05-19 13:24:05.909 31542 30704 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:05.909 31542 31632 D AudioFlingerExtImpl: ActiveRecordTrackPids.removeItem session 5621505
+05-19 13:24:05.909 31542 31632 D AudioFlingerExtImpl: ActiveRecordTrackPids.removeItem session 5621505 when stop
+05-19 13:24:05.909 31542 31632 D AudioFlingerExtImpl: removeAudioSessionUidMap, remove 5621505, map size 0
+05-19 13:24:05.909  3728 19778 D OplusAtlas.OplusAtlasEventDispatch: setEvent:atlas_event_audio_record_stop info:recorderPid:9545,TrackSession:5621505
+05-19 13:24:05.910  3728  4872 D OplusAtlasAudioDetectionManager: callback success event:atlas_event_audio_record_stop eventInfo:recorderPid:9545,TrackSession:5621505
+05-19 13:24:05.910  3728  4872 D OplusAtlas.OplusAudioRecordInfoUploadHelper: callback success event:atlas_event_audio_record_stop eventInfo:recorderPid:9545,TrackSession:5621505
+05-19 13:24:05.910 31542 31632 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:05.910  3728  5040 D OplusAtlasAudioDetectionManager: MSG_AUDIO_RECORD_STOP
+05-19 13:24:05.910  3728  5040 D OplusAtlasAudioDetectionManager: record stop,pid=9545
+05-19 13:24:05.910 31542 31711 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:05.910 31542 31542 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:05.910  3728  4878 D OplusAtlas.OplusMessageHandler: handleMessage: Msg { when=-1ms what=2 obj=com.oplus.atlas.OplusAtlasEvent@ccadcdf target=com.oplus.atlas.OplusMessageHandler$MyHandler }
+05-19 13:24:05.910  3728  4878 D OplusAtlas.OplusAudioRecordInfoUploadHelper: setRecordEvent pid:9545 session:5621505
+05-19 13:24:05.911  9545  9747 D AudioRecord: call AudioRecordThread pause()
+05-19 13:24:05.911  9545  9747 D AudioRecordExtImpl: clearAudioBoostTid
+05-19 13:24:05.911 31542 31711 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:05.911 31544 31696 D oplus_audio_config: oplus_get_config(),unkonw config
+05-19 13:24:05.911 31544 31696 D oplus_audio_config: oplus_get_config(),unkonw config
+05-19 13:24:05.911 31544 31696 D oplus_audio_config: oplus_get_config(),unkonw config
+05-19 13:24:05.911  3728  4878 D OplusAtlas.OplusAudioRecordInfoUploadHelper: reportRecordData:MM_FB_EventID#20001#recordPackageName#com.google.android.googlequicksearchbox#recordSource#1999#recordFormat#1#recordChannelmask#10#recordSampleRate#16000#recordStatTime#2023/05/19 13:23:53#recordStopTime#2023/05/19 13:24:05#recordTotalTime#12150#recordDevice#80000004#AudioID#59a5d2ade983
+05-19 13:24:05.911 31544 31696 D AudioALSAHardware: -getParameters(), return ""
+05-19 13:24:05.911  3728  4878 D OplusAtlasFeedback: uploadMMCollectData MM_FB_EventID#20001#recordPackageName#com.google.android.googlequicksearchbox#recordSource#1999#recordFormat#1#recordChannelmask#10#recordSampleRate#16000#recordStatTime#2023/05/19 13:23:53#recordStopTime#2023/05/19 13:24:05#recordTotalTime#12150#recordDevice#80000004#AudioID#59a5d2ade983
+05-19 13:24:05.911 31542 31632 D AudioFlingerExtImpl: audioShcedBoost after setUx(pid:9545, tid:9746)
+05-19 13:24:05.911 31542 31632 D AudioFlinger: AudioFlinger::audioSchedBoost
+05-19 13:24:05.912  9545  9747 D AudioRecordExtImpl: clearAudioBoostTid  pid 9545  tid 9746
+05-19 13:24:05.912  9545  9747 D AudioRecord: stop(5019) done
+05-19 13:24:05.912  9545  9747 I AudioRecord: ~AudioRecord(5019): mStatus 0
+05-19 13:24:05.912  3728  5040 D OplusAtlasAudioDetectionManager: record:
+05-19 13:24:05.912  9545  9747 D AudioRecord: stop(5019): mActive:0
+05-19 13:24:05.912 31542 31542 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:05.912 15027 15027 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10495; state: DISABLED
+05-19 13:24:05.913 15027 15027 D CompatibilityChangeReporter: Compat change id reported: 37756858; UID 10495; state: ENABLED
+05-19 13:24:05.916  3728  4878 D OplusAtlasService: isAppInRecording getActiveAudioPids is null
+05-19 13:24:05.916  4993  4993 V DeepThinker: BroadcastReceiverWrapper: onReceive, start dispatch android.media.ACTION_AUDIO_RECORD_STOP
+05-19 13:24:05.917 31542 31542 D APM_AudioPolicyManager: [MTK_APM_Input]releaseInput input 6990 portId 5019
+05-19 13:24:05.917 31542 31542 D APM_AudioPolicyManager: closeInput input 6990
+05-19 13:24:05.918  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.918  1486  1573 D AAL     : onBacklightChanged: 1332/1023 -> 1306/1023(phy:1306/4095)
+05-19 13:24:05.921  9545  9747 I A       : Audio Stopped
+05-19 13:24:05.921 31542 14700 D AudioFlinger: updateWakeLockUids_l AudioIn_1B4E uids:
+05-19 13:24:05.921  9545  9747 I HotwordRecognitionRnr: Stopping hotword detection.
+05-19 13:24:05.921  9545 10162 I GsaVoiceInteractionSrv: HotwordCallback#onError
+05-19 13:24:05.921  9545 10162 I HwDetectorWithState: #stopHotwordDetection
+05-19 13:24:05.921  9545 10162 I HotwordRecognitionRnr: IOException during hotword detection; expected during hotword detection closing
+05-19 13:24:05.922 31542 31542 W AudioPolicyClientImpl: setSoundTriggerCaptureState active 0
+05-19 13:24:05.922  9545  9746 I GsaVoiceInteractionSrv: (REDACTED) #onClosed - audio is closed, hasRecordingStarted %b
+05-19 13:24:05.922  9545  9746 I HwDetectorWithState: (REDACTED) a: %d
+05-19 13:24:05.922  9545  9746 I HwDetectorWithState: #stopHotwordDetection
+05-19 13:24:05.923 31542 31542 E audio_pcm_dump: check_pcm_path : create path /data/persist_log fail 17
+05-19 13:24:05.923 31542 31542 E audio_pcm_dump: check_pcm_path failed.
+05-19 13:24:05.923 31542 31632 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:05.923 31544 31696 D DeviceHAL: closeInputStream mOpenedStreamsCount 6
+05-19 13:24:05.923 31544 31696 D AudioALSAStreamManager: +closeInputStream(), in = 0xe08eca00, size() = 1
+05-19 13:24:05.923 31544 31696 D AudioALSAStreamIn: ~AudioALSAStreamIn()
+05-19 13:24:05.923 31542 31711 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:05.923 31544 31696 D AudioUtility: ~AudioThrottleTimeControl()
+05-19 13:24:05.923 31542 30704 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:05.923 31542 31632 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:05.924 31542 31542 E audio_pcm_dump: check_pcm_path : create path /data/persist_log fail 17
+05-19 13:24:05.924 31542 31542 E audio_pcm_dump: check_pcm_path failed.
+05-19 13:24:05.924 31542 30704 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:05.925 31542 31711 D APM_AudioPolicyManager: listAudioPorts mAvailableInputDevices 0x80000004, 0x80000040, 0x80000080, 0x80000100, 0x80002000, 0x90000000
+05-19 13:24:05.935  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.935  1486  1573 D AAL     : onBacklightChanged: 1306/1023 -> 1279/1023(phy:1279/4095)
+05-19 13:24:05.935  1486  1573 D AAL     : 05-19 01:24:05.869 BL=1386,ESS= 256, 05-19 01:24:05.885 BL=1359,ESS= 256, 05-19 01:24:05.905 BL=1334,ESS= 256, 05-19 01:24:05.919 BL=1306,ESS= 256, 05-19 01:24:05.935 BL=1280,ESS= 256,
+05-19 13:24:05.950 15027 15027 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10495; state: ENABLED
+05-19 13:24:05.952  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.952  1486  1573 D AAL     : onBacklightChanged: 1279/1023 -> 1253/1023(phy:1253/4095)
+05-19 13:24:05.960 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.LabTestActivity@8d4d755 in: CREATED
+05-19 13:24:05.960 15027 15027 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.healthcare.LabTestActivity@8d4d755
+05-19 13:24:05.963 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.LabTestActivity@8d4d755 in: STARTED
+05-19 13:24:05.963 15027 15027 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.healthcare.LabTestActivity@8d4d755
+05-19 13:24:05.965 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.LabTestActivity@8d4d755 in: RESUMED
+05-19 13:24:05.966 15027 15027 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.healthcare.LabTestActivity@8d4d755
+05-19 13:24:05.968  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.968  1486  1573 D AAL     : onBacklightChanged: 1253/1023 -> 1227/1023(phy:1227/4095)
+05-19 13:24:05.970 15027 15027 I PowerHalWrapper: PowerHalWrapper.getInstance
+05-19 13:24:05.970 15027 15067 I PowerHalWrapper: PowerHalWrapper.getInstance
+05-19 13:24:05.972 15027 15027 I MSYNC3-VariableRefreshRate: Variable refreshrate is disabled
+05-19 13:24:05.973 15027 15027 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+05-19 13:24:05.974 15027 15027 D ExtensionsLoader: Opened libSchedAssistExtImpl.so
+05-19 13:24:05.974 15027 15027 E mple.healthcare: ofbOpen failed with error=No such file or directory
+05-19 13:24:05.974 15027 15027 E mple.healthcare: sysOpen failed with error=No such file or directory
+05-19 13:24:05.980 15027 15027 I SurfaceFactory: [static] sSurfaceFactory = com.mediatek.view.impl.SurfaceFactoryImpl@e5d06ad
+05-19 13:24:05.980  1176  1238 I SurfaceFlinger: [SF client] NEW(0xb400006fb8033700) for (15027:com.example.healthcare)
+05-19 13:24:05.984 15027 15070 I OplusSlideAnimOptHelper: checkListMode: is blacklist mode = true
+05-19 13:24:05.984 15027 15070 D OplusSlideAnimOptHelper: com.example.healthcare scrollEffectOpt enable = true
+05-19 13:24:05.985 15027 15027 D WindowManager: Add to mViews: DecorView@181e573[LabTestActivity],pkg= com.example.healthcare
+05-19 13:24:05.985  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:05.985  1486  1573 D AAL     : onBacklightChanged: 1227/1023 -> 1200/1023(phy:1200/4095)
+05-19 13:24:05.988 15027 15061 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+05-19 13:24:05.990 15027 15061 D ExtensionsLoader: Opened libhwuiextimpl.so
+05-19 13:24:05.990 15027 15027 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+05-19 13:24:05.990 15027 15027 D ExtensionsLoader: Opened libSchedAssistExtImpl.so
+05-19 13:24:05.999  1176  1389 I SurfaceFlinger: [SF client] NEW(0xb400006fb8031e40) for (1931:system_server)
+05-19 13:24:06.001  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.001  1486  1573 D AAL     : onBacklightChanged: 1200/1023 -> 1174/1023(phy:1174/4095)
+05-19 13:24:06.005 15027 15027 D libMEOW : meow new tls: 0xb4000071897b8140
+05-19 13:24:06.005 15027 15027 D libMEOW : applied 1 plugins for [com.example.healthcare]:
+05-19 13:24:06.005 15027 15027 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb4000071e5138080
+05-19 13:24:06.005 15027 15027 D libMEOW : rebuild call chain: 0xb4000071ed6e7180
+05-19 13:24:06.006 15027 15027 D InputEventReceiver: Input log is disabled
+05-19 13:24:06.018  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.018  1486  1573 D AAL     : onBacklightChanged: 1174/1023 -> 1147/1023(phy:1147/4095)
+05-19 13:24:06.018  1486  1573 D AAL     : 05-19 01:24:05.952 BL=1253,ESS= 256, 05-19 01:24:05.968 BL=1227,ESS= 256, 05-19 01:24:05.985 BL=1201,ESS= 256, 05-19 01:24:06.001 BL=1174,ESS= 256, 05-19 01:24:06.018 BL=1148,ESS= 256,
+05-19 13:24:06.027  1176  2599 I BufferQueueDebug: [com.example.healthcare/com.example.healthcare.LabTestActivity#251943](this:0xb400006fb3ffe9e8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1176:/system/bin/surfaceflinger)
+05-19 13:24:06.034  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.034  1486  1573 D AAL     : onBacklightChanged: 1147/1023 -> 1121/1023(phy:1121/4095)
+05-19 13:24:06.034  1931  2802 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+05-19 13:24:06.038  1176  2599 D [OSIE]  : scltmLayer_name VRI[LabTestActivity][com.example.healthcare/com.example.healthcare.LabTestActivity]
+05-19 13:24:06.038  1176  2599 D [OSIE]  : IsSCLTMLayer=0
+05-19 13:24:06.038 15027 15027 D BufferQueueConsumer: [](id:3ab300000000,api:0,p:-1,c:15027) connect: controlledByApp=false
+05-19 13:24:06.039 15027 15027 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+05-19 13:24:06.039 15027 15027 D ExtensionsLoader: Opened libSchedAssistExtImpl.so
+05-19 13:24:06.040 15027 15027 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+05-19 13:24:06.044 15027 15061 D libMEOW : meow new tls: 0xb4000071ed700080
+05-19 13:24:06.044 15027 15061 D libMEOW : applied 1 plugins for [com.example.healthcare]:
+05-19 13:24:06.044 15027 15061 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb4000071e5138080
+05-19 13:24:06.045 15027 15061 D libMEOW : rebuild call chain: 0xb4000071ed7190c0
+05-19 13:24:06.048   561   561 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+05-19 13:24:06.051  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.051  1486  1573 D AAL     : onBacklightChanged: 1121/1023 -> 1094/1023(phy:1094/4095)
+05-19 13:24:06.057  1176  1176 D Layer   : reparent to null sequence=251939, seq[1], name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251939
+05-19 13:24:06.057  1176  1176 D Layer   : reparent to null sequence=251940, seq[2], name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251940
+05-19 13:24:06.057  1176  1176 D OplusLayer: ~Layer() sequence=251939, name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251939
+05-19 13:24:06.057  1176  1176 D OplusLayer: ~Layer() sequence=251940, name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251940
+05-19 13:24:06.058  1176  2599 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 0: Unsupported (8)
+05-19 13:24:06.065   560   560 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+05-19 13:24:06.067 15027 15075 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+05-19 13:24:06.067  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.067  1486  1573 D AAL     : onBacklightChanged: 1094/1023 -> 1068/1023(phy:1068/4095)
+05-19 13:24:06.084  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.084  1486  1573 D AAL     : onBacklightChanged: 1068/1023 -> 1041/1023(phy:1041/4095)
+05-19 13:24:06.091  2821 25323 D VRI[Launcher]: dispatchAppVisibility visible:false
+05-19 13:24:06.091  9567  9600 D VRI[Launcher]: dispatchAppVisibility visible:false
+05-19 13:24:06.093 28254 28254 D EffectsEngine_WallpaperRenderer: onPause().
+05-19 13:24:06.093 28254 28254 D EffectsEngine_: FPSThrottler::pause
+05-19 13:24:06.093 28254 28254 D EffectsEngine_DayNightRenderer: pause.
+05-19 13:24:06.093 28254 28254 D EffectsEngine_ShootingStarSprite: ShootingStarSprite.stop()
+05-19 13:24:06.098  1176  1308 D VRR [OTI-HW]: isStateReady 0
+05-19 13:24:06.098  1176  1308 D VRR [OTI-HW]: rate range: min {id=0, hwcId=0, resolution=1080x2400, refreshRate=60.00 Hz, dpi=409.02x409.02, group=0} cur {id=0, hwcId=0, resolution=1080x2400, refreshRate=60.00 Hz, dpi=409.02x409.02, group=0} max {id=0, hwcId=0, resolution=1080x2400, refreshRate=60.00 Hz, dpi=409.02x409.02, group=0}
+05-19 13:24:06.098  1176  1308 D VRR [OTI-HW]: keep rate.
+05-19 13:24:06.101  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.101  1486  1573 D AAL     : onBacklightChanged: 1041/1023 -> 1015/1023(phy:1015/4095)
+05-19 13:24:06.101  1486  1573 D AAL     : 05-19 01:24:06.034 BL=1121,ESS= 256, 05-19 01:24:06.051 BL=1095,ESS= 256, 05-19 01:24:06.067 BL=1068,ESS= 256, 05-19 01:24:06.085 BL=1042,ESS= 256, 05-19 01:24:06.101 BL=1015,ESS= 256,
+05-19 13:24:06.109  1176  1176 D Layer   : reparent to null sequence=251937, seq[49], name=Surface(name=Task=2209)/@0xafee229 - animation-leash of app_transition#251937
+05-19 13:24:06.109  1176  1176 D Layer   : reparent to null sequence=251938, seq[19], name=Surface(name=Task=1643)/@0xa6ac5a9 - animation-leash of app_transition#251938
+05-19 13:24:06.109  1176  1176 D OplusLayer: ~Layer() sequence=251938, name=Surface(name=Task=1643)/@0xa6ac5a9 - animation-leash of app_transition#251938
+05-19 13:24:06.109  1176  1176 D OplusLayer: ~Layer() sequence=251937, name=Surface(name=Task=2209)/@0xafee229 - animation-leash of app_transition#251937
+05-19 13:24:06.113  1176  1176 I DispPerfService: updateLayerMask 0
+05-19 13:24:06.118  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.118  2821  2821 D BLASTBufferQueue: [VRI[Launcher][com.android.launcher/com.android.launcher.Launcher]#2934](f:0,a:1) destructor()
+05-19 13:24:06.118  1486  1573 D AAL     : onBacklightChanged: 1015/1023 -> 988/1023(phy:988/4095)
+05-19 13:24:06.118  2821  2821 D BufferQueueConsumer: [VRI[Launcher][com.android.launcher/com.android.launcher.Launcher]#2934(BLAST Consumer)2934](id:b0500000bab,api:0,p:-1,c:2821) disconnect
+05-19 13:24:06.134  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.134  1486  1573 D AAL     : onBacklightChanged: 988/1023 -> 962/1023(phy:962/4095)
+05-19 13:24:06.134 15027 15027 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+05-19 13:24:06.135  9567  9567 D BLASTBufferQueue: [VRI[Launcher][com.android.launcher/com.android.launcher.Launcher]#585](f:0,a:1) destructor()
+05-19 13:24:06.135  9567  9567 D BufferQueueConsumer: [VRI[Launcher][com.android.launcher/com.android.launcher.Launcher]#585(BLAST Consumer)585](id:255f00000249,api:0,p:-1,c:9567) disconnect
+05-19 13:24:06.137 15027 15027 D VRI[LabTestActivity]: registerCallbacksForSync syncBuffer=false
+05-19 13:24:06.143 15027 15041 I mple.healthcare: Compiler allocated 4148KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+05-19 13:24:06.150  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.150  1486  1573 D AAL     : onBacklightChanged: 962/1023 -> 935/1023(phy:935/4095)
+05-19 13:24:06.167  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.167  1486  1573 D AAL     : onBacklightChanged: 935/1023 -> 909/1023(phy:909/4095)
+05-19 13:24:06.183  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.183  1486  1573 D AAL     : onBacklightChanged: 909/1023 -> 882/1023(phy:882/4095)
+05-19 13:24:06.183  1486  1573 D AAL     : 05-19 01:24:06.119 BL= 989,ESS= 256, 05-19 01:24:06.134 BL= 962,ESS= 256, 05-19 01:24:06.150 BL= 935,ESS= 256, 05-19 01:24:06.167 BL= 910,ESS= 256, 05-19 01:24:06.183 BL= 882,ESS= 256,
+05-19 13:24:06.200  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.200  1486  1573 D AAL     : onBacklightChanged: 882/1023 -> 856/1023(phy:856/4095)
+05-19 13:24:06.215 15027 15061 D BLASTBufferQueue: [VRI[LabTestActivity][com.example.healthcare/com.example.healthcare.LabTestActivity]#0](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=861285738668718(auto) mPendingTransactions.size=0 graphicBufferId=64540473556996 transform=0
+05-19 13:24:06.215 15027 15061 D VRI[LabTestActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+05-19 13:24:06.216  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.216  1486  1573 D AAL     : onBacklightChanged: 856/1023 -> 829/1023(phy:829/4095)
+05-19 13:24:06.217 15027 15061 W Parcel  : Expecting binder but got null!
+05-19 13:24:06.218 15027 15027 D VRI[LabTestActivity]: draw finished.
+05-19 13:24:06.222  1176  1176 I ClientCache: add: Cache owner=0xb400006fc38e9160
+05-19 13:24:06.222  1176  1176 D BufferStateLayer: com.example.healthcare/com.example.healthcare.LabTestActivity#251943 setBuffer frameId=1, bufferId=64540473556996 fenceId=847, w= 1080, h=2400
+05-19 13:24:06.223  1176  1176 D OplusLayer: (251943,com.example.healthcare/com.example.healthcare.LabTestActivity#251943,com.example.healthcare) setBuffer
+05-19 13:24:06.229  1931  1955 W ziparchive: Unable to open '/data/app/~~Fs3A3tUX-W9JmCtFO6KF3g==/com.example.healthcare-1VY8-UJtEQIfMyFv0Y97-A==/base.dm': No such file or directory
+05-19 13:24:06.230  1931  1955 I ActivityTaskManager: Displayed com.example.healthcare/.LabTestActivity: +541ms
+05-19 13:24:06.233  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.233  1486  1573 D AAL     : onBacklightChanged: 829/1023 -> 803/1023(phy:803/4095)
+05-19 13:24:06.237 15027 15027 D VRI[LabTestActivity]: registerCallbacksForSync syncBuffer=false
+05-19 13:24:06.241  1931  4626 I FocusResolver: updateFocusedWindow, 4b21f5b com.example.healthcare/com.example.healthcare.LabTestActivity on display 0, reason: Window became focusable. Previous reason: NOT_VISIBLE, result:   FocusedWindows:
+05-19 13:24:06.241  1931  4626 I FocusResolver:     displayId=0, name='4b21f5b com.example.healthcare/com.example.healthcare.LabTestActivity'
+05-19 13:24:06.241  1176  1176 I DispPerfService: updateLayerMask 0
+05-19 13:24:06.249  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.249  1486  1573 D AAL     : onBacklightChanged: 803/1023 -> 776/1023(phy:776/4095)
+05-19 13:24:06.259 15027 15061 D VRI[LabTestActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+05-19 13:24:06.259 15027 15027 D VRI[LabTestActivity]: draw finished.
+05-19 13:24:06.260 15027 15027 D VRI[LabTestActivity]: onFocusEvent true
+05-19 13:24:06.266  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.266  1486  1573 D AAL     : onBacklightChanged: 776/1023 -> 750/1023(phy:750/4095)
+05-19 13:24:06.267  1486  1573 D AAL     : 05-19 01:24:06.200 BL= 857,ESS= 256, 05-19 01:24:06.217 BL= 829,ESS= 256, 05-19 01:24:06.233 BL= 804,ESS= 256, 05-19 01:24:06.250 BL= 776,ESS= 256, 05-19 01:24:06.266 BL= 751,ESS= 256,
+05-19 13:24:06.275 17158 17158 D InputEventReceiver: Input log is disabled
+05-19 13:24:06.282 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3261
+05-19 13:24:06.282  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.282  1486  1573 D AAL     : onBacklightChanged: 750/1023 -> 723/1023(phy:723/4095)
+05-19 13:24:06.283 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2110 repeatCheckTimes = 0, locked = false
+05-19 13:24:06.283 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1898 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.healthcare fieldId=2131230824 fieldName=null extras=Bundle[{com.oplus.im.SCENES=0}] hintLocales=[]}, false)
+05-19 13:24:06.283 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4088 ShouldHideHeaderOnInitialState = false
+05-19 13:24:06.284 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2110 repeatCheckTimes = 1, locked = false
+05-19 13:24:06.291  1078  1119 I mtkpower@impl: [setMode] type:5, enabled:0
+05-19 13:24:06.291  1078  1185 I libPowerHal: [perfLockRel] hdl:511873, idx:1
+05-19 13:24:06.292  1931  2802 I PowerHalWrapper: amsBoostNotify pid:2821,activity:com.android.launcher.Launcher, package:com.android.launcher, mProcessCreatePackcom.example.healthcare
+05-19 13:24:06.292  1931  2802 I PowerHalWrapper: state: 0
+05-19 13:24:06.292  1931  2802 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.android.launcher/com.android.launcher.Launcher pid=2821 state:0
+05-19 13:24:06.292  1931  2802 I game_scn: collectForegroundAppList packName=com.android.launcher, actName=com.android.launcher.Launcher, pid=2821, uid=10106, state:PAUSED
+05-19 13:24:06.292  1931  2802 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:06.293  1931  2802 I PowerHalWrapper: amsBoostStop AMS_BOOST_PACK_SWITCH:true, AMS_BOOST_ACT_SWITCH:false, AMS_BOOST_PROCESS_CREATE:false
+05-19 13:24:06.293  1078  1185 I libPowerHal: [perfLockRel] hdl:511874, idx:2
+05-19 13:24:06.293  1078  1185 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1000000, param:-1
+05-19 13:24:06.294  1078  1185 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1408300 param:0
+05-19 13:24:06.294  1078  1185 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1000000 param:-1
+05-19 13:24:06.294  1931  1958 D OplusUIFirst_FB: com.android.launcher moveToBack 2821
+05-19 13:24:06.295  2821  2821 D VRI[Launcher]: setWindowStopped stopped:true
+05-19 13:24:06.301  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.301  1486  1573 D AAL     : onBacklightChanged: 723/1023 -> 697/1023(phy:697/4095)
+05-19 13:24:06.301  7182  7312 D BtGatt.ScanManager: uid 10127 isForeground true scanMode -1
+05-19 13:24:06.301  7182  7312 D BtGatt.ScanManager: uid 10127 isForeground true scanMode 1
+05-19 13:24:06.301  7182  7312 D BtGatt.ScanManager: uid 10127 isForeground true scanMode -1
+05-19 13:24:06.301  7182  7312 D BtGatt.ScanManager: configureRegularScanParams() - queue=6
+05-19 13:24:06.301  7182  7182 I OplusCustomScanStrategy: msg.what = 6
+05-19 13:24:06.305  1176  1176 D Layer   : reparent to null sequence=251905, seq[3], name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#251905
+05-19 13:24:06.305  1176  1176 D Layer   : reparent to null sequence=251925, seq[6], name=com.android.launcher/com.android.launcher.Launcher#251925
+05-19 13:24:06.305  1176  1176 D Layer   : reparent to null sequence=251926, seq[6], name=com.android.launcher/com.android.launcher.Launcher#251926
+05-19 13:24:06.306  1176  1176 I BufferQueueDebug: [com.android.launcher/com.android.launcher.Launcher#251925](this:0xb400006fc3bab9e8,id:-1,api:0,p:-1,c:1176) onDestructor()
+05-19 13:24:06.306  1176  1176 D OplusLayer: ~Layer() sequence=251925, name=com.android.launcher/com.android.launcher.Launcher#251925
+05-19 13:24:06.306  1176  1176 D OplusLayer: ~Layer() sequence=251905, name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#251905
+05-19 13:24:06.310  4993  5306 V DeepThinker: ProcessManager: onForegroundActivitiesChanged pid:2821, uid:10106, foregroundActivities:false
+05-19 13:24:06.310  3728 19778 D OplusAtlas.OplusAtlasEventDispatch: setEvent:atlas_event_on_foreground_activities_changed info:pid:2821,uid:10106,hasForegroundActivities:0
+05-19 13:24:06.310  3728  4872 D OplusAtlas.OplusAudioScene: callback success event:atlas_event_on_foreground_activities_changed eventInfo:pid:2821,uid:10106,hasForegroundActivities:0
+05-19 13:24:06.310  3728  5211 D OplusAtlas.OplusMessageHandler: handleMessage: Msg { when=0 what=2 obj=com.oplus.atlas.OplusAtlasEvent@5262d2c target=com.oplus.atlas.OplusMessageHandler$MyHandler }
+05-19 13:24:06.316  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.316  1486  1573 D AAL     : onBacklightChanged: 697/1023 -> 671/1023(phy:671/4095)
+05-19 13:24:06.322  1176  1176 I BufferQueueDebug: [com.android.launcher/com.android.launcher.Launcher#251926](this:0xb400006fb3ca79e8,id:-1,api:0,p:-1,c:1176) onDestructor()
+05-19 13:24:06.322  1176  1176 D OplusLayer: ~Layer() sequence=251926, name=com.android.launcher/com.android.launcher.Launcher#251926
+05-19 13:24:06.323 15027 15057 W FileTestStorage: Output properties is not supported.
+05-19 13:24:06.324 15027 15057 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+05-19 13:24:06.332 15027 15057 W mple.healthcare: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (unsupported, reflection, allowed)
+05-19 13:24:06.332  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.332  1486  1573 D AAL     : onBacklightChanged: 671/1023 -> 644/1023(phy:644/4095)
+05-19 13:24:06.338 15027 15057 D EventInjectionStrategy: Creating injection strategy with input manager.
+05-19 13:24:06.338 15027 15057 W mple.healthcare: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+05-19 13:24:06.339 15027 15057 W mple.healthcare: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+05-19 13:24:06.339 15027 15057 W mple.healthcare: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+05-19 13:24:06.349  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.349  1486  1573 D AAL     : onBacklightChanged: 644/1023 -> 618/1023(phy:618/4095)
+05-19 13:24:06.349  1486  1573 D AAL     : 05-19 01:24:06.283 BL= 724,ESS= 256, 05-19 01:24:06.301 BL= 698,ESS= 256, 05-19 01:24:06.316 BL= 671,ESS= 256, 05-19 01:24:06.333 BL= 644,ESS= 256, 05-19 01:24:06.349 BL= 619,ESS= 256,
+05-19 13:24:06.357  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511876, tid:2479
+05-19 13:24:06.358  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511876, dur:0, num:4, tid:2479
+05-19 13:24:06.358  1078  1116 I mtkpower@impl: [check_work_req] i:0, msg:1 hdl:511876, wait
+05-19 13:24:06.359  1078  1185 I libPowerHal: [perfLockRel] hdl:511876, idx:0
+05-19 13:24:06.359  1078  1185 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1
+05-19 13:24:06.359  1078  1185 I libPowerHal: [PD] system_server update cmd:1c3c000 param:1
+05-19 13:24:06.359  1078  1185 I libPowerHal: [PD] (more) /proc/mcdi/state set +prefix:enable 1;
+05-19 13:24:06.359  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:06.360  1931  2479 I mtkpower_client: ret_hdl:511877
+05-19 13:24:06.365  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.365  1486  1573 D AAL     : onBacklightChanged: 618/1023 -> 591/1023(phy:591/4095)
+05-19 13:24:06.382  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.382  1486  1573 D AAL     : onBacklightChanged: 591/1023 -> 565/1023(phy:565/4095)
+05-19 13:24:06.399  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.399  1486  1573 D AAL     : onBacklightChanged: 565/1023 -> 538/1023(phy:538/4095)
+05-19 13:24:06.415  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.415  1486  1573 D AAL     : onBacklightChanged: 538/1023 -> 512/1023(phy:512/4095)
+05-19 13:24:06.415 15027 15027 W mple.healthcare: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+05-19 13:24:06.415 15027 15027 W mple.healthcare: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+05-19 13:24:06.415 15027 15027 W mple.healthcare: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+05-19 13:24:06.421 15027 15027 W mple.healthcare: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+05-19 13:24:06.422 15027 15027 W mple.healthcare: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+05-19 13:24:06.422 15027 15027 W mple.healthcare: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+05-19 13:24:06.431  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.432  1486  1573 D AAL     : onBacklightChanged: 512/1023 -> 485/1023(phy:485/4095)
+05-19 13:24:06.432  1486  1573 D AAL     : 05-19 01:24:06.365 BL= 591,ESS= 256, 05-19 01:24:06.383 BL= 566,ESS= 256, 05-19 01:24:06.399 BL= 539,ESS= 256, 05-19 01:24:06.415 BL= 512,ESS= 256, 05-19 01:24:06.432 BL= 486,ESS= 256,
+05-19 13:24:06.433 15027 15027 I ViewInteraction: Performing 'load adapter data' action on view view.getId() is <2131231024/com.example.healthcare:id/listViewBMCart>
+05-19 13:24:06.448  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.448  1486  1573 D AAL     : onBacklightChanged: 485/1023 -> 459/1023(phy:459/4095)
+05-19 13:24:06.464 12549 15980 I OMG_Observer:  onChange uri = content://settings/secure/accessibility_enabled
+05-19 13:24:06.465  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.465  1486  1573 D AAL     : onBacklightChanged: 459/1023 -> 432/1023(phy:432/4095)
+05-19 13:24:06.465  1931  1931 D PackageManager: multi app -> resolveContentProvider change name=settings to user 0 providerInfo=ContentProviderInfo{name=settings className=com.android.providers.settings.SettingsProvider}
+05-19 13:24:06.466  1931  1931 D PackageManager: multi app -> resolveContentProvider change name=settings to user 0 providerInfo=ContentProviderInfo{name=settings className=com.android.providers.settings.SettingsProvider}
+05-19 13:24:06.475 15027 15027 D takeScreenshot: Found 1 global views to redraw
+05-19 13:24:06.482  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.482  1486  1573 D AAL     : onBacklightChanged: 432/1023 -> 406/1023(phy:406/4095)
+05-19 13:24:06.489  7182  7312 D BtGatt.ScanManager: uid 10127 isForeground true scanMode -1
+05-19 13:24:06.489  7182  7312 D BtGatt.ScanManager: uid 10127 isForeground true scanMode 1
+05-19 13:24:06.489  7182  7312 D BtGatt.ScanManager: uid 10127 isForeground true scanMode -1
+05-19 13:24:06.489  7182  7182 I OplusCustomScanStrategy: msg.what = 6
+05-19 13:24:06.489  9545  9684 I A11yListener: (REDACTED) #onAccessibilityStateChanged enabled: %s
+05-19 13:24:06.490  9545  9764 I A11yListener: #onChange
+05-19 13:24:06.490  9545  9764 I Ma-fcf-A11yChangeNotifier: #FCF: onChange
+05-19 13:24:06.490  9545  9764 I Ma-fcf  : (REDACTED) FCF System FeatureName to check: %s
+05-19 13:24:06.490  9545  9764 I Ma-fcf  : (REDACTED) FCF: Device model check status : %s
+05-19 13:24:06.490  9545  9770 I Ma-fcf  : FCF A11y Checker - readyForTngMa
+05-19 13:24:06.491  9545  9764 I Ma-fcf  : (REDACTED) #FCF: Headset Connected Status: %s
+05-19 13:24:06.491 12549 15980 I OMG_Observer: updateService, tempServiceNeedStart:true, mThreePointersScreenshot:true, mThreePointersAreaScreenshot:true, mThreePointersSplitScreen:true, mSplitScreenEnable:true, mTalkBackEnable:false, mSuperPowerEnter: false, accessibilityEnabled:true, mRepeatShowToast: false, myUserId:0, currentUserid:0
+05-19 13:24:06.491  9545  9764 I Ma-fcf  : (REDACTED) #FCF: Assistant primary locale : %s
+05-19 13:24:06.491  9545  9764 I Ma-fcf  : (REDACTED) #FCF: Assistant Primary locale check status : %s
+05-19 13:24:06.494  9545  9764 I Ma-fcf  : (REDACTED) [%d] productivity accounts setup for current account.
+05-19 13:24:06.496 28484 28541 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+05-19 13:24:06.497 28484 28541 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+05-19 13:24:06.499 28484 28541 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+05-19 13:24:06.500  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.500  1486  1573 D AAL     : onBacklightChanged: 406/1023 -> 379/1023(phy:379/4095)
+05-19 13:24:06.503 12549 12549 D OMG_Policy: registerGlobalGesture, return:10000002 has already registered!
+05-19 13:24:06.505 28484 28541 I FontLog : Pulling font file for id = 45, cache size = 6 [CONTEXT service_id=132 ]
+05-19 13:24:06.506  4602 15090 I outlook.platformSDK: Doing re-evaluation of requirements for settings [SettingKey(name=System.IsSpokenFeedbackEnabled, evaluationProperty=RuntimeReevaluate)]
+05-19 13:24:06.514 28484 28541 I FontLog : Pulling font file for id = 45, cache size = 6 [CONTEXT service_id=132 ]
+05-19 13:24:06.517  1486  1573 D AAL     : 05-19 01:24:06.448 BL= 459,ESS= 256, 05-19 01:24:06.465 BL= 433,ESS= 256, 05-19 01:24:06.482 BL= 406,ESS= 256, 05-19 01:24:06.500 BL= 381,ESS= 256, 05-19 01:24:06.517 BL= 379,ESS= 256,
+05-19 13:24:06.521  4602 15090 I FabMenuViewModel: getLoadedContributions - 4
+05-19 13:24:06.521  3057  3511 D PhoneInterfaceManager: [PhoneIntfMgr] QueryTelephonyChecker-getDataNetworkTypeForSubscriber: packageName = com.android.phone, isGrant = true
+05-19 13:24:06.522  1078  1119 I mtkpower@impl: [setMode] type:1, enabled:1
+05-19 13:24:06.522  1078  1119 E mtkpower@impl: [setMode] unknown type
+05-19 13:24:06.522  3057  3511 D PhoneInterfaceManager: [PhoneIntfMgr] QueryTelephonyChecker-getDataNetworkTypeForSubscriber: packageName = com.android.phone, isGrant = true
+05-19 13:24:06.524  4602 15090 I outlook.platformSDK: Number of contributions to re-evaluate requirements [0]
+05-19 13:24:06.524  4602 15090 I outlook.platformSDK: minInit -> IsComplete[true]
+05-19 13:24:06.525  4602 15090 I outlook.platformSDK: minInit <- IsComplete[true]
+05-19 13:24:06.525  4602 15090 I outlook.platformSDK: Skipping loading for [DelaySend] since flight is disabled.
+05-19 13:24:06.525  4602 15090 I outlook.platformSDK: Skipping loading for [GenAiCompose] since flight is disabled.
+05-19 13:24:06.525  4602 15090 I outlook.platformSDK: Skipping loading for [inboxSummary] since flight is disabled.
+05-19 13:24:06.526  4602 15090 I outlook.platformSDK: Skipping loading for [LensVideoCapture] since flight is disabled.
+05-19 13:24:06.526  4602 15090 I outlook.platformSDK: Skipping loading for [MailActionsPartner] since flight is disabled.
+05-19 13:24:06.526  4602 15090 I outlook.platformSDK: Skipping loading for [MailOutlookHeaders] since flight is disabled.
+05-19 13:24:06.526  4602 15090 I outlook.platformSDK: Skipping loading for [MailTabV2] since flight is disabled.
+05-19 13:24:06.526  4602 15090 I outlook.platformSDK: Skipping loading for [MetaOsLaunchApps] since flight is disabled.
+05-19 13:24:06.526  4602 15090 I outlook.platformSDK: Skipping loading for [OutlookComposeMenuItem] since flight is disabled.
+05-19 13:24:06.526  4602 15090 I outlook.platformSDK: Skipping loading for [SchedulingAssistant] since flight is disabled.
+05-19 13:24:06.526  4602 15090 I outlook.platformSDK: Skipping loading for [SenderScreening] since flight is disabled.
+05-19 13:24:06.527  4602 15090 I outlook.platformSDK: Skipping loading for [Summarization] since flight is disabled.
+05-19 13:24:06.527  4602 15090 I outlook.platformSDK: requestLoadContributionsAsyncV2[SettingsUpdatedContribution] - Packages[0]
+05-19 13:24:06.527  4602 15090 I outlook.platformSDK: requestLoadContributionsAsyncV2[SettingsUpdatedContribution] - Loaded[0]
+05-19 13:24:06.533  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.533  1486  1573 D AAL     : onBacklightChanged: 379/1023 -> 326/1023(phy:326/4095)
+05-19 13:24:06.538  9567  9673 I A       : NGA disabled since it's running Panthera and at least one a11y feature is on.
+05-19 13:24:06.538  9567  9673 I A       : (REDACTED) Nga state changed to %s
+05-19 13:24:06.538  9567 12102 I Search.LoginHelperImpl: (REDACTED) Successfully received auth token for scope: %s in time %d ms
+05-19 13:24:06.541  9567 12102 I Search.LoginHelperImpl: (REDACTED) Successfully received auth token for scope: %s in time %d ms
+05-19 13:24:06.541  9567 12100 I Search.LoginHelperImpl: (REDACTED) Successfully received auth token for scope: %s in time %d ms
+05-19 13:24:06.541  1931  1997 D BatterySaveExtend: onLowPowerModeChanged: no change. ignore. enabled=true
+05-19 13:24:06.542  9567 12099 I Search.LoginHelperImpl: (REDACTED) Successfully received auth token for scope: %s in time %d ms
+05-19 13:24:06.542  9567 12098 I Search.LoginHelperImpl: (REDACTED) Successfully received auth token for scope: %s in time %d ms
+05-19 13:24:06.543  9567 12097 I Search.LoginHelperImpl: (REDACTED) Successfully received auth token for scope: %s in time %d ms
+05-19 13:24:06.548  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.548  1486  1573 D AAL     : onBacklightChanged: 326/1023 -> 300/1023(phy:300/4095)
+05-19 13:24:06.566  1931  2266 D AppStateRecord: handleMessage: EVENT_FOREGROUND_APP_CHANGE
+05-19 13:24:06.566  1931  2266 D AppStateRecord: isFgAppInStuckList
+05-19 13:24:06.566  1931  2266 D AppStateRecord: getFgAppInStuckList: fgApp com.example.healthcare
+05-19 13:24:06.569  1931  2266 D AppStateRecord: handleMessage: not fg stuck app, updateQoeEvent false
+05-19 13:24:06.572 15007 15025 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+05-19 13:24:06.574  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=10:**:**:**:e7:f0 addr_type=1
+05-19 13:24:06.574  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 31
+05-19 13:24:06.574  7182  7321 I bt_btif : LogMsg: bta_dm_observe_results_cb
+05-19 13:24:06.574  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD 10:e8:9c:c5:e7:f0 cod is 0x000000
+05-19 13:24:06.574  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD cod in config 0x001f00, status=0
+05-19 13:24:06.574  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD invalid cod 0x0, use cod 0x1f00 in config
+05-19 13:24:06.574  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl : type 0 channel 0
+05-19 13:24:06.574  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl: HAL bt_gatt_callbacks->scanner->scan_result_cb
+05-19 13:24:06.574  7182  7218 D BtGatt.GattService: onScanResult() - eventType=0x10, addressType=1, address=10:E8:9C:C5:E7:F0, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-92, periodicAdvInt=0x0, originalAddress=10:E8:9C:C5:E7:F0, type=0, channel=0
+05-19 13:24:06.574  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.574  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.574  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.574  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.574  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.574  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.576  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=41:**:**:**:c1:87 addr_type=1
+05-19 13:24:06.576  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 31
+05-19 13:24:06.576  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=41:**:**:**:c1:87 addr_type=1
+05-19 13:24:06.576  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 0
+05-19 13:24:06.576  7182  7321 I bt_btif : LogMsg: bta_dm_observe_results_cb
+05-19 13:24:06.576  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD 41:8c:53:fc:c1:87 cod is 0x000000
+05-19 13:24:06.576  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD cod in config 0x001f00, status=0
+05-19 13:24:06.576  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD invalid cod 0x0, use cod 0x1f00 in config
+05-19 13:24:06.576  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl : type 0 channel 0
+05-19 13:24:06.576  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl: HAL bt_gatt_callbacks->scanner->scan_result_cb
+05-19 13:24:06.576  7182  7218 D BtGatt.GattService: onScanResult() - eventType=0x1b, addressType=1, address=41:8C:53:FC:C1:87, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-92, periodicAdvInt=0x0, originalAddress=41:8C:53:FC:C1:87, type=0, channel=0
+05-19 13:24:06.576  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.577  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.577  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.577  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.577  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.577  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.577   560   560 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+05-19 13:24:06.578 15007 15026 W libc    : Access denied finding property "qemu.sf.lcd_density"
+05-19 13:24:06.578 15007 15026 W libc    : Access denied finding property "qemu.sf.lcd_density"
+05-19 13:24:06.580 28484 20004 I NearbySharing: Power save mode is already set to true, do nothing [CONTEXT service_id=194 ]
+05-19 13:24:06.580 28484 20004 I NearbySharing: Screen is already unlocked, skipping invalidate [CONTEXT service_id=194 ]
+05-19 13:24:06.581  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.581  1486  1573 D AAL     : onBacklightChanged: 300/1023 -> 273/1023(phy:273/4095)
+05-19 13:24:06.584  2431  2556 D BLASTBufferQueue: [VRI[healthcare][Splash Screen com.example.healthcare]#19890](f:0,a:1) destructor()
+05-19 13:24:06.584 15007 15096 D OplusGraphicsEvent: OplusGraphicsEventListener create now!
+05-19 13:24:06.585  2431  2556 D BufferQueueConsumer: [VRI[healthcare][Splash Screen com.example.healthcare]#19890(BLAST Consumer)19890](id:97f00004e4e,api:0,p:-1,c:2431) disconnect
+05-19 13:24:06.585 15007 15096 D OplusGraphicsEvent: addEventListener success!
+05-19 13:24:06.586  2431  2556 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+05-19 13:24:06.586  2431  2556 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@dafde57
+05-19 13:24:06.586  2431  2556 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver
+05-19 13:24:06.586  2431  2556 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@7ea5d44
+05-19 13:24:06.592  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=f9:**:**:**:fa:5f addr_type=1
+05-19 13:24:06.592  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 21
+05-19 13:24:06.592  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=f9:**:**:**:fa:5f addr_type=1
+05-19 13:24:06.592  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 18
+05-19 13:24:06.592  1931  2802 W InputManager-JNI: Input channel object '9d8cf5a Splash Screen com.example.healthcare (client)' was disposed without first being removed with the input manager!
+05-19 13:24:06.592  7182  7321 I bt_btif : LogMsg: bta_dm_observe_results_cb
+05-19 13:24:06.592  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD f9:11:e8:5e:fa:5f cod is 0x000000
+05-19 13:24:06.592  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD cod in config 0x001f00, status=0
+05-19 13:24:06.592  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD invalid cod 0x0, use cod 0x1f00 in config
+05-19 13:24:06.592  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl : type 0 channel 0
+05-19 13:24:06.592  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl: HAL bt_gatt_callbacks->scanner->scan_result_cb
+05-19 13:24:06.592  7182  7218 D BtGatt.GattService: onScanResult() - eventType=0x1b, addressType=1, address=F9:11:E8:5E:FA:5F, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-93, periodicAdvInt=0x0, originalAddress=F9:11:E8:5E:FA:5F, type=0, channel=0
+05-19 13:24:06.592  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.592  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.592  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.592  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.593  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.593 15007 15096 W libc    : Access denied finding property "vendor.display.disable_rounded_corner"
+05-19 13:24:06.593  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.595 15007 15096 D libMEOW : constructor: load_file ...
+05-19 13:24:06.595 15007 15096 D libMEOW : meow thread key: -2147483633
+05-19 13:24:06.595 15007 15096 D libMEOW : meow new tls: 0xb4000074eca82400
+05-19 13:24:06.596 15007 15096 D libMEOW : meow [updated] data loaded
+05-19 13:24:06.597 15007 15096 D libMEOW : meow reload base cfg path: na
+05-19 13:24:06.597 15007 15096 D libMEOW : meow reload overlay cfg path: na
+05-19 13:24:06.597 15007 15096 D libMEOW : rebuild call chain: 0xb4000074eca9b200
+05-19 13:24:06.597  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.597  1486  1573 D AAL     : onBacklightChanged: 273/1023 -> 220/1023(phy:220/4095)
+05-19 13:24:06.597  1486  1573 D AAL     : 05-19 01:24:06.533 BL= 352,ESS= 256, 05-19 01:24:06.549 BL= 323,ESS= 256, 05-19 01:24:06.564 BL= 300,ESS= 256, 05-19 01:24:06.581 BL= 286,ESS= 256, 05-19 01:24:06.597 BL= 231,ESS= 256,
+05-19 13:24:06.600  7182  7321 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2573)] btm_ble_process_adv_addr: bda=26:**:**:**:41:43 addr_type=1
+05-19 13:24:06.600  7182  7321 I bt_btm  : LogMsg: btm_ble_process_adv_pkt: pkt_data_len: 15
+05-19 13:24:06.600  7182  7321 I bt_btif : LogMsg: bta_dm_observe_results_cb
+05-19 13:24:06.600  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD 26:1b:11:4f:41:43 cod is 0x000000
+05-19 13:24:06.600  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD cod in config 0x001f00, status=0
+05-19 13:24:06.600  7182  7321 I bt_btif : LogMsg: btif_ble_scanner_update_COD invalid cod 0x0, use cod 0x1f00 in config
+05-19 13:24:06.600  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl : type 0 channel 0
+05-19 13:24:06.600  7182  7218 I bt_btif : LogMsg: bta_scan_results_cb_impl: HAL bt_gatt_callbacks->scanner->scan_result_cb
+05-19 13:24:06.600  7182  7218 D BtGatt.GattService: onScanResult() - eventType=0x10, addressType=1, address=26:1B:11:4F:41:43, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-92, periodicAdvInt=0x0, originalAddress=26:1B:11:4F:41:43, type=0, channel=0
+05-19 13:24:06.600  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.600  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.601  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.601  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.601  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.601  7182  7218 D BtGatt.GattService: Skipping client: permission=true matches=false
+05-19 13:24:06.601 15007 15096 D libMEOW : load [updated] driver: libEGL_mtk.so
+05-19 13:24:06.603  1176  1176 D Layer   : reparent to null sequence=251946, seq[24], name=Surface(name=4b21f5b com.example.healthcare/com.example.healthcare.LabTestActivity)/@0xd92e70e - animation-leash of starting_reveal#251946
+05-19 13:24:06.605  9545  9768 I Ma-fcf-tngMaStatus: (REDACTED) #FCF evaluate: %s
+05-19 13:24:06.606  9545  9768 I Ma-fcf-tngMaStatus: (REDACTED) TngMaStatusChecker#evaluateInternal completed in %s millis
+05-19 13:24:06.606  9545  9768 I Ma-Entry-Triggering: (REDACTED) TNG:MA status updated: %s
+05-19 13:24:06.606  9545  9768 I Ma-Entry-Triggering: TNG:MA became ineligible, client should disconnect
+05-19 13:24:06.606  9545  9768 I Ma-Entry-Triggering: #disconnectAndStop - preventing double stop
+05-19 13:24:06.606  9545  9768 I Ma-fcf-tngMaStatus: #invalidationSource: adding headset checker
+05-19 13:24:06.614  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.614  1486  1573 D AAL     : onBacklightChanged: 220/1023 -> 193/1023(phy:193/4095)
+05-19 13:24:06.615 15007 15096 D PQCommon: [PQ_PROT] [PQCust] libpq_cust_base.so OK, libpq_cust.so absent
+05-19 13:24:06.626 15007 15096 D libMEOW : load [updated] driver: libGLESv1_CM_mtk.so
+05-19 13:24:06.630  1486  1573 D AALCust : aal_backlight_bits, specialConfig:12
+05-19 13:24:06.630  1486  1573 D AAL     : onBacklightChanged: 193/1023 -> 170/1023(phy:170/4095)
+05-19 13:24:06.647  1486  1573 D AAL     : 05-19 01:24:06.614 BL= 193,ESS= 256, 05-19 01:24:06.631 BL= 170,ESS= 256,
+05-19 13:24:06.652 15007 15096 D libMEOW : load [updated] driver: libGLESv2_mtk.so
+05-19 13:24:06.659  1462  1462 I thermal_repeater: [recvMdThermalInfo] ret=26, strLen=127,  3, 40, -50, 197, 32767, 1
+05-19 13:24:06.705  4740  5387 I AudioTrack: getMarkerPosition(): 0xb4000070dfbf0000, marker = 169028
+05-19 13:24:06.705  4740  5387 I AudioTrack: getMarkerPosition(): 0xb4000070dfbf0000, marker = 169028
+05-19 13:24:06.707 15007 15096 D libMEOW : load [plugin][system] driver: libMEOW_gift.so
+05-19 13:24:06.707 15007 15096 D libMEOW : libMEOW_gift.so load 292 APIS.
+05-19 13:24:06.707 15007 15096 D libMEOW : plugin: libMEOW_gift.so loaded.
+05-19 13:24:06.708 15007 15096 D libEGL  : loaded /vendor/lib64/egl/libGLES_meow.so
+05-19 13:24:06.708 15007 15096 D libMEOW : meow new tls: 0xb4000074ecaecd00
+05-19 13:24:06.708 15007 15096 D libMEOW : applied 1 plugins for [app_process]:
+05-19 13:24:06.708 15007 15096 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb4000074ecacb980
+05-19 13:24:06.708 15007 15096 D libMEOW : rebuild call chain: 0xb4000074ecafb280
+05-19 13:24:06.750   561   561 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+05-19 13:24:06.768  1176  1176 D Layer   : reparent to null sequence=251936, seq[5], name=Splash Screen com.example.healthcare#251936
+05-19 13:24:06.768  1176  1176 D Layer   : reparent to null sequence=251935, seq[3], name=9d8cf5a Splash Screen com.example.healthcare#251935
+05-19 13:24:06.769  1176  1176 D Layer   : reparent to null sequence=251949, seq[23], name=Surface(name=9d8cf5a Splash Screen com.example.healthcare)/@0x738c804 - animation-leash of window_animation#251949
+05-19 13:24:06.769  1176  1176 D OplusLayer: ~Layer() sequence=251949, name=Surface(name=9d8cf5a Splash Screen com.example.healthcare)/@0x738c804 - animation-leash of window_animation#251949
+05-19 13:24:06.769  1176  1176 D OplusLayer: ~Layer() sequence=251935, name=9d8cf5a Splash Screen com.example.healthcare#251935
+05-19 13:24:06.775  1176  1176 I BufferQueueDebug: [Splash Screen com.example.healthcare#251936](this:0xb400006fb43159e8,id:-1,api:0,p:-1,c:1176) onDestructor()
+05-19 13:24:06.775  1176  1176 D OplusLayer: ~Layer() sequence=251936, name=Splash Screen com.example.healthcare#251936
+05-19 13:24:06.776  1176  1176 I DispPerfService: updateLayerMask 0
+05-19 13:24:06.862  4762  5341 W MediaProvider: isAppCloneUserPair failed. Users: 0 and 0
+05-19 13:24:06.862  4762  5341 W MediaProvider: isAppCloneUserPair for user 0: false
+05-19 13:24:06.946 28484 14853 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 900567 [CONTEXT service_id=218 ]
+05-19 13:24:06.955 28484 14855 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 38 uptime_millis: 38 exec_start_elapsed_seconds: 900567 [CONTEXT service_id=218 ]
+05-19 13:24:07.265  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511877, tid:2479
+05-19 13:24:07.266  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511877, dur:0, num:10, tid:2479
+05-19 13:24:07.266  1078  1116 I mtkpower@impl: [check_work_req] i:0, msg:1 hdl:511877, wait
+05-19 13:24:07.266  1078  1185 I libPowerHal: [perfLockRel] hdl:511877, idx:0
+05-19 13:24:07.266  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:07.269  1931  2479 I mtkpower_client: ret_hdl:511878
+05-19 13:24:07.269  1078  1185 I libPowerHal: system_server: cpu_ctrl set cpu freq: 1275000 -1 2200000 -1
+05-19 13:24:07.273  1078  1119 I mtkpower@impl: [setMode] type:5, enabled:1
+05-19 13:24:07.274  1078  1185 I libPowerHal: LAUNCH: cpu_ctrl set cpu freq: 2000000 -1 2200000 -1
+05-19 13:24:07.275  1931  4716 I PowerHalWrapper: <amsBoostResume> last:com.example.healthcare, next:com.example.healthcare
+05-19 13:24:07.280  1931  4716 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:07.280  1931  4716 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:07.282 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.LabTestActivity@8d4d755 in: PAUSED
+05-19 13:24:07.282 15027 15027 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.healthcare.LabTestActivity@8d4d755
+05-19 13:24:07.283  1931  1948 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:07.283  1931  1948 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:07.283  1931  1948 D OplusUIFirst_FB: handleParaSwitch com.example.healthcare null null 1
+05-19 13:24:07.283  1931  1948 D OplusUIFirst_FB: com.example.healthcare activity event: []
+05-19 13:24:07.283  1931  1948 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:07.283  1931  1948 D OplusUIFirst_FB: handleParaSwitch com.example.healthcare null null 1
+05-19 13:24:07.289  1931  1948 I PowerHalWrapper: amsBoostNotify pid:15027,activity:androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, package:com.example.healthcare, mProcessCreatePackcom.example.healthcare
+05-19 13:24:07.289  1931  1948 I PowerHalWrapper: state: 1
+05-19 13:24:07.289  1931  1948 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity pid=15027 state:1
+05-19 13:24:07.289  1931  1948 I game_scn: collectForegroundAppList packName=com.example.healthcare, actName=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, pid=15027, uid=10495, state:RESUMED
+05-19 13:24:07.289  1931  1948 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:07.290  1931  1948 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{82ebf82 u0 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} t2209}
+05-19 13:24:07.290  1078  1116 I mtkpower@impl: [notifyAppState] act com.android.launcher.Launcher => androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+05-19 13:24:07.291  1931  1948 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+05-19 13:24:07.294  1931  1948 I PowerHalWrapper: amsBoostNotify pid:15027,activity:com.example.healthcare.LabTestActivity, package:com.example.healthcare, mProcessCreatePackcom.example.healthcare
+05-19 13:24:07.294  1931  1948 I PowerHalWrapper: state: 0
+05-19 13:24:07.294  1931  1948 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.example.healthcare/com.example.healthcare.LabTestActivity pid=15027 state:0
+05-19 13:24:07.294  1931  1948 I game_scn: collectForegroundAppList packName=com.example.healthcare, actName=com.example.healthcare.LabTestActivity, pid=15027, uid=10495, state:PAUSED
+05-19 13:24:07.294  1931  1948 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:07.296 15027 15103 D libMEOW : meow new tls: 0xb400007177ab9980
+05-19 13:24:07.296 15027 15103 D libMEOW : applied 1 plugins for [com.example.healthcare]:
+05-19 13:24:07.296 15027 15103 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb4000071e5138080
+05-19 13:24:07.296 15027 15103 D libMEOW : rebuild call chain: 0xb400007177acbe80
+05-19 13:24:07.297  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511878, tid:2479
+05-19 13:24:07.297 15027 15103 D libMEOW : meow delete tls: 0xb400007177ab9980
+05-19 13:24:07.297  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511878, dur:0, num:10, tid:2479
+05-19 13:24:07.297  1078  1185 I libPowerHal: [perfLockRel] hdl:511878, idx:0
+05-19 13:24:07.297  1078  1185 I libPowerHal: [PD] system_server update cmd:1c3c000 param:1
+05-19 13:24:07.297  1078  1185 I libPowerHal: [PD] (more) /proc/mcdi/state set +prefix:enable 1;
+05-19 13:24:07.297  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:07.298  1931  2479 I mtkpower_client: ret_hdl:511881
+05-19 13:24:07.301 15027 15027 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@baf51e5 in: PRE_ON_CREATE
+05-19 13:24:07.301 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10495 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@baf51e5
+05-19 13:24:07.313 15027 15027 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@baf51e5 in: CREATED
+05-19 13:24:07.313 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10495 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@baf51e5
+05-19 13:24:07.315 15027 15027 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@baf51e5 in: STARTED
+05-19 13:24:07.315  1931  1948 I FocusResolver: updateFocusedWindow,  on display 0, reason: Waiting for window because NOT_FOCUSABLE, result:   FocusedWindows: <none>
+05-19 13:24:07.316 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10495 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@baf51e5
+05-19 13:24:07.318 15027 15027 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@baf51e5 in: RESUMED
+05-19 13:24:07.318 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10495 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@baf51e5
+05-19 13:24:07.319  1176  1381 I SurfaceFlinger: [SF client] NEW(0xb400006fc3919180) for (15027:com.example.healthcare)
+05-19 13:24:07.322 15027 15027 D WindowManager: Add to mViews: DecorView@4bed89d[InstrumentationActivityInvoker$EmptyActivity],pkg= com.example.healthcare
+05-19 13:24:07.332 15027 15027 D InputEventReceiver: Input log is disabled
+05-19 13:24:07.336 15027 15027 D VRI[LabTestActivity]: onFocusEvent false
+05-19 13:24:07.342  1176  1381 I BufferQueueDebug: [com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#251952](this:0xb400006fb3df29e8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1176:/system/bin/surfaceflinger)
+05-19 13:24:07.352  1931  2802 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+05-19 13:24:07.355  1176  1389 D [OSIE]  : scltmLayer_name VRI[InstrumentationActivityInvoker$EmptyActivity][com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity]
+05-19 13:24:07.355  1176  1389 D [OSIE]  : IsSCLTMLayer=0
+05-19 13:24:07.355 15027 15027 D BufferQueueConsumer: [](id:3ab300000001,api:0,p:-1,c:15027) connect: controlledByApp=false
+05-19 13:24:07.359 15027 15027 D VRI[InstrumentationActivityInvoker$EmptyActivity]: registerCallbacksForSync syncBuffer=false
+05-19 13:24:07.364  1176  1176 D Layer   : reparent to null sequence=251945, seq[2], name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251945
+05-19 13:24:07.364  1176  1176 D Layer   : reparent to null sequence=251944, seq[1], name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251944
+05-19 13:24:07.370 15027 15061 D BLASTBufferQueue: [VRI[InstrumentationActivityInvoker$EmptyActivity][com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity]#1](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=861286894275179(auto) mPendingTransactions.size=0 graphicBufferId=64540473557001 transform=0
+05-19 13:24:07.371 15027 15061 D VRI[InstrumentationActivityInvoker$EmptyActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+05-19 13:24:07.371 15027 15061 W Parcel  : Expecting binder but got null!
+05-19 13:24:07.371 15027 15027 D VRI[InstrumentationActivityInvoker$EmptyActivity]: draw finished.
+05-19 13:24:07.376 15027 15046 D VRI[LabTestActivity]: dispatchAppVisibility visible:false
+05-19 13:24:07.377  1931  1955 I ActivityTaskManager: Displayed com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +112ms
+05-19 13:24:07.381  1176  1176 D BufferStateLayer: com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#251952 setBuffer frameId=1, bufferId=64540473557001 fenceId=755, w= 1080, h=2400
+05-19 13:24:07.381  1176  1176 D OplusLayer: (251952,com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#251952,com.example.healthcare) setBuffer
+05-19 13:24:07.385 15027 15027 D VRI[InstrumentationActivityInvoker$EmptyActivity]: registerCallbacksForSync syncBuffer=false
+05-19 13:24:07.385 15027 15061 D VRI[InstrumentationActivityInvoker$EmptyActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false syncBuffer=false
+05-19 13:24:07.386 15027 15027 D VRI[InstrumentationActivityInvoker$EmptyActivity]: draw finished.
+05-19 13:24:07.392 15027 15027 D VRI[LabTestActivity]: setWindowStopped stopped:true
+05-19 13:24:07.393 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.LabTestActivity@8d4d755 in: STOPPED
+05-19 13:24:07.393 15027 15027 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.healthcare.LabTestActivity@8d4d755
+05-19 13:24:07.395 15027 15027 D LifecycleMonitor: Lifecycle status change: com.example.healthcare.LabTestActivity@8d4d755 in: DESTROYED
+05-19 13:24:07.396 15027 15027 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-19 13:24:07.396 15027 15027 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+05-19 13:24:07.396 15027 15027 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@e0712c2
+05-19 13:24:07.396 15027 15027 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver
+05-19 13:24:07.396 15027 15027 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@4c648d3
+05-19 13:24:07.398  1176  1176 D OplusLayer: ~Layer() sequence=251945, name=Surface(name=28e464 NavigationBar0)/@0xde740b - animation-leash of insets_animation#251945
+05-19 13:24:07.398  1176  1176 D OplusLayer: ~Layer() sequence=251944, name=Surface(name=c402886 StatusBar)/@0xaf05d85 - animation-leash of insets_animation#251944
+05-19 13:24:07.400  1931  2436 I FocusResolver: updateFocusedWindow, 80ce294 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity on display 0, reason: Window became focusable. Previous reason: NOT_VISIBLE, result:   FocusedWindows:
+05-19 13:24:07.400  1931  2436 I FocusResolver:     displayId=0, name='80ce294 com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity'
+05-19 13:24:07.401  1176  1176 I DispPerfService: updateLayerMask 0
+05-19 13:24:07.403  1931  2802 W InputManager-JNI: Input channel object '4b21f5b com.example.healthcare/com.example.healthcare.LabTestActivity (client)' was disposed without first being removed with the input manager!
+05-19 13:24:07.404 15027 15046 D BLASTBufferQueue: [VRI[LabTestActivity][com.example.healthcare/com.example.healthcare.LabTestActivity]#0](f:0,a:1) destructor()
+05-19 13:24:07.405 15027 15046 D BufferQueueConsumer: [VRI[LabTestActivity][com.example.healthcare/com.example.healthcare.LabTestActivity]#0(BLAST Consumer)0](id:3ab300000000,api:0,p:-1,c:15027) disconnect
+05-19 13:24:07.410 15027 15027 D VRI[InstrumentationActivityInvoker$EmptyActivity]: onFocusEvent true
+05-19 13:24:07.414  1176  1176 D Layer   : reparent to null sequence=251943, seq[7], name=com.example.healthcare/com.example.healthcare.LabTestActivity#251943
+05-19 13:24:07.414  1176  1176 D Layer   : reparent to null sequence=251942, seq[5], name=4b21f5b com.example.healthcare/com.example.healthcare.LabTestActivity#251942
+05-19 13:24:07.414  1176  1176 D Layer   : reparent to null sequence=251947, seq[3], name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#251947
+05-19 13:24:07.414  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511881, tid:2479
+05-19 13:24:07.415  1176  1176 D OplusLayer: ~Layer() sequence=251942, name=4b21f5b com.example.healthcare/com.example.healthcare.LabTestActivity#251942
+05-19 13:24:07.415  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511881, dur:0, num:10, tid:2479
+05-19 13:24:07.415  1931  4716 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{5f29859 u0 com.android.launcher/.Launcher} t1643}
+05-19 13:24:07.415  1176  1176 I BufferQueueDebug: [com.example.healthcare/com.example.healthcare.LabTestActivity#251943](this:0xb400006fb3ffe9e8,id:-1,api:0,p:-1,c:1176) onDestructor()
+05-19 13:24:07.415  1176  1176 D OplusLayer: ~Layer() sequence=251943, name=com.example.healthcare/com.example.healthcare.LabTestActivity#251943
+05-19 13:24:07.415  1078  1185 I libPowerHal: [perfLockRel] hdl:511881, idx:0
+05-19 13:24:07.415  1078  1185 I libPowerHal: [PD] system_server update cmd:1c3c000 param:1
+05-19 13:24:07.415  1078  1185 I libPowerHal: [PD] (more) /proc/mcdi/state set +prefix:enable 1;
+05-19 13:24:07.415  1176  1176 D OplusLayer: ~Layer() sequence=251947, name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#251947
+05-19 13:24:07.415  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:07.416  1931  2479 I mtkpower_client: ret_hdl:511882
+05-19 13:24:07.417  1931  4716 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+05-19 13:24:07.418  1931  2479 I mtkpower_client: perf_lock_rel, hdl:511882, tid:2479
+05-19 13:24:07.418  1931  2479 I mtkpower_client: perf_lock_acq, hdl:511882, dur:0, num:10, tid:2479
+05-19 13:24:07.418  1078  1185 I libPowerHal: [perfLockRel] hdl:511882, idx:0
+05-19 13:24:07.418  1078  1185 I libPowerHal: [PD] system_server update cmd:1c3c000 param:1
+05-19 13:24:07.419  1078  1185 I libPowerHal: [PD] (more) /proc/mcdi/state set +prefix:enable 1;
+05-19 13:24:07.419  1078  1185 I libPowerHal: [PD] system_server update cmd:2004100 param:2
+05-19 13:24:07.419  1931  2479 I mtkpower_client: ret_hdl:511883
+05-19 13:24:07.430  1176  1176 D Layer   : reparent to null sequence=251934, seq[4], name=ActivityRecord{3df1d50 u0 com.example.healthcare/.LabTestActivity}#251934
+05-19 13:24:07.431  1176  1176 D OplusLayer: ~Layer() sequence=251780, name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#251780
+05-19 13:24:07.431  1176  1176 D OplusLayer: ~Layer() sequence=251934, name=ActivityRecord{3df1d50 u0 com.example.healthcare/.LabTestActivity}#251934
+05-19 13:24:07.431  1176  1176 D OplusLayer: ~Layer() sequence=251941, name=cce0b49 ActivityRecordInputSink com.example.healthcare/.LabTestActivity#251941
+05-19 13:24:07.431 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3261
+05-19 13:24:07.432 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2110 repeatCheckTimes = 0, locked = false
+05-19 13:24:07.433  1931  4367 I FocusResolver: updateFocusedWindow,  on display 0, reason: Waiting for window because NOT_FOCUSABLE, result:   FocusedWindows: <none>
+05-19 13:24:07.433 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1898 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.healthcare fieldId=-1 fieldName=null extras=Bundle[{com.oplus.im.SCENES=0}] hintLocales=[]}, false)
+05-19 13:24:07.433 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4088 ShouldHideHeaderOnInitialState = false
+05-19 13:24:07.434 17158 17158 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2110 repeatCheckTimes = 1, locked = false
+05-19 13:24:07.436 15027 15027 D VRI[InstrumentationActivityInvoker$EmptyActivity]: onFocusEvent false
+05-19 13:24:07.436 15027 15027 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@baf51e5 in: PAUSED
+05-19 13:24:07.437 15027 15027 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.healthcare/.LabTestActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity mCallingUid=10495 }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@baf51e5
+05-19 13:24:07.438  1931  4716 V SensorManager: call sensorServiceCommonInterface name: setScreenShotDisable
+05-19 13:24:07.438  1931  4716 D SensorService: SensorService sensorServiceCommonInterface = setScreenShotDisable
+05-19 13:24:07.438  1931  4716 D SensorServiceExtImpl: sensorServiceCommonInterface funcName = setScreenShotDisable, flag = 0, status = 0
+05-19 13:24:07.438  1931  4716 D OplusUIFirst_FB: com.android.launcher activity event: []
+05-19 13:24:07.438  1931  4716 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:07.438  1931  4716 D OplusUIFirst_FB: handleParaSwitch com.android.launcher null null 1
+05-19 13:24:07.438  1931  4716 I OplusHansManager : front pkg: com.android.launcher, uid: 10106, prev pkg: com.example.healthcare, prev uid: 10495
+05-19 13:24:07.438  1931  3113 I OplusHansManager : notifyAppGoForeground, uid=10106
+05-19 13:24:07.438  1931  4716 D OplusUIFirst_FB: com.android.launcher activity event: []
+05-19 13:24:07.438  1931  3113 I OplusHansManager : notifyAppGoBackground, uid=10495
+05-19 13:24:07.439  1931  4716 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:07.439  1931  4716 D OplusUIFirst_FB: handleParaSwitch com.android.launcher null null 1
+05-19 13:24:07.439  1931  2275 I Osense-DecisionMaker: notifySceneToAthenaPolicy: SCENE_LAUNCHER, bundle: Bundle[{prevPkgName=com.example.healthcare, curUid=10106, curPkgName=com.android.launcher, prevUid=10495}]
+05-19 13:24:07.439  1931  3007 I OplusHansManager : uid=10495, pkg=com.example.healthcare enter SM
+05-19 13:24:07.439  1931  3007 I OplusHansManager : uid=10495, pkg=com.example.healthcare R enter(), D stay=1
+05-19 13:24:07.439  1931  2275 D Osense-DecisionMaker: getCurrentSysStats, availmemMb: 2286
+05-19 13:24:07.439  1931  2275 D Osense-DecisionMaker: getCurrentSysStats, availmemMb: 2286
+05-19 13:24:07.439  1931  2275 D Osense-DecisionMaker: getCurrentSysStats, availmemMb: 2286
+05-19 13:24:07.439  1931  2275 D Osense-DecisionMaker: getCurrentSysStats, availmemMb: 2286
+05-19 13:24:07.439  1931  3016 I OplusResourcePreloadManager: resume pkg: com.android.launcher, uid:10106, prev pkg: com.example.healthcare, prev uid: 10495
+05-19 13:24:07.440  9567 31002 D VRI[Launcher]: dispatchAppVisibility visible:true
+05-19 13:24:07.440  2821 25323 D VRI[Launcher]: dispatchAppVisibility visible:true
+05-19 13:24:07.441  1931  4716 I PowerHalWrapper: amsBoostNotify pid:2821,activity:com.android.launcher.Launcher, package:com.android.launcher, mProcessCreatePackcom.example.healthcare
+05-19 13:24:07.441  1931  4716 I PowerHalWrapper: state: 1
+05-19 13:24:07.441  1931  4716 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.android.launcher/com.android.launcher.Launcher pid=2821 state:1
+05-19 13:24:07.441  1931  4716 I game_scn: collectForegroundAppList packName=com.android.launcher, actName=com.android.launcher.Launcher, pid=2821, uid=10106, state:RESUMED
+05-19 13:24:07.442  1931  4716 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:07.442  1931  3161 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppExit, resuming = com.android.launcher, target = com.example.healthcare, is ResumingFirstStart =  false, is ResumingMultiApp =  false, extensionInfo =  Bundle[{taskId=1643, uid=10106}]
+05-19 13:24:07.442  1931  8040 D DCSEX-AppLaunchEventRecorder: onAppSwitch from = com.example.healthcare to = com.android.launcher
+05-19 13:24:07.442  1931  8040 D DCSEX-AppLaunchEventRecorder: recordExitApp = com.example.healthcare
+05-19 13:24:07.443  1931  8040 E OplusTrack-ApkInfoUtil: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.os.Bundle.get(java.lang.String)' on a null object reference
+05-19 13:24:07.443  1931  8040 W System.err: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.os.Bundle.get(java.lang.String)' on a null object reference
+05-19 13:24:07.443  1931  8040 W System.err: 	at t6.a.a(ApkInfoUtil.java:6)
+05-19 13:24:07.443  1931  8040 W System.err: 	at m6.b.<init>(TrackEvent.java:10)
+05-19 13:24:07.443  1931  8040 W System.err: 	at m6.a.<init>(CommonBean.java:1)
+05-19 13:24:07.443  1931  8040 W System.err: 	at k6.f.b(OplusTrack.java:1)
+05-19 13:24:07.443  1931  8040 W System.err: 	at q6.b$c.d(AppLaunchEventRecorder.java:9)
+05-19 13:24:07.443  1931  8040 W System.err: 	at q6.b$c.a(AppLaunchEventRecorder.java:7)
+05-19 13:24:07.443  1931  8040 W System.err: 	at q6.a.b(Unknown Source:2)
+05-19 13:24:07.443  1931  8040 W System.err: 	at n6.c.accept(Unknown Source:1)
+05-19 13:24:07.443  1931  8040 W System.err: 	at java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:811)
+05-19 13:24:07.443  1931  8040 W System.err: 	at n6.b.run(Unknown Source:1)
+05-19 13:24:07.443  1931  8040 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+05-19 13:24:07.443  1931  8040 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+05-19 13:24:07.443  1931  8040 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+05-19 13:24:07.443  1931  8040 W OplusTrack-TrackEvent: appId is empty
+05-19 13:24:07.443  1931  3161 D OplusLatencyOptimizerManager: enter pkg: com.android.launcher isPrevBlackAppTop: false mIsBlackAppTop: false
+05-19 13:24:07.443  1931  2108 E Athena  : MemoryGuardAction: handleAppChange
+05-19 13:24:07.444  1931  3161 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppEnter, launchedFrom =  com.android.launcher, target =  com.android.launcher, is firstStart =  false, is multiApp =  false, extensionInfo =  Bundle[{taskId=1643, pid=2821, uid=10106, versionCode=13000012}]
+05-19 13:24:07.444  1078  1185 I libPowerHal: [perfNotifyAppState] foreground:com.android.launcher, pid:2821, uid:10106
+05-19 13:24:07.445  1078  1185 E UxUtility: notifyAppState error = NULL
+05-19 13:24:07.445  1078  1185 I TouchUtility: notifyAppState error = NULL
+05-19 13:24:07.446  3059 26552 I Athena  : AthenaDynamicReceiver: pre_app:com.example.healthcare, next_app:com.android.launcher(10106|2821)
+05-19 13:24:07.447  1078  1116 I mtkpower@impl: [notifyAppState] pc:0, com.example.healthcare => com.android.launcher
+05-19 13:24:07.447  1176  1176 D Layer   : reparent to null sequence=251956, seq[2], name=Surface(name=33bba53 InputMethod)/@0xbdd8c45 - animation-leash of insets_animation#251956
+05-19 13:24:07.447  2821  2821 D VRI[Launcher]: setWindowStopped stopped:false
+05-19 13:24:07.449  4710  5530 W Battery : ThermalControlUtils: mForegroundPkg=com.android.launcher
+05-19 13:24:07.450  1176  1389 I VRR [FRTC]: setFrameRateTarget with [0, com.example.healthcare, 0, com.oplus.battery, 1, 0, 1000]
+05-19 13:24:07.450  1931  4716 I PowerHalWrapper: amsBoostNotify pid:15027,activity:androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, package:com.example.healthcare, mProcessCreatePackcom.example.healthcare
+05-19 13:24:07.450  1176  1389 W VRR [FRTC]: invalid param { fps 0, proc_name com.example.healthcare, strict_mode 0, description com.oplus.battery, proc_id 0, rate_status 0, backend Surface, version 1, pid 0, uid 1000, enable at 2023-05-19 13:24:07, disable waiting } for current status.
+05-19 13:24:07.450  1176  1389 W VRR [FRTC]: CurrentTarget size 0:
+05-19 13:24:07.450  1931  4716 I PowerHalWrapper: state: 0
+05-19 13:24:07.450  1931  4716 I mtkpower_client: [Legacy][PowerHal_Wrap_notifyAppState] com.example.healthcare/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity pid=15027 state:0
+05-19 13:24:07.450  1931  4716 I game_scn: collectForegroundAppList packName=com.example.healthcare, actName=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, pid=15027, uid=10495, state:PAUSED
+05-19 13:24:07.450  1931  4716 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+05-19 13:24:07.451 28291 28392 I [0]DCS-StrategyManager: isNeedUpload: true, type: 1, appID: 0, logTag: , eventID:
+05-19 13:24:07.453  2821  2821 D LauncherClient: getThreadPriority 0
+05-19 13:24:07.453  1176  1389 I BufferQueueDebug: [com.android.launcher/com.android.launcher.Launcher#251958](this:0xb400006fb80b79e8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1176:/system/bin/surfaceflinger)
+05-19 13:24:07.454 15027 15057 E TestRunner: failed: testItemClick(com.example.healthcare.LabTestActivityTest)
+05-19 13:24:07.454 15027 15057 E TestRunner: ----- begin exception -----
+05-19 13:24:07.454  1931  1958 D OplusUIFirst_FB: com.android.launcher moveToTop:[]
+05-19 13:24:07.454  1931  1958 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:07.454  1931  1958 D OplusUIFirst_FB: com.android.launcher boost hint: 2821
+05-19 13:24:07.454  1931  1958 D OplusUIFirst_FB: handleParaSwitch com.android.launcher null null 0
+05-19 13:24:07.455  1931  1958 D OplusUIFirst_FB: com.android.launcher toForeOps: []
+05-19 13:24:07.455  1931  1958 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:07.457 15027 15057 E TestRunner: androidx.test.espresso.PerformException: Error performing 'load adapter data' on view 'Animations or transitions are enabled on the target device.
+05-19 13:24:07.457 15027 15057 E TestRunner: For more info check: https://developer.android.com/training/testing/espresso/setup#set-up-environment
+05-19 13:24:07.457 15027 15057 E TestRunner:
+05-19 13:24:07.457 15027 15057 E TestRunner: view.getId() is <2131231024/com.example.healthcare:id/listViewBMCart>'.
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.DataInteraction$DisplayDataMatcher$1.apply(DataInteraction.java:1)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.DataInteraction$DisplayDataMatcher$1.apply(DataInteraction.java:2)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.DataInteraction$DisplayDataMatcher.<init>(DataInteraction.java:7)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.DataInteraction$DisplayDataMatcher.<init>(DataInteraction.java:13)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.DataInteraction$DisplayDataMatcher.displayDataMatcher(DataInteraction.java:1)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.DataInteraction.makeTargetMatcher(DataInteraction.java:2)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.DataInteraction.perform(DataInteraction.java:1)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at com.example.healthcare.LabTestActivityTest.testItemClick(LabTestActivityTest.java:53)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:67)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:446)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2348)
+05-19 13:24:07.457 15027 15057 E TestRunner: Caused by: java.lang.RuntimeException: No data found matching: view.getId() is <2131231024> contained values: <[Data: {line5=Total Cost:£200, line4=, line3=, line2=, line1=Package 1 : Full Body Checkup} (class: java.util.HashMap) token: 0, Data: {line5=Total Cost:£299, line4=, line3=, line2=, line1=Package 2 : Blood Glucose Fasting} (class: java.util.HashMap) token: 1, Data: {line5=Total Cost:£70, line4=, line3=, line2=, line1=Package 3 : COVID-19 Antibody - IgG} (class: java.util.HashMap) token: 2, Data: {line5=Total Cost:£130, line4=, line3=, line2=, line1=Package 4 : Thyroid Check} (class: java.util.HashMap) token: 3, Data: {line5=Total Cost:£170, line4=, line3=, line2=, line1=Package 5 : Immunity Check} (class: java.util.HashMap) token: 4]>
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.action.AdapterDataLoaderAction.perform(AdapterDataLoaderAction.java:15)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at android.os.Handler.handleCallback(Handler.java:942)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at android.os.Looper.loopOnce(Looper.java:240)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at android.os.Looper.loop(Looper.java:351)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at android.app.ActivityThread.main(ActivityThread.java:8380)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:584)
+05-19 13:24:07.457 15027 15057 E TestRunner: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1013)
+05-19 13:24:07.457 15027 15057 E TestRunner: ----- end exception -----
+05-19 13:24:07.458  1931  1958 D OplusUIFirst_FB: com.google.android.googlequicksearchbox toForeOps: []
+05-19 13:24:07.459  1931  1958 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:07.460  1931  1958 D OplusUIFirst_FB: com.example.healthcare moveToBack 15027
+05-19 13:24:07.464  1176  1381 D [OSIE]  : scltmLayer_name VRI[Launcher][com.android.launcher/com.android.launcher.Launcher]
+05-19 13:24:07.464  1176  1381 D [OSIE]  : IsSCLTMLayer=0
+05-19 13:24:07.464  9567  9567 D BufferQueueConsumer: [](id:255f0000024a,api:0,p:-1,c:9567) connect: controlledByApp=false
+05-19 13:24:07.464  9567  9567 E IPCThreadState: attemptIncStrongHandle(86): Not supported
+05-19 13:24:07.466  9567  9567 D VRI[Launcher]: registerCallbacksForSync syncBuffer=false
+05-19 13:24:07.467  1176  1381 I BufferQueueDebug: [com.android.launcher/com.android.launcher.Launcher#251959](this:0xb400006f961fe9e8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1176:/system/bin/surfaceflinger)
+05-19 13:24:07.469  4710  5530 W Battery : ThermalControllHandler: tempLevel=5,userMode=3,gameUserMode=7,appType=-1,envTempType=0,appStates=[]
+05-19 13:24:07.469  4710  5530 W Battery : ThermalControllerCenter: mSafetyState=10000
+05-19 13:24:07.470  1931  1958 D OplusUIFirst_FB: com.coloros.assistantscreen toForeOps: []
+05-19 13:24:07.470  1931  1958 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-19 13:24:07.471  3728 19778 D OplusAtlas.OplusAtlasEventDispatch: setEvent:atlas_event_on_foreground_activities_changed info:pid:2821,uid:10106,hasForegroundActivities:1
+05-19 13:24:07.471  3728  4872 D OplusAtlas.OplusAudioScene: callback success event:atlas_event_on_foreground_activities_changed eventInfo:pid:2821,uid:10106,hasForegroundActivities:1
+05-19 13:24:07.471  4710  5530 W Battery : ThermalControllHandler: tempGear=5,configItemName=common_config
+05-19 13:24:07.472  3728  5211 D OplusAtlas.OplusMessageHandler: handleMessage: Msg { when=-1ms what=2 obj=com.oplus.atlas.OplusAtlasEvent@f0cd3f5 target=com.oplus.atlas.OplusMessageHandler$MyHandler }
+05-19 13:24:07.473  1092  1092 D vendor.oplus.hardware.charger@1.0-service: set cooldown:7,  normalCoolDown:7
+05-19 13:24:07.474  4710  6057 W Battery : ThermalControllHandler: MSG_THERMAL_CONTROL_CATEGORY_CHANGED
+05-19 13:24:07.474  4993  3930 V DeepThinker: ProcessManager: onForegroundActivitiesChanged pid:2821, uid:10106, foregroundActivities:true
+05-19 13:24:07.476  1931  4716 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+05-19 13:24:07.477 15027 15057 I TestRunner: finished: testItemClick(com.example.healthcare.LabTestActivityTest)
